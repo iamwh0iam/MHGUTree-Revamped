@@ -129,7 +129,8 @@ const activeRoute = computed(() => route.name as string)
 				/>
 				<div class="flex gap-3 items-center justify-center mt-3">
 					<a
-						href=""
+						href="https://github.com/MistereoSC/MHGUTree-Revamped"
+						target="_blank"
 						class="text-primary-400 hover:text-purple-400 transition-colors"
 						title="GitHub"
 					>
@@ -137,6 +138,7 @@ const activeRoute = computed(() => route.name as string)
 					</a>
 					<a
 						href="https://ko-fi.com/mistereosc"
+						target="_blank"
 						class="text-primary-400 hover:text-red-300 transition-colors"
 						title="Ko-Fi"
 					>
