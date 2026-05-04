@@ -1,6 +1,17 @@
 # MHGUTree-Revamped
+Now Bigger and Better, a new and updated version of my old MHGUTree.
+<br><br>
+This project is a webpage, to dispaly all weapons in Monster Hunter Generations Ultimate as a Weapon Tree, similar to the new modern Monster Hunter Games.
+Every Weapon for all 14 Weapon Types is present, including filters to easily find your next upgrade.
+<br><br>
+You can watch the site in action [HERE](https://mhgutree.vercel.app/).
+<br><br>
+And here's an example image, of how the website looks:
+![Great Sword Tree example](https://i.imgur.com/LiidfpV.png)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Acknowledgements
+The data used in this project is from the [MHGenDatabase](https://github.com/gatheringhallstudios/MHGenDatabase) App
+and from [mhapi.info](https://mhapi.info/)
 
 ## Recommended IDE Setup
 
