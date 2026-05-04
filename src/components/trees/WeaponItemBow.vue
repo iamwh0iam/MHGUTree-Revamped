@@ -50,9 +50,9 @@ function getCoatingColor(index: number) {
 		case 7:
 			return 'text-element-sleep'
 		case 8:
-			return 'text-element-exhaust'
+			return 'text-element-sleep'
 		case 9:
-			return 'text-element-blast'
+			return 'text-element-blastblight'
 		default:
 			return 'text-element-none'
 	}

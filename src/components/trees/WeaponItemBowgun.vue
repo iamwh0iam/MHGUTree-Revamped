@@ -2,9 +2,11 @@
 import type {TBowgunData, TWeapon} from '@/interfaces/Weapons'
 import WeaponItemRanged from './WeaponItemRanged.vue'
 
-const props = defineProps<{
+interface IProps {
 	weapon: TWeapon<TBowgunData>
-}>()
+	dimmed?: boolean
+}
+const props = withDefaults(defineProps<IProps>(), {dimmed: false})
 
 function getAmmoString(ammoName: string) {
 	switch (ammoName) {
@@ -23,7 +25,7 @@ function getAmmoString(ammoName: string) {
 		case 'psn':
 			return 'Poison'
 		case 'par':
-			return 'Paralysis'
+			return 'Para'
 		case 'sle':
 			return 'Sleep'
 		case 'exh':
@@ -50,7 +52,7 @@ function getAmmoArray(ammo: string | string[]) {
 </script>
 
 <template>
-	<WeaponItemRanged :weapon="props.weapon">
+	<WeaponItemRanged :weapon="props.weapon" :dimmed="props.dimmed">
 		<template #tooltip>
 			<div>
 				<div class="grid grid-cols-3 grid-rows-3 gap-y-2 text-xs">

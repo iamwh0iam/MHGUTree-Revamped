@@ -1,54 +1,74 @@
-<script lang="ts" setup>
-import {ref, computed} from 'vue'
-import {Icon} from '@iconify/vue'
-import type {TNote} from '@/interfaces/Weapons'
+<script lang="ts">
+export type TCoatingIndex = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+
+export type TCoatingDef = {
+	index: TCoatingIndex
+	label: string
+	colorClass: string
+}
+
+export const COATING_TYPES: TCoatingDef[] = [
+	{index: 0, label: 'Power 1', colorClass: 'text-element-none'},
+	{index: 1, label: 'Power 2', colorClass: 'text-element-none'},
+	{index: 2, label: 'Elem 1', colorClass: 'text-element-fire'},
+	{index: 3, label: 'Elem 2', colorClass: 'text-element-fire'},
+	{index: 4, label: 'Close', colorClass: 'text-element-none'},
+	{index: 5, label: 'Poison', colorClass: 'text-element-poison'},
+	{index: 6, label: 'Paralysis', colorClass: 'text-element-paralysis'},
+	{index: 7, label: 'Sleep', colorClass: 'text-element-sleep'},
+	{index: 8, label: 'Exhaust', colorClass: 'text-element-sleep'},
+	{index: 9, label: 'Blast', colorClass: 'text-element-blastblight'},
+]
+
+export type TBowChargeType = 'Rapid' | 'Power' | 'Spread' | 'Heavy'
+
+export const CHARGE_TYPES: {value: TBowChargeType; label: string}[] = [
+	{value: 'Rapid', label: 'Rapid'},
+	{value: 'Power', label: 'Power'},
+	{value: 'Spread', label: 'Spread'},
+	{value: 'Heavy', label: 'Heavy'},
+]
 
 export type TWeaponFilter = {
 	minAtk: number
 	minDef: number
-	minElemAtk: number
 	minAffinity: number
+	minElemAtk: number
 	element: string
 	slots: string
-	sharpness: string
-	shellingType: string
-	phialType: string
-	notes: TNote[]
+	arcShot: string
+	coatings: TCoatingIndex[]
+	chargeStages: (TBowChargeType | 'any')[]
 }
 
-const DEFAULT_FILTER: TWeaponFilter = {
-	minAtk: 0,
-	minDef: 0,
-	minElemAtk: 0,
-	minAffinity: -100,
-	element: 'any',
-	slots: '0+',
-	sharpness: 'any',
-	shellingType: 'any',
-	phialType: 'any',
-	notes: [],
+export function makeDefaultFilter(): TWeaponFilter {
+	return {
+		minAtk: 0,
+		minDef: 0,
+		minElemAtk: 0,
+		minAffinity: -100,
+		element: 'any',
+		slots: '0+',
+		arcShot: 'any',
+		coatings: [],
+		chargeStages: ['any', 'any', 'any', 'any'],
+	}
 }
+</script>
+
+<script lang="ts" setup>
+import {ref, computed} from 'vue'
+import {Icon} from '@iconify/vue'
 
 const emit = defineEmits<{
 	'update:filter': [filter: TWeaponFilter]
 }>()
 
-interface IProps {
-	showShelling?: boolean
-	phialOptions?: string[]
-	showNotes?: boolean
-}
-const props = withDefaults(defineProps<IProps>(), {
-	showShelling: false,
-	phialOptions: () => [],
-	showNotes: false,
-})
-
 const isOpen = ref(false)
 // draft: what the user is editing inside the panel
-const draft = ref<TWeaponFilter>({...DEFAULT_FILTER})
+const draft = ref<TWeaponFilter>(makeDefaultFilter())
 // applied: what's actually driving the filter outside
-const applied = ref<TWeaponFilter>({...DEFAULT_FILTER})
+const applied = ref<TWeaponFilter>(makeDefaultFilter())
 
 function clamp(val: number, min: number, max: number): number {
 	if (Number.isNaN(val)) return min
@@ -71,15 +91,38 @@ function updateAffinity(event: Event) {
 	)
 }
 
+function toggleCoating(index: TCoatingIndex) {
+	const idx = draft.value.coatings.indexOf(index)
+	if (idx === -1) {
+		draft.value.coatings = [...draft.value.coatings, index]
+	} else {
+		draft.value.coatings = draft.value.coatings.filter((i) => i !== index)
+	}
+}
+
+function setChargeStage(index: number, value: TBowChargeType | 'any') {
+	const stages = [...draft.value.chargeStages]
+	stages[index] = value
+	draft.value.chargeStages = stages
+}
+
 function applyFilter() {
-	applied.value = {...draft.value}
-	emit('update:filter', {...applied.value})
+	applied.value = {
+		...draft.value,
+		coatings: [...draft.value.coatings],
+		chargeStages: [...draft.value.chargeStages],
+	}
+	emit('update:filter', {
+		...applied.value,
+		coatings: [...applied.value.coatings],
+		chargeStages: [...applied.value.chargeStages],
+	})
 }
 
 function resetFilter() {
-	draft.value = {...DEFAULT_FILTER}
-	applied.value = {...DEFAULT_FILTER}
-	emit('update:filter', {...DEFAULT_FILTER})
+	draft.value = makeDefaultFilter()
+	applied.value = makeDefaultFilter()
+	emit('update:filter', makeDefaultFilter())
 }
 
 const activeFilterCount = computed(() => {
@@ -87,14 +130,13 @@ const activeFilterCount = computed(() => {
 	let count = 0
 	if (f.minAtk > 0) count++
 	if (f.minDef > 0) count++
-	if (f.minElemAtk > 0) count++
 	if (f.minAffinity > -100) count++
-	if (f.element !== 'any') count++
+	if (f.minElemAtk > 0) count++
 	if (f.slots !== '0+') count++
-	if (f.sharpness !== 'any') count++
-	if (f.shellingType !== 'any') count++
-	if (f.phialType !== 'any') count++
-	if (f.notes.length > 0) count++
+	if (f.element !== 'any') count++
+	if (f.arcShot !== 'any') count++
+	if (f.coatings.length > 0) count++
+	if (f.chargeStages.some((s) => s !== 'any')) count++
 	return count
 })
 
@@ -110,36 +152,8 @@ const ALL_ELEMENTS = [
 	{value: 'blastblight', label: 'Blast'},
 ]
 
+const ARC_SHOT_OPTIONS = ['Focus', 'Blast', 'Wide']
 const SLOTS_OPTIONS = ['0+', '1+', '2+', '3']
-
-const SHARPNESS_OPTIONS = [
-	{value: 'any', label: 'Any', color: ''},
-	{value: 'green+', label: 'Green+', color: 'bg-sharpness-green'},
-	{value: 'blue+', label: 'Blue+', color: 'bg-sharpness-blue'},
-	{value: 'white+', label: 'White+', color: 'bg-sharpness-white'},
-	{value: 'purple', label: 'Purple', color: 'bg-sharpness-purple'},
-]
-
-const SHELLING_OPTIONS = ['Any', 'Normal', 'Long', 'Wide']
-
-const NOTE_OPTIONS: {value: TNote; label: string; color: string}[] = [
-	{value: 'R', label: 'Red', color: 'text-red-500'},
-	{value: 'G', label: 'Green', color: 'text-green-500'},
-	{value: 'B', label: 'Blue', color: 'text-blue-500'},
-	{value: 'W', label: 'White', color: 'text-white'},
-	{value: 'P', label: 'Purple', color: 'text-purple-500'},
-	{value: 'O', label: 'Orange', color: 'text-orange-500'},
-	{value: 'Y', label: 'Yellow', color: 'text-yellow-500'},
-	{value: 'A', label: 'Aqua', color: 'text-cyan-500'},
-]
-
-function toggleNote(note: TNote) {
-	if (draft.value.notes.includes(note)) {
-		draft.value.notes = draft.value.notes.filter((n) => n !== note)
-	} else {
-		draft.value.notes = [...draft.value.notes, note]
-	}
-}
 </script>
 
 <template>
@@ -348,122 +362,117 @@ function toggleNote(note: TNote) {
 
 				<div class="h-px bg-primary-600" />
 
-				<!-- Sharpness filter -->
+				<!-- Arc shot filter -->
 				<div class="flex flex-col gap-1.5">
-					<span class="text-xs text-gray-400 font-medium">Sharpness</span>
-					<div class="flex flex-wrap gap-1">
+					<span class="text-xs text-gray-400 font-medium">Arc Shot</span>
+					<div class="flex gap-1">
 						<button
-							v-for="opt in SHARPNESS_OPTIONS"
-							:key="opt.value"
-							class="flex items-center gap-1.5 px-2 py-1 rounded text-xs font-medium transition-colors cursor-pointer"
+							class="flex-1 py-1 rounded text-xs font-medium transition-colors cursor-pointer"
 							:class="
-								draft.sharpness === opt.value
+								draft.arcShot === 'any'
 									? 'bg-accent-600 text-white'
 									: 'bg-primary-900 text-gray-400 hover:text-white hover:bg-primary-700'
 							"
-							@click="draft.sharpness = opt.value"
+							@click="draft.arcShot = 'any'"
 						>
-							<span
-								v-if="opt.color"
-								class="w-2.5 h-2.5 rounded-sm shrink-0"
-								:class="opt.color"
-							/>
-							{{ opt.label }}
+							Any
+						</button>
+						<button
+							v-for="shot in ARC_SHOT_OPTIONS"
+							:key="shot"
+							class="flex-1 py-1 rounded text-xs font-medium transition-colors cursor-pointer"
+							:class="
+								draft.arcShot === shot
+									? 'bg-accent-600 text-white'
+									: 'bg-primary-900 text-gray-400 hover:text-white hover:bg-primary-700'
+							"
+							@click="draft.arcShot = shot"
+						>
+							{{ shot }}
 						</button>
 					</div>
 				</div>
 
-				<!-- Shelling type filter (Gunlance only) -->
-				<template v-if="props.showShelling">
-					<div class="h-px bg-primary-600" />
-					<div class="flex flex-col gap-1.5">
-						<span class="text-xs text-gray-400 font-medium">Shelling Type</span>
-						<div class="flex gap-1">
-							<button
-								v-for="opt in SHELLING_OPTIONS"
-								:key="opt"
-								class="flex-1 py-1 rounded text-xs font-medium transition-colors cursor-pointer"
-								:class="
-									draft.shellingType === opt.toLowerCase()
-										? 'bg-accent-600 text-white'
-										: 'bg-primary-900 text-gray-400 hover:text-white hover:bg-primary-700'
-								"
-								@click="draft.shellingType = opt.toLowerCase()"
-							>
-								{{ opt }}
-							</button>
+				<div class="h-px bg-primary-600" />
+
+				<!-- Charge Stages filter -->
+				<div class="flex flex-col gap-1.5">
+					<div class="flex gap-2">
+						<span class="text-xs text-gray-400 font-medium">Charge Stages</span>
+						<div
+							class="text-xs font-bold text-gray-600 bg-primary-900 py-0 px-1 rounded-full"
+						>
+							PER STAGE
 						</div>
 					</div>
-				</template>
-
-				<!-- Phial type filter (Chargeblade / Switchaxe) -->
-				<template v-if="props.phialOptions.length > 0">
-					<div class="h-px bg-primary-600" />
-					<div class="flex flex-col gap-1.5">
-						<span class="text-xs text-gray-400 font-medium">Phial</span>
-						<div class="flex flex-wrap gap-1">
-							<button
-								class="px-2 py-1 rounded text-xs font-medium transition-colors cursor-pointer"
-								:class="
-									draft.phialType === 'any'
-										? 'bg-accent-600 text-white'
-										: 'bg-primary-900 text-gray-400 hover:text-white hover:bg-primary-700'
-								"
-								@click="draft.phialType = 'any'"
+					<div class="flex flex-col gap-1">
+						<div
+							v-for="(stage, i) in draft.chargeStages"
+							:key="i"
+							class="flex items-center gap-1"
+						>
+							<span class="text-[10px] text-gray-500 w-12 shrink-0 select-none"
+								>Stage {{ i + 1 }}</span
 							>
-								Any
-							</button>
-							<button
-								v-for="opt in props.phialOptions"
-								:key="opt"
-								class="px-2 py-1 rounded text-xs font-medium transition-colors cursor-pointer"
-								:class="
-									draft.phialType === opt.toLowerCase()
-										? 'bg-accent-600 text-white'
-										: 'bg-primary-900 text-gray-400 hover:text-white hover:bg-primary-700'
-								"
-								@click="draft.phialType = opt.toLowerCase()"
-							>
-								<img
-									:src="`/icons/phials/${opt.toLowerCase().replace('power', 'impact')}.png`"
-									class="inline w-4 h-4"
-								/>
-								{{ opt }}
-							</button>
-						</div>
-					</div>
-				</template>
-
-				<!-- Notes filter (Hunting Horn) -->
-				<template v-if="props.showNotes">
-					<div class="h-px bg-primary-600" />
-					<div class="flex flex-col gap-1.5">
-						<div class="flex gap-2">
-							<span class="text-xs text-gray-400 font-medium">Notes</span>
-							<div
-								class="text-xs font-bold text-gray-600 bg-primary-900 py-0 px-1 rounded-full"
-							>
-								AND
+							<div class="flex flex-1 gap-0.5">
+								<button
+									class="flex-1 py-0.5 rounded text-[10px] font-medium transition-colors cursor-pointer"
+									:class="
+										stage === 'any'
+											? 'bg-accent-600 text-white'
+											: 'bg-primary-900 text-gray-400 hover:text-white hover:bg-primary-700'
+									"
+									@click="setChargeStage(i, 'any')"
+								>
+									Any
+								</button>
+								<button
+									v-for="ct in CHARGE_TYPES"
+									:key="ct.value"
+									class="flex-1 py-0.5 rounded text-[10px] font-medium transition-colors cursor-pointer"
+									:class="
+										stage === ct.value
+											? 'bg-accent-600 text-white'
+											: 'bg-primary-900 text-gray-400 hover:text-white hover:bg-primary-700'
+									"
+									@click="setChargeStage(i, ct.value)"
+								>
+									{{ ct.label }}
+								</button>
 							</div>
 						</div>
-						<div class="grid grid-cols-8 gap-1">
-							<button
-								v-for="opt in NOTE_OPTIONS"
-								:key="opt.value"
-								class="flex items-center justify-center gap-1 py-1 rounded text-xs font-medium transition-colors cursor-pointer"
-								:class="
-									draft.notes.includes(opt.value)
-										? 'bg-primary-600 ring-1 ring-accent-500'
-										: 'bg-primary-900 text-gray-400 hover:bg-primary-700'
-								"
-								@click="toggleNote(opt.value)"
-							>
-								<Icon icon="mdi:music-note" :class="['text-base', opt.color]" />
-								<!-- <span :class="opt.color">{{ opt.label }}</span> -->
-							</button>
+					</div>
+				</div>
+
+				<div class="h-px bg-primary-600" />
+
+				<!-- Coatings filter -->
+				<div class="flex flex-col gap-1.5">
+					<div class="flex gap-2">
+						<span class="text-xs text-gray-400 font-medium">Coatings</span>
+						<div
+							class="text-xs font-bold text-gray-600 bg-primary-900 py-0 px-1 rounded-full"
+						>
+							AND
 						</div>
 					</div>
-				</template>
+					<div class="grid grid-cols-5 gap-1">
+						<button
+							v-for="coating in COATING_TYPES"
+							:key="coating.index"
+							class="flex items-center justify-center gap-1 py-1 rounded text-xs font-medium transition-colors cursor-pointer"
+							:class="[
+								draft.coatings.includes(coating.index)
+									? 'bg-primary-600 ring-1 ring-accent-500'
+									: 'bg-primary-900 hover:bg-primary-700',
+								coating.colorClass,
+							]"
+							@click="toggleCoating(coating.index)"
+						>
+							{{ coating.label }}
+						</button>
+					</div>
+				</div>
 
 				<div class="h-px bg-primary-600" />
 

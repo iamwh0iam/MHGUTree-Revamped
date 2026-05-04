@@ -7,8 +7,11 @@ import WeaponSlots from './WeaponSlots.vue'
 // ── Props ──────────────────────────────────────────────────────────────────
 interface IProps {
 	weapon: TWeapon<TWeaponDataAny>
+	dimmed?: boolean
 }
-const props = withDefaults(defineProps<IProps>(), {})
+const props = withDefaults(defineProps<IProps>(), {
+	dimmed: false,
+})
 
 const stripeColor = computed(() => {
 	const elem = props.weapon.data.element || 'none'
@@ -24,18 +27,22 @@ const hovered = ref(false)
 
 <template>
 	<div
-		class="rounded-md select-none transition-shadow w-full h-full bg-primary-700 hover:bg-primary-600 group relative cursor-pointer"
+		class="rounded-md select-none transition-all duration-200 w-full h-full bg-primary-700 hover:bg-primary-600 group relative cursor-pointer"
+		:class="{'bg-primary-700/25 hover:bg-primary-600/25': props.dimmed}"
 		@mouseenter="hovered = true"
 		@mouseleave="hovered = false"
 	>
 		<!-- Left Element stripe -->
 		<div
 			class="absolute left-0 inset-y-0 w-1.5 rounded-l-md bg-linear-0 group-hover:opacity-70"
-			:class="stripeColor"
+			:class="[stripeColor, {'opacity-25': props.dimmed}]"
 		/>
 
 		<!-- Main content -->
-		<div class="">
+		<div
+			class="transition-all duration-200"
+			:class="{'opacity-25': props.dimmed}"
+		>
 			<div class="flex flex-col justify-center h-full pl-3 pr-2 py-1">
 				<!-- Name & Rarity Pip -->
 				<div class="flex justify-between items-center">
@@ -99,18 +106,17 @@ const hovered = ref(false)
 				</div>
 
 				<slot name="extras"></slot>
-
-				<!-- Hover tooltip -->
-				<Transition name="fade">
-					<div
-						v-if="hovered"
-						class="absolute z-10 left-2 top-full mt-1 right-0 rounded-md bg-gray-800 border border-gray-600 p-2 text-[11px] text-gray-100 shadow-xl pointer-events-none"
-					>
-						<slot name="tooltip"></slot>
-					</div>
-				</Transition>
 			</div>
 		</div>
+		<!-- Hover tooltip -->
+		<Transition name="fade">
+			<div
+				v-if="hovered"
+				class="absolute z-10 left-2 top-full mt-1 right-0 rounded-md bg-gray-800 border border-gray-600 p-2 text-[11px] text-gray-100 shadow-xl pointer-events-none"
+			>
+				<slot name="tooltip"></slot>
+			</div>
+		</Transition>
 	</div>
 </template>
 

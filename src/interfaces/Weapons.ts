@@ -19,8 +19,8 @@ export type TWeapon<T> = {
 }
 
 export type TBowData = {
-	arc_shot: string
-	charges: string
+	arc_shot: TArcShot
+	charges: TBowCharge[]
 	coatings: [
 		boolean,
 		boolean,
@@ -35,9 +35,9 @@ export type TBowData = {
 	]
 }
 export type TBowgunData = {
-	deviation: number
-	reload_speed: string
-	recoil: string
+	deviation: TDeviation
+	reload_speed: TReloadSpeed
+	recoil: TRecoil
 	special_ammo: string[]
 	rapid_fire: string[]
 	ammo: TAmmo
@@ -90,6 +90,23 @@ export type TWeaponDataAny =
 	| TMeleeData
 
 export type TNote = 'R' | 'G' | 'B' | 'W' | 'P' | 'O' | 'Y' | 'A'
+export type TDeviation =
+	| 'None'
+	| 'L Mild'
+	| 'R Mild'
+	| 'LR Mild'
+	| 'L Severe'
+	| 'R Severe'
+	| 'LR Severe'
+export type TRecoil = 'Medium' | 'High' | 'Short' | 'Some'
+export type TReloadSpeed =
+	| 'V. Slow'
+	| 'Bel. Ave.'
+	| 'Average'
+	| 'Abv. Ave.'
+	| 'V. Fast'
+export type TArcShot = 'Focus' | 'Wide' | 'Blast'
+export type TBowCharge = 'Rapid' | 'Power' | 'Spread' | 'Heavy' | ''
 // ---------------------------------------------------------------
 
 export type TWeaponCluster<T> = {
