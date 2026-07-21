@@ -37,3 +37,8 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+public/models
+scripts
+/release/
+/src-tauri/target/

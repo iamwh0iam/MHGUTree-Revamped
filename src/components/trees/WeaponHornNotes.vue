@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import type {TNote} from '@/interfaces/Weapons'
-import {Icon} from '@iconify/vue'
+import Icon from '@/components/common/AppIcon.vue'
 
 const props = defineProps<{
 	notes?: TNote[]

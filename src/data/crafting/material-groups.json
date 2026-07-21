@@ -1,0 +1,4411 @@
+{
+	"1966081": {
+		"name": "LR Monster Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/35485",
+		"members": [
+			{"itemId": 434, "points": 1},
+			{"itemId": 436, "points": 1},
+			{"itemId": 433, "points": 1},
+			{"itemId": 432, "points": 1},
+			{"itemId": 454, "points": 2},
+			{"itemId": 451, "points": 2},
+			{"itemId": 450, "points": 2},
+			{"itemId": 468, "points": 3},
+			{"itemId": 463, "points": 3},
+			{"itemId": 460, "points": 3},
+			{"itemId": 457, "points": 4}
+		]
+	},
+	"1966082": {
+		"name": "HR Monster Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/35965",
+		"members": [
+			{"itemId": 455, "points": 2},
+			{"itemId": 452, "points": 2},
+			{"itemId": 466, "points": 3},
+			{"itemId": 461, "points": 3},
+			{"itemId": 464, "points": 3},
+			{"itemId": 469, "points": 3},
+			{"itemId": 458, "points": 4},
+			{"itemId": 440, "points": 8}
+		]
+	},
+	"1966083": {
+		"name": "G Monster Materials",
+		"iconKey": "ore.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/653d5",
+		"members": [
+			{"itemId": 437, "points": 1},
+			{"itemId": 435, "points": 1},
+			{"itemId": 453, "points": 2},
+			{"itemId": 456, "points": 2},
+			{"itemId": 462, "points": 3},
+			{"itemId": 467, "points": 3},
+			{"itemId": 470, "points": 3},
+			{"itemId": 465, "points": 3},
+			{"itemId": 459, "points": 4},
+			{"itemId": 441, "points": 8}
+		]
+	},
+	"1966084": {
+		"name": "LR Ore Materials",
+		"iconKey": "ore.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/e5e05",
+		"members": [
+			{"itemId": 318, "points": 1},
+			{"itemId": 2158, "points": 1},
+			{"itemId": 319, "points": 2},
+			{"itemId": 323, "points": 3},
+			{"itemId": 321, "points": 3},
+			{"itemId": 324, "points": 4},
+			{"itemId": 320, "points": 4},
+			{"itemId": 325, "points": 5},
+			{"itemId": 328, "points": 5},
+			{"itemId": 326, "points": 6}
+		]
+	},
+	"1966085": {
+		"name": "HR Ore Materials",
+		"iconKey": "ore.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/05065",
+		"members": [
+			{"itemId": 2159, "points": 1},
+			{"itemId": 329, "points": 2},
+			{"itemId": 334, "points": 4},
+			{"itemId": 332, "points": 4},
+			{"itemId": 335, "points": 6}
+		]
+	},
+	"1966086": {
+		"name": "G Ore Materials",
+		"iconKey": "ore.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/d5845",
+		"members": [
+			{"itemId": 2160, "points": 1},
+			{"itemId": 330, "points": 2},
+			{"itemId": 331, "points": 3},
+			{"itemId": 333, "points": 4},
+			{"itemId": 327, "points": 6},
+			{"itemId": 338, "points": 6}
+		]
+	},
+	"1966087": {
+		"name": "LR Insect Materials",
+		"iconKey": "bug.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/45d85",
+		"members": [
+			{"itemId": 2161, "points": 1},
+			{"itemId": 391, "points": 2},
+			{"itemId": 387, "points": 2},
+			{"itemId": 392, "points": 3},
+			{"itemId": 393, "points": 5}
+		]
+	},
+	"1966088": {
+		"name": "HR Insect Materials",
+		"iconKey": "bug.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/d57b5",
+		"members": [
+			{"itemId": 2162, "points": 1},
+			{"itemId": 395, "points": 2},
+			{"itemId": 396, "points": 3}
+		]
+	},
+	"1966089": {
+		"name": "G Insect Materials",
+		"iconKey": "bug.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/05b35",
+		"members": [
+			{"itemId": 2163, "points": 1},
+			{"itemId": 401, "points": 2},
+			{"itemId": 402, "points": 3},
+			{"itemId": 390, "points": 4}
+		]
+	},
+	"1966090": {
+		"name": "LR Bone Materials",
+		"iconKey": "bone.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/75ae5",
+		"members": [
+			{"itemId": 2164, "points": 1},
+			{"itemId": 423, "points": 1},
+			{"itemId": 407, "points": 1},
+			{"itemId": 410, "points": 1},
+			{"itemId": 408, "points": 2},
+			{"itemId": 424, "points": 3},
+			{"itemId": 409, "points": 3},
+			{"itemId": 411, "points": 3},
+			{"itemId": 413, "points": 5},
+			{"itemId": 418, "points": 8}
+		]
+	},
+	"1966091": {
+		"name": "HR Bone Materials",
+		"iconKey": "bone.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/56a35",
+		"members": [
+			{"itemId": 420, "points": 1},
+			{"itemId": 2165, "points": 1},
+			{"itemId": 429, "points": 1},
+			{"itemId": 414, "points": 2},
+			{"itemId": 425, "points": 3},
+			{"itemId": 430, "points": 4},
+			{"itemId": 427, "points": 5},
+			{"itemId": 415, "points": 5}
+		]
+	},
+	"1966092": {
+		"name": "G Bone Materials",
+		"iconKey": "bone.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/54885",
+		"members": [
+			{"itemId": 421, "points": 1},
+			{"itemId": 2166, "points": 1},
+			{"itemId": 412, "points": 2},
+			{"itemId": 431, "points": 2},
+			{"itemId": 422, "points": 2},
+			{"itemId": 416, "points": 2},
+			{"itemId": 426, "points": 3},
+			{"itemId": 428, "points": 5},
+			{"itemId": 417, "points": 5},
+			{"itemId": 419, "points": 8}
+		]
+	},
+	"1966097": {
+		"name": "LR Herbivore Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#C6F29F",
+		"kiranicoPath": "/item/category/58645",
+		"members": [
+			{"itemId": 2170, "points": 1},
+			{"itemId": 2173, "points": 1},
+			{"itemId": 519, "points": 2},
+			{"itemId": 523, "points": 2},
+			{"itemId": 527, "points": 2},
+			{"itemId": 530, "points": 3},
+			{"itemId": 524, "points": 3},
+			{"itemId": 751, "points": 3},
+			{"itemId": 532, "points": 4},
+			{"itemId": 526, "points": 5},
+			{"itemId": 534, "points": 5}
+		]
+	},
+	"1966098": {
+		"name": "HR Herbivore Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/5dd85",
+		"members": [
+			{"itemId": 2171, "points": 1},
+			{"itemId": 2174, "points": 1},
+			{"itemId": 2176, "points": 1},
+			{"itemId": 528, "points": 2},
+			{"itemId": 535, "points": 3},
+			{"itemId": 533, "points": 4}
+		]
+	},
+	"1966099": {
+		"name": "G Herbivore Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/577b5",
+		"members": [
+			{"itemId": 2172, "points": 1},
+			{"itemId": 2175, "points": 1},
+			{"itemId": 422, "points": 2},
+			{"itemId": 520, "points": 2},
+			{"itemId": 525, "points": 2},
+			{"itemId": 529, "points": 2},
+			{"itemId": 531, "points": 3},
+			{"itemId": 752, "points": 3}
+		]
+	},
+	"1966100": {
+		"name": "LR Neopteron Materials",
+		"iconKey": "bug.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/5bd35",
+		"members": [
+			{"itemId": 2177, "points": 1},
+			{"itemId": 545, "points": 2},
+			{"itemId": 540, "points": 2},
+			{"itemId": 553, "points": 2},
+			{"itemId": 559, "points": 2},
+			{"itemId": 548, "points": 2},
+			{"itemId": 544, "points": 3},
+			{"itemId": 542, "points": 3},
+			{"itemId": 555, "points": 3},
+			{"itemId": 550, "points": 3},
+			{"itemId": 558, "points": 4},
+			{"itemId": 537, "points": 4}
+		]
+	},
+	"1966101": {
+		"name": "HR Neopteron Materials",
+		"iconKey": "bug.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/5abe5",
+		"members": [
+			{"itemId": 2178, "points": 1},
+			{"itemId": 541, "points": 2},
+			{"itemId": 554, "points": 2},
+			{"itemId": 560, "points": 2},
+			{"itemId": 546, "points": 2},
+			{"itemId": 562, "points": 2},
+			{"itemId": 549, "points": 2},
+			{"itemId": 556, "points": 3},
+			{"itemId": 551, "points": 3},
+			{"itemId": 538, "points": 4}
+		]
+	},
+	"1966102": {
+		"name": "G Neopteron Materials",
+		"iconKey": "bug.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/56835",
+		"members": [
+			{"itemId": 2179, "points": 1},
+			{"itemId": 561, "points": 2},
+			{"itemId": 547, "points": 2},
+			{"itemId": 563, "points": 2},
+			{"itemId": 543, "points": 3},
+			{"itemId": 557, "points": 3},
+			{"itemId": 552, "points": 3},
+			{"itemId": 539, "points": 4}
+		]
+	},
+	"1966103": {
+		"name": "LR Bird Wyvern Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/54485",
+		"members": [
+			{"itemId": 571, "points": 1},
+			{"itemId": 521, "points": 1},
+			{"itemId": 603, "points": 1},
+			{"itemId": 616, "points": 1},
+			{"itemId": 607, "points": 2},
+			{"itemId": 604, "points": 2},
+			{"itemId": 632, "points": 2},
+			{"itemId": 629, "points": 2},
+			{"itemId": 576, "points": 2},
+			{"itemId": 620, "points": 2},
+			{"itemId": 617, "points": 2},
+			{"itemId": 589, "points": 2},
+			{"itemId": 586, "points": 2},
+			{"itemId": 575, "points": 2},
+			{"itemId": 572, "points": 2},
+			{"itemId": 594, "points": 2},
+			{"itemId": 591, "points": 2},
+			{"itemId": 609, "points": 3},
+			{"itemId": 579, "points": 3},
+			{"itemId": 622, "points": 3},
+			{"itemId": 584, "points": 3},
+			{"itemId": 596, "points": 3},
+			{"itemId": 582, "points": 4},
+			{"itemId": 612, "points": 4},
+			{"itemId": 625, "points": 4},
+			{"itemId": 599, "points": 4},
+			{"itemId": 615, "points": 6},
+			{"itemId": 628, "points": 6},
+			{"itemId": 602, "points": 6}
+		]
+	},
+	"1966104": {
+		"name": "HR Bird Wyvern Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/59665",
+		"members": [
+			{"itemId": 608, "points": 2},
+			{"itemId": 605, "points": 2},
+			{"itemId": 633, "points": 2},
+			{"itemId": 630, "points": 2},
+			{"itemId": 577, "points": 2},
+			{"itemId": 621, "points": 2},
+			{"itemId": 618, "points": 2},
+			{"itemId": 587, "points": 2},
+			{"itemId": 573, "points": 2},
+			{"itemId": 595, "points": 2},
+			{"itemId": 592, "points": 2},
+			{"itemId": 610, "points": 3},
+			{"itemId": 634, "points": 3},
+			{"itemId": 580, "points": 3},
+			{"itemId": 623, "points": 3},
+			{"itemId": 597, "points": 3},
+			{"itemId": 613, "points": 4},
+			{"itemId": 636, "points": 4},
+			{"itemId": 626, "points": 4},
+			{"itemId": 600, "points": 4},
+			{"itemId": 438, "points": 6},
+			{"itemId": 638, "points": 6}
+		]
+	},
+	"1966105": {
+		"name": "G Bird Wyvern Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/536d5",
+		"members": [
+			{"itemId": 522, "points": 1},
+			{"itemId": 606, "points": 2},
+			{"itemId": 631, "points": 2},
+			{"itemId": 578, "points": 2},
+			{"itemId": 619, "points": 2},
+			{"itemId": 590, "points": 2},
+			{"itemId": 588, "points": 2},
+			{"itemId": 574, "points": 2},
+			{"itemId": 593, "points": 2},
+			{"itemId": 611, "points": 3},
+			{"itemId": 635, "points": 3},
+			{"itemId": 581, "points": 3},
+			{"itemId": 624, "points": 3},
+			{"itemId": 585, "points": 3},
+			{"itemId": 598, "points": 3},
+			{"itemId": 614, "points": 4},
+			{"itemId": 637, "points": 4},
+			{"itemId": 583, "points": 4},
+			{"itemId": 627, "points": 4},
+			{"itemId": 601, "points": 4},
+			{"itemId": 439, "points": 6}
+		]
+	},
+	"1966106": {
+		"name": "LR Rhenoplos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5ed05",
+		"members": [
+			{"itemId": 2173, "points": 1},
+			{"itemId": 532, "points": 4},
+			{"itemId": 534, "points": 5}
+		]
+	},
+	"1966107": {
+		"name": "HR Rhenoplos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/50465",
+		"members": [
+			{"itemId": 2174, "points": 1},
+			{"itemId": 533, "points": 4}
+		]
+	},
+	"1966109": {
+		"name": "LR Remobra Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5d485",
+		"members": [
+			{"itemId": 564, "points": 2},
+			{"itemId": 567, "points": 2},
+			{"itemId": 569, "points": 4}
+		]
+	},
+	"1966111": {
+		"name": "G Remobra Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5bb35",
+		"members": [
+			{"itemId": 566, "points": 2},
+			{"itemId": 568, "points": 2},
+			{"itemId": 570, "points": 4}
+		]
+	},
+	"1966112": {
+		"name": "LR Maccao Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/5a0e5",
+		"members": [
+			{"itemId": 2183, "points": 1},
+			{"itemId": 576, "points": 2},
+			{"itemId": 575, "points": 2},
+			{"itemId": 572, "points": 2},
+			{"itemId": 579, "points": 3},
+			{"itemId": 584, "points": 3},
+			{"itemId": 582, "points": 4}
+		]
+	},
+	"1966113": {
+		"name": "HR Maccao Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/56d35",
+		"members": [
+			{"itemId": 2184, "points": 1},
+			{"itemId": 577, "points": 2},
+			{"itemId": 573, "points": 2},
+			{"itemId": 580, "points": 3}
+		]
+	},
+	"1966114": {
+		"name": "G Maccao Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/54d85",
+		"members": [
+			{"itemId": 2185, "points": 1},
+			{"itemId": 578, "points": 2},
+			{"itemId": 574, "points": 2},
+			{"itemId": 581, "points": 3},
+			{"itemId": 585, "points": 3},
+			{"itemId": 583, "points": 4}
+		]
+	},
+	"1966115": {
+		"name": "LR Great Maccao Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/59865",
+		"members": [
+			{"itemId": 2183, "points": 1},
+			{"itemId": 576, "points": 2},
+			{"itemId": 579, "points": 3},
+			{"itemId": 584, "points": 3},
+			{"itemId": 582, "points": 4}
+		]
+	},
+	"1966116": {
+		"name": "HR Great Maccao Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/53dd5",
+		"members": [
+			{"itemId": 2184, "points": 1},
+			{"itemId": 577, "points": 2},
+			{"itemId": 580, "points": 3}
+		]
+	},
+	"1966117": {
+		"name": "G Great Maccao Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/5e405",
+		"members": [
+			{"itemId": 2185, "points": 1},
+			{"itemId": 578, "points": 2},
+			{"itemId": 581, "points": 3},
+			{"itemId": 585, "points": 3},
+			{"itemId": 583, "points": 4}
+		]
+	},
+	"1966118": {
+		"name": "LR Jaggi Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/50e65",
+		"members": [
+			{"itemId": 2180, "points": 1},
+			{"itemId": 589, "points": 2},
+			{"itemId": 586, "points": 2}
+		]
+	},
+	"1966119": {
+		"name": "HR Jaggi Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/58745",
+		"members": [
+			{"itemId": 2181, "points": 1},
+			{"itemId": 587, "points": 2}
+		]
+	},
+	"1966120": {
+		"name": "G Jaggi Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/5da85",
+		"members": [
+			{"itemId": 2182, "points": 1},
+			{"itemId": 590, "points": 2},
+			{"itemId": 588, "points": 2}
+		]
+	},
+	"1966121": {
+		"name": "LR Velociprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/578b5",
+		"members": [
+			{"itemId": 2186, "points": 1},
+			{"itemId": 594, "points": 2},
+			{"itemId": 591, "points": 2},
+			{"itemId": 596, "points": 3},
+			{"itemId": 599, "points": 4},
+			{"itemId": 602, "points": 6}
+		]
+	},
+	"1966122": {
+		"name": "HR Velociprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/5ba35",
+		"members": [
+			{"itemId": 2187, "points": 1},
+			{"itemId": 595, "points": 2},
+			{"itemId": 592, "points": 2},
+			{"itemId": 597, "points": 3},
+			{"itemId": 600, "points": 4}
+		]
+	},
+	"1966123": {
+		"name": "G Velociprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/5a8e5",
+		"members": [
+			{"itemId": 2188, "points": 1},
+			{"itemId": 593, "points": 2},
+			{"itemId": 598, "points": 3},
+			{"itemId": 601, "points": 4}
+		]
+	},
+	"1966124": {
+		"name": "LR Velocidrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/56635",
+		"members": [
+			{"itemId": 2186, "points": 1},
+			{"itemId": 596, "points": 3},
+			{"itemId": 599, "points": 4},
+			{"itemId": 602, "points": 6}
+		]
+	},
+	"1966125": {
+		"name": "HR Velocidrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/54785",
+		"members": [
+			{"itemId": 2187, "points": 1},
+			{"itemId": 597, "points": 3},
+			{"itemId": 600, "points": 4}
+		]
+	},
+	"1966126": {
+		"name": "G Velocidrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/59365",
+		"members": [
+			{"itemId": 2188, "points": 1},
+			{"itemId": 598, "points": 3},
+			{"itemId": 601, "points": 4}
+		]
+	},
+	"1966127": {
+		"name": "LR Genprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/537d5",
+		"members": [
+			{"itemId": 603, "points": 1},
+			{"itemId": 2191, "points": 1},
+			{"itemId": 607, "points": 2},
+			{"itemId": 604, "points": 2},
+			{"itemId": 609, "points": 3},
+			{"itemId": 612, "points": 4},
+			{"itemId": 615, "points": 6}
+		]
+	},
+	"1966128": {
+		"name": "HR Genprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/5e005",
+		"members": [
+			{"itemId": 2192, "points": 1},
+			{"itemId": 608, "points": 2},
+			{"itemId": 605, "points": 2},
+			{"itemId": 610, "points": 3},
+			{"itemId": 613, "points": 4}
+		]
+	},
+	"1966129": {
+		"name": "G Genprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/50965",
+		"members": [
+			{"itemId": 2193, "points": 1},
+			{"itemId": 606, "points": 2},
+			{"itemId": 611, "points": 3},
+			{"itemId": 614, "points": 4}
+		]
+	},
+	"1966130": {
+		"name": "LR Gendrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/58a45",
+		"members": [
+			{"itemId": 2191, "points": 1},
+			{"itemId": 609, "points": 3},
+			{"itemId": 612, "points": 4},
+			{"itemId": 615, "points": 6}
+		]
+	},
+	"1966131": {
+		"name": "HR Gendrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/5db85",
+		"members": [
+			{"itemId": 2192, "points": 1},
+			{"itemId": 610, "points": 3},
+			{"itemId": 613, "points": 4}
+		]
+	},
+	"1966132": {
+		"name": "G Gendrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/574b5",
+		"members": [
+			{"itemId": 2193, "points": 1},
+			{"itemId": 611, "points": 3},
+			{"itemId": 614, "points": 4}
+		]
+	},
+	"1966133": {
+		"name": "LR Ioprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5b035",
+		"members": [
+			{"itemId": 616, "points": 1},
+			{"itemId": 2194, "points": 1},
+			{"itemId": 620, "points": 2},
+			{"itemId": 617, "points": 2},
+			{"itemId": 622, "points": 3},
+			{"itemId": 625, "points": 4},
+			{"itemId": 628, "points": 6}
+		]
+	},
+	"1966134": {
+		"name": "HR Ioprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5a7e5",
+		"members": [
+			{"itemId": 2195, "points": 1},
+			{"itemId": 621, "points": 2},
+			{"itemId": 618, "points": 2},
+			{"itemId": 623, "points": 3},
+			{"itemId": 626, "points": 4}
+		]
+	},
+	"1966135": {
+		"name": "G Ioprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/56435",
+		"members": [
+			{"itemId": 2196, "points": 1},
+			{"itemId": 619, "points": 2},
+			{"itemId": 624, "points": 3},
+			{"itemId": 627, "points": 4}
+		]
+	},
+	"1966136": {
+		"name": "LR Iodrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/54a85",
+		"members": [
+			{"itemId": 2194, "points": 1},
+			{"itemId": 622, "points": 3},
+			{"itemId": 625, "points": 4},
+			{"itemId": 628, "points": 6}
+		]
+	},
+	"1966137": {
+		"name": "HR Iodrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/59a65",
+		"members": [
+			{"itemId": 2195, "points": 1},
+			{"itemId": 623, "points": 3},
+			{"itemId": 626, "points": 4}
+		]
+	},
+	"1966138": {
+		"name": "G Iodrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/533d5",
+		"members": [
+			{"itemId": 2196, "points": 1},
+			{"itemId": 624, "points": 3},
+			{"itemId": 627, "points": 4}
+		]
+	},
+	"1966139": {
+		"name": "LR Giaprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5e705",
+		"members": [
+			{"itemId": 632, "points": 2},
+			{"itemId": 629, "points": 2}
+		]
+	},
+	"1966140": {
+		"name": "HR Giaprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/50665",
+		"members": [
+			{"itemId": 2189, "points": 1},
+			{"itemId": 633, "points": 2},
+			{"itemId": 630, "points": 2},
+			{"itemId": 634, "points": 3},
+			{"itemId": 636, "points": 4},
+			{"itemId": 638, "points": 6}
+		]
+	},
+	"1966141": {
+		"name": "G Giaprey Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/58345",
+		"members": [
+			{"itemId": 2190, "points": 1},
+			{"itemId": 631, "points": 2},
+			{"itemId": 635, "points": 3},
+			{"itemId": 637, "points": 4}
+		]
+	},
+	"1966143": {
+		"name": "HR Giadrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/579b5",
+		"members": [
+			{"itemId": 2189, "points": 1},
+			{"itemId": 634, "points": 3},
+			{"itemId": 636, "points": 4},
+			{"itemId": 638, "points": 6}
+		]
+	},
+	"1966144": {
+		"name": "G Giadrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5b735",
+		"members": [
+			{"itemId": 2190, "points": 1},
+			{"itemId": 635, "points": 3},
+			{"itemId": 637, "points": 4}
+		]
+	},
+	"1966145": {
+		"name": "LR Arzuros Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/5aae5",
+		"members": [
+			{"itemId": 2197, "points": 1},
+			{"itemId": 639, "points": 2},
+			{"itemId": 642, "points": 3},
+			{"itemId": 645, "points": 4}
+		]
+	},
+	"1966146": {
+		"name": "HR Arzuros Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/56035",
+		"members": [
+			{"itemId": 2198, "points": 1},
+			{"itemId": 2201, "points": 1},
+			{"itemId": 2200, "points": 1},
+			{"itemId": 640, "points": 2},
+			{"itemId": 648, "points": 2},
+			{"itemId": 651, "points": 2},
+			{"itemId": 643, "points": 3},
+			{"itemId": 654, "points": 3},
+			{"itemId": 646, "points": 4},
+			{"itemId": 652, "points": 4},
+			{"itemId": 649, "points": 4},
+			{"itemId": 655, "points": 5}
+		]
+	},
+	"1966147": {
+		"name": "G Arzuros Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/54385",
+		"members": [
+			{"itemId": 2202, "points": 1},
+			{"itemId": 2199, "points": 1},
+			{"itemId": 2203, "points": 1},
+			{"itemId": 641, "points": 2},
+			{"itemId": 650, "points": 2},
+			{"itemId": 644, "points": 3},
+			{"itemId": 647, "points": 4},
+			{"itemId": 653, "points": 4},
+			{"itemId": 656, "points": 5}
+		]
+	},
+	"1966149": {
+		"name": "HR Redhelm Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/53ad5",
+		"members": [
+			{"itemId": 2201, "points": 1},
+			{"itemId": 1843, "points": 1},
+			{"itemId": 1844, "points": 1},
+			{"itemId": 1845, "points": 1},
+			{"itemId": 1846, "points": 1},
+			{"itemId": 1851, "points": 1},
+			{"itemId": 1847, "points": 1},
+			{"itemId": 1848, "points": 1},
+			{"itemId": 1849, "points": 1},
+			{"itemId": 1850, "points": 1},
+			{"itemId": 1852, "points": 1},
+			{"itemId": 2200, "points": 1},
+			{"itemId": 648, "points": 2},
+			{"itemId": 651, "points": 2},
+			{"itemId": 654, "points": 3},
+			{"itemId": 652, "points": 4},
+			{"itemId": 649, "points": 4},
+			{"itemId": 655, "points": 5}
+		]
+	},
+	"1966150": {
+		"name": "G Redhelm Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5ee05",
+		"members": [
+			{"itemId": 2202, "points": 1},
+			{"itemId": 2203, "points": 1},
+			{"itemId": 1853, "points": 1},
+			{"itemId": 1854, "points": 1},
+			{"itemId": 1855, "points": 1},
+			{"itemId": 1856, "points": 1},
+			{"itemId": 1857, "points": 1},
+			{"itemId": 650, "points": 2},
+			{"itemId": 653, "points": 4},
+			{"itemId": 656, "points": 5}
+		]
+	},
+	"1966151": {
+		"name": "LR Lagombi Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/50065",
+		"members": [
+			{"itemId": 2204, "points": 1},
+			{"itemId": 657, "points": 2},
+			{"itemId": 662, "points": 3},
+			{"itemId": 660, "points": 4},
+			{"itemId": 665, "points": 4}
+		]
+	},
+	"1966152": {
+		"name": "HR Lagombi Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/58445",
+		"members": [
+			{"itemId": 2205, "points": 1},
+			{"itemId": 2208, "points": 1},
+			{"itemId": 2207, "points": 1},
+			{"itemId": 658, "points": 2},
+			{"itemId": 668, "points": 2},
+			{"itemId": 671, "points": 2},
+			{"itemId": 663, "points": 3},
+			{"itemId": 661, "points": 4},
+			{"itemId": 666, "points": 4},
+			{"itemId": 669, "points": 4},
+			{"itemId": 672, "points": 4}
+		]
+	},
+	"1966153": {
+		"name": "G Lagombi Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5d385",
+		"members": [
+			{"itemId": 2209, "points": 1},
+			{"itemId": 2206, "points": 1},
+			{"itemId": 2210, "points": 1},
+			{"itemId": 659, "points": 2},
+			{"itemId": 670, "points": 2},
+			{"itemId": 664, "points": 3},
+			{"itemId": 667, "points": 4},
+			{"itemId": 673, "points": 4}
+		]
+	},
+	"1966155": {
+		"name": "HR Snowbaron Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/5b435",
+		"members": [
+			{"itemId": 2208, "points": 1},
+			{"itemId": 1858, "points": 1},
+			{"itemId": 1859, "points": 1},
+			{"itemId": 1860, "points": 1},
+			{"itemId": 1861, "points": 1},
+			{"itemId": 1866, "points": 1},
+			{"itemId": 1862, "points": 1},
+			{"itemId": 1863, "points": 1},
+			{"itemId": 1864, "points": 1},
+			{"itemId": 1865, "points": 1},
+			{"itemId": 1867, "points": 1},
+			{"itemId": 2207, "points": 1},
+			{"itemId": 668, "points": 2},
+			{"itemId": 671, "points": 2},
+			{"itemId": 669, "points": 4},
+			{"itemId": 672, "points": 4}
+		]
+	},
+	"1966156": {
+		"name": "G Snowbaron Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/5a6e5",
+		"members": [
+			{"itemId": 2209, "points": 1},
+			{"itemId": 2210, "points": 1},
+			{"itemId": 1868, "points": 1},
+			{"itemId": 1869, "points": 1},
+			{"itemId": 1870, "points": 1},
+			{"itemId": 1871, "points": 1},
+			{"itemId": 1872, "points": 1},
+			{"itemId": 670, "points": 2},
+			{"itemId": 673, "points": 4}
+		]
+	},
+	"1966157": {
+		"name": "LR Volvidon Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/56935",
+		"members": [
+			{"itemId": 2211, "points": 1},
+			{"itemId": 674, "points": 2},
+			{"itemId": 677, "points": 3},
+			{"itemId": 680, "points": 4}
+		]
+	},
+	"1966158": {
+		"name": "HR Volvidon Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/54685",
+		"members": [
+			{"itemId": 2212, "points": 1},
+			{"itemId": 675, "points": 2},
+			{"itemId": 678, "points": 3}
+		]
+	},
+	"1966159": {
+		"name": "G Volvidon Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/59065",
+		"members": [
+			{"itemId": 2213, "points": 1},
+			{"itemId": 676, "points": 2},
+			{"itemId": 679, "points": 3},
+			{"itemId": 681, "points": 4}
+		]
+	},
+	"1966160": {
+		"name": "LR Yian Kut-Ku Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#E890A0",
+		"kiranicoPath": "/item/category/538d5",
+		"members": [
+			{"itemId": 2214, "points": 1},
+			{"itemId": 682, "points": 2},
+			{"itemId": 685, "points": 3},
+			{"itemId": 693, "points": 3},
+			{"itemId": 688, "points": 4},
+			{"itemId": 691, "points": 6}
+		]
+	},
+	"1966161": {
+		"name": "HR Yian Kut-Ku Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#E890A0",
+		"kiranicoPath": "/item/category/5e605",
+		"members": [
+			{"itemId": 2217, "points": 1},
+			{"itemId": 2215, "points": 1},
+			{"itemId": 683, "points": 2},
+			{"itemId": 695, "points": 3},
+			{"itemId": 686, "points": 3},
+			{"itemId": 689, "points": 4},
+			{"itemId": 692, "points": 6}
+		]
+	},
+	"1966162": {
+		"name": "G Yian Kut-Ku Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#E890A0",
+		"kiranicoPath": "/item/category/50365",
+		"members": [
+			{"itemId": 2216, "points": 1},
+			{"itemId": 2218, "points": 1},
+			{"itemId": 684, "points": 2},
+			{"itemId": 696, "points": 3},
+			{"itemId": 687, "points": 3},
+			{"itemId": 694, "points": 3},
+			{"itemId": 690, "points": 4}
+		]
+	},
+	"1966163": {
+		"name": "LR Gypceros Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/58e45",
+		"members": [
+			{"itemId": 2219, "points": 1},
+			{"itemId": 697, "points": 2},
+			{"itemId": 700, "points": 3},
+			{"itemId": 703, "points": 5}
+		]
+	},
+	"1966164": {
+		"name": "HR Gypceros Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/5d885",
+		"members": [
+			{"itemId": 2220, "points": 1},
+			{"itemId": 2222, "points": 1},
+			{"itemId": 698, "points": 2},
+			{"itemId": 702, "points": 3},
+			{"itemId": 705, "points": 3}
+		]
+	},
+	"1966165": {
+		"name": "G Gypceros Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/573b5",
+		"members": [
+			{"itemId": 2221, "points": 1},
+			{"itemId": 2223, "points": 1},
+			{"itemId": 699, "points": 2},
+			{"itemId": 701, "points": 3},
+			{"itemId": 706, "points": 3},
+			{"itemId": 704, "points": 5}
+		]
+	},
+	"1966166": {
+		"name": "LR Malfestio Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/5be35",
+		"members": [
+			{"itemId": 2224, "points": 1},
+			{"itemId": 707, "points": 2},
+			{"itemId": 710, "points": 3},
+			{"itemId": 713, "points": 4},
+			{"itemId": 716, "points": 5},
+			{"itemId": 718, "points": 5}
+		]
+	},
+	"1966167": {
+		"name": "HR Malfestio Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/5a3e5",
+		"members": [
+			{"itemId": 2227, "points": 1},
+			{"itemId": 2225, "points": 1},
+			{"itemId": 708, "points": 2},
+			{"itemId": 722, "points": 3},
+			{"itemId": 711, "points": 3},
+			{"itemId": 714, "points": 4},
+			{"itemId": 720, "points": 7}
+		]
+	},
+	"1966168": {
+		"name": "G Malfestio Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/56b35",
+		"members": [
+			{"itemId": 2229, "points": 1},
+			{"itemId": 2226, "points": 1},
+			{"itemId": 2228, "points": 1},
+			{"itemId": 2230, "points": 1},
+			{"itemId": 709, "points": 2},
+			{"itemId": 724, "points": 2},
+			{"itemId": 723, "points": 3},
+			{"itemId": 712, "points": 3},
+			{"itemId": 715, "points": 4},
+			{"itemId": 725, "points": 4},
+			{"itemId": 717, "points": 5},
+			{"itemId": 719, "points": 5},
+			{"itemId": 726, "points": 5},
+			{"itemId": 721, "points": 7}
+		]
+	},
+	"1966171": {
+		"name": "G Nightcloak Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#803A8E",
+		"kiranicoPath": "/item/category/53bd5",
+		"members": [
+			{"itemId": 2229, "points": 1},
+			{"itemId": 2023, "points": 1},
+			{"itemId": 2024, "points": 1},
+			{"itemId": 2025, "points": 1},
+			{"itemId": 2026, "points": 1},
+			{"itemId": 2027, "points": 1},
+			{"itemId": 2230, "points": 1},
+			{"itemId": 724, "points": 2},
+			{"itemId": 725, "points": 4},
+			{"itemId": 726, "points": 5}
+		]
+	},
+	"1966172": {
+		"name": "LR Yian Garuga Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/5e305",
+		"members": [
+			{"itemId": 2231, "points": 1},
+			{"itemId": 727, "points": 2},
+			{"itemId": 730, "points": 3},
+			{"itemId": 741, "points": 4},
+			{"itemId": 737, "points": 4},
+			{"itemId": 733, "points": 5},
+			{"itemId": 739, "points": 5},
+			{"itemId": 735, "points": 6}
+		]
+	},
+	"1966173": {
+		"name": "HR Yian Garuga Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/50a65",
+		"members": [
+			{"itemId": 2236, "points": 1},
+			{"itemId": 2234, "points": 1},
+			{"itemId": 2237, "points": 1},
+			{"itemId": 2232, "points": 1},
+			{"itemId": 745, "points": 2},
+			{"itemId": 748, "points": 2},
+			{"itemId": 728, "points": 2},
+			{"itemId": 731, "points": 3},
+			{"itemId": 743, "points": 3},
+			{"itemId": 749, "points": 4},
+			{"itemId": 746, "points": 4},
+			{"itemId": 734, "points": 5},
+			{"itemId": 736, "points": 6}
+		]
+	},
+	"1966174": {
+		"name": "G Yian Garuga Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/58b45",
+		"members": [
+			{"itemId": 2238, "points": 1},
+			{"itemId": 2233, "points": 1},
+			{"itemId": 2235, "points": 1},
+			{"itemId": 2239, "points": 1},
+			{"itemId": 747, "points": 2},
+			{"itemId": 729, "points": 2},
+			{"itemId": 732, "points": 3},
+			{"itemId": 744, "points": 3},
+			{"itemId": 750, "points": 4},
+			{"itemId": 738, "points": 4},
+			{"itemId": 742, "points": 4},
+			{"itemId": 740, "points": 5}
+		]
+	},
+	"1966176": {
+		"name": "HR Deadeye Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#803A8E",
+		"kiranicoPath": "/item/category/57bb5",
+		"members": [
+			{"itemId": 1948, "points": 1},
+			{"itemId": 1949, "points": 1},
+			{"itemId": 1950, "points": 1},
+			{"itemId": 1951, "points": 1},
+			{"itemId": 1956, "points": 1},
+			{"itemId": 1952, "points": 1},
+			{"itemId": 1953, "points": 1},
+			{"itemId": 1954, "points": 1},
+			{"itemId": 1955, "points": 1},
+			{"itemId": 1957, "points": 1},
+			{"itemId": 2236, "points": 1},
+			{"itemId": 2237, "points": 1},
+			{"itemId": 745, "points": 2},
+			{"itemId": 748, "points": 2},
+			{"itemId": 749, "points": 4},
+			{"itemId": 746, "points": 4}
+		]
+	},
+	"1966177": {
+		"name": "G Deadeye Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#803A8E",
+		"kiranicoPath": "/item/category/5b635",
+		"members": [
+			{"itemId": 1958, "points": 1},
+			{"itemId": 1959, "points": 1},
+			{"itemId": 1960, "points": 1},
+			{"itemId": 1961, "points": 1},
+			{"itemId": 1962, "points": 1},
+			{"itemId": 2238, "points": 1},
+			{"itemId": 2239, "points": 1},
+			{"itemId": 747, "points": 2},
+			{"itemId": 750, "points": 4}
+		]
+	},
+	"1966178": {
+		"name": "LR Bullfango Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/5ade5",
+		"members": [
+			{"itemId": 2240, "points": 1},
+			{"itemId": 753, "points": 2},
+			{"itemId": 757, "points": 3},
+			{"itemId": 760, "points": 4},
+			{"itemId": 756, "points": 5}
+		]
+	},
+	"1966179": {
+		"name": "HR Bullfango Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/56e35",
+		"members": [
+			{"itemId": 2241, "points": 1},
+			{"itemId": 754, "points": 2},
+			{"itemId": 758, "points": 3},
+			{"itemId": 761, "points": 4}
+		]
+	},
+	"1966180": {
+		"name": "G Bullfango Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/56ea5",
+		"members": [
+			{"itemId": 2242, "points": 1},
+			{"itemId": 755, "points": 2},
+			{"itemId": 759, "points": 3},
+			{"itemId": 762, "points": 4}
+		]
+	},
+	"1966181": {
+		"name": "LR Blango Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/54945",
+		"members": [
+			{"itemId": 2246, "points": 1},
+			{"itemId": 774, "points": 2},
+			{"itemId": 777, "points": 3},
+			{"itemId": 785, "points": 4},
+			{"itemId": 783, "points": 4},
+			{"itemId": 780, "points": 5}
+		]
+	},
+	"1966182": {
+		"name": "HR Blango Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/59d85",
+		"members": [
+			{"itemId": 2247, "points": 1},
+			{"itemId": 775, "points": 2},
+			{"itemId": 778, "points": 3},
+			{"itemId": 781, "points": 5}
+		]
+	},
+	"1966183": {
+		"name": "G Blango Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/53475",
+		"members": [
+			{"itemId": 2248, "points": 1},
+			{"itemId": 776, "points": 2},
+			{"itemId": 779, "points": 3},
+			{"itemId": 786, "points": 4},
+			{"itemId": 784, "points": 4},
+			{"itemId": 782, "points": 5}
+		]
+	},
+	"1966184": {
+		"name": "LR Blangonga Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5e875",
+		"members": [
+			{"itemId": 2246, "points": 1},
+			{"itemId": 777, "points": 3},
+			{"itemId": 785, "points": 4},
+			{"itemId": 783, "points": 4},
+			{"itemId": 780, "points": 5}
+		]
+	},
+	"1966185": {
+		"name": "HR Blangonga Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/50d05",
+		"members": [
+			{"itemId": 2247, "points": 1},
+			{"itemId": 2249, "points": 1},
+			{"itemId": 778, "points": 3},
+			{"itemId": 787, "points": 4},
+			{"itemId": 781, "points": 5}
+		]
+	},
+	"1966186": {
+		"name": "G Blangonga Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/588e5",
+		"members": [
+			{"itemId": 2248, "points": 1},
+			{"itemId": 2250, "points": 1},
+			{"itemId": 779, "points": 3},
+			{"itemId": 786, "points": 4},
+			{"itemId": 788, "points": 4},
+			{"itemId": 784, "points": 4},
+			{"itemId": 782, "points": 5}
+		]
+	},
+	"1966188": {
+		"name": "HR Kecha Wacha Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/57005",
+		"members": [
+			{"itemId": 2253, "points": 1},
+			{"itemId": 2251, "points": 1},
+			{"itemId": 789, "points": 2},
+			{"itemId": 799, "points": 3},
+			{"itemId": 791, "points": 3},
+			{"itemId": 795, "points": 4},
+			{"itemId": 793, "points": 4},
+			{"itemId": 797, "points": 5}
+		]
+	},
+	"1966189": {
+		"name": "G Kecha Wacha Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F89858",
+		"kiranicoPath": "/item/category/5b385",
+		"members": [
+			{"itemId": 2252, "points": 1},
+			{"itemId": 2254, "points": 1},
+			{"itemId": 790, "points": 2},
+			{"itemId": 800, "points": 3},
+			{"itemId": 792, "points": 3},
+			{"itemId": 796, "points": 4},
+			{"itemId": 794, "points": 4},
+			{"itemId": 798, "points": 5}
+		]
+	},
+	"1966190": {
+		"name": "LR Cephadrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#98D8F0",
+		"kiranicoPath": "/item/category/5ae45",
+		"members": [
+			{"itemId": 2255, "points": 1},
+			{"itemId": 804, "points": 2},
+			{"itemId": 807, "points": 3},
+			{"itemId": 810, "points": 4}
+		]
+	},
+	"1966191": {
+		"name": "HR Cephadrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#98D8F0",
+		"kiranicoPath": "/item/category/567a5",
+		"members": [
+			{"itemId": 2256, "points": 1},
+			{"itemId": 805, "points": 2},
+			{"itemId": 808, "points": 3},
+			{"itemId": 811, "points": 4}
+		]
+	},
+	"1966192": {
+		"name": "G Cephadrome Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#98D8F0",
+		"kiranicoPath": "/item/category/54e45",
+		"members": [
+			{"itemId": 2257, "points": 1},
+			{"itemId": 806, "points": 2},
+			{"itemId": 809, "points": 3},
+			{"itemId": 812, "points": 4}
+		]
+	},
+	"1966194": {
+		"name": "HR Plesioth Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/53975",
+		"members": [
+			{"itemId": 2260, "points": 1},
+			{"itemId": 2258, "points": 1},
+			{"itemId": 813, "points": 2},
+			{"itemId": 823, "points": 3},
+			{"itemId": 817, "points": 3},
+			{"itemId": 815, "points": 3},
+			{"itemId": 819, "points": 4},
+			{"itemId": 821, "points": 5}
+		]
+	},
+	"1966195": {
+		"name": "G Plesioth Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/5e975",
+		"members": [
+			{"itemId": 2259, "points": 1},
+			{"itemId": 2261, "points": 1},
+			{"itemId": 814, "points": 2},
+			{"itemId": 824, "points": 3},
+			{"itemId": 816, "points": 3},
+			{"itemId": 818, "points": 3},
+			{"itemId": 820, "points": 4},
+			{"itemId": 822, "points": 5}
+		]
+	},
+	"1966197": {
+		"name": "HR Lavasioth Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/589e5",
+		"members": [
+			{"itemId": 2264, "points": 1},
+			{"itemId": 2262, "points": 1},
+			{"itemId": 825, "points": 2},
+			{"itemId": 833, "points": 3},
+			{"itemId": 827, "points": 3},
+			{"itemId": 829, "points": 4},
+			{"itemId": 831, "points": 4}
+		]
+	},
+	"1966198": {
+		"name": "G Lavasioth Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5d695",
+		"members": [
+			{"itemId": 2263, "points": 1},
+			{"itemId": 2265, "points": 1},
+			{"itemId": 826, "points": 2},
+			{"itemId": 834, "points": 3},
+			{"itemId": 828, "points": 3},
+			{"itemId": 832, "points": 4},
+			{"itemId": 830, "points": 4}
+		]
+	},
+	"1966199": {
+		"name": "LR Ludroth Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#C6F29F",
+		"kiranicoPath": "/item/category/57605",
+		"members": [
+			{"itemId": 2266, "points": 1},
+			{"itemId": 835, "points": 2},
+			{"itemId": 838, "points": 3},
+			{"itemId": 842, "points": 3},
+			{"itemId": 839, "points": 3},
+			{"itemId": 845, "points": 4},
+			{"itemId": 848, "points": 5},
+			{"itemId": 851, "points": 5}
+		]
+	},
+	"1966200": {
+		"name": "HR Ludroth Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#C6F29F",
+		"kiranicoPath": "/item/category/5b885",
+		"members": [
+			{"itemId": 2267, "points": 1},
+			{"itemId": 836, "points": 2},
+			{"itemId": 843, "points": 3},
+			{"itemId": 840, "points": 3},
+			{"itemId": 846, "points": 4},
+			{"itemId": 849, "points": 5}
+		]
+	},
+	"1966201": {
+		"name": "G Ludroth Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#C6F29F",
+		"kiranicoPath": "/item/category/5ab44",
+		"members": [
+			{"itemId": 2268, "points": 1},
+			{"itemId": 837, "points": 2},
+			{"itemId": 536, "points": 2},
+			{"itemId": 844, "points": 3},
+			{"itemId": 841, "points": 3},
+			{"itemId": 847, "points": 4},
+			{"itemId": 850, "points": 5},
+			{"itemId": 852, "points": 5}
+		]
+	},
+	"1966202": {
+		"name": "LR Royal Ludroth Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/56a3a",
+		"members": [
+			{"itemId": 2266, "points": 1},
+			{"itemId": 842, "points": 3},
+			{"itemId": 839, "points": 3},
+			{"itemId": 845, "points": 4},
+			{"itemId": 848, "points": 5},
+			{"itemId": 851, "points": 5}
+		]
+	},
+	"1966203": {
+		"name": "HR Royal Ludroth Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/54804",
+		"members": [
+			{"itemId": 2269, "points": 1},
+			{"itemId": 2267, "points": 1},
+			{"itemId": 853, "points": 3},
+			{"itemId": 843, "points": 3},
+			{"itemId": 840, "points": 3},
+			{"itemId": 846, "points": 4},
+			{"itemId": 849, "points": 5}
+		]
+	},
+	"1966204": {
+		"name": "G Royal Ludroth Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/59748",
+		"members": [
+			{"itemId": 2268, "points": 1},
+			{"itemId": 2270, "points": 1},
+			{"itemId": 854, "points": 3},
+			{"itemId": 844, "points": 3},
+			{"itemId": 841, "points": 3},
+			{"itemId": 847, "points": 4},
+			{"itemId": 850, "points": 5},
+			{"itemId": 852, "points": 5}
+		]
+	},
+	"1966205": {
+		"name": "LR Nibelsnarf Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/530e7",
+		"members": [
+			{"itemId": 2271, "points": 1},
+			{"itemId": 855, "points": 2},
+			{"itemId": 858, "points": 3},
+			{"itemId": 866, "points": 3},
+			{"itemId": 861, "points": 4},
+			{"itemId": 864, "points": 5}
+		]
+	},
+	"1966206": {
+		"name": "HR Nibelsnarf Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/5eab7",
+		"members": [
+			{"itemId": 2274, "points": 1},
+			{"itemId": 2272, "points": 1},
+			{"itemId": 856, "points": 2},
+			{"itemId": 867, "points": 3},
+			{"itemId": 869, "points": 3},
+			{"itemId": 859, "points": 3},
+			{"itemId": 862, "points": 4}
+		]
+	},
+	"1966207": {
+		"name": "G Nibelsnarf Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/507b0",
+		"members": [
+			{"itemId": 2273, "points": 1},
+			{"itemId": 2275, "points": 1},
+			{"itemId": 857, "points": 2},
+			{"itemId": 868, "points": 3},
+			{"itemId": 870, "points": 3},
+			{"itemId": 860, "points": 3},
+			{"itemId": 863, "points": 4},
+			{"itemId": 865, "points": 5}
+		]
+	},
+	"1966208": {
+		"name": "LR Lagiacrus Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#98D8F0",
+		"kiranicoPath": "/item/category/586de",
+		"members": [
+			{"itemId": 2276, "points": 1},
+			{"itemId": 871, "points": 2},
+			{"itemId": 874, "points": 3},
+			{"itemId": 885, "points": 4},
+			{"itemId": 880, "points": 4},
+			{"itemId": 883, "points": 5},
+			{"itemId": 877, "points": 5},
+			{"itemId": 888, "points": 9}
+		]
+	},
+	"1966209": {
+		"name": "HR Lagiacrus Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#98D8F0",
+		"kiranicoPath": "/item/category/5dde9",
+		"members": [
+			{"itemId": 2279, "points": 1},
+			{"itemId": 2277, "points": 1},
+			{"itemId": 872, "points": 2},
+			{"itemId": 891, "points": 3},
+			{"itemId": 875, "points": 3},
+			{"itemId": 886, "points": 4},
+			{"itemId": 881, "points": 4},
+			{"itemId": 878, "points": 5},
+			{"itemId": 889, "points": 9}
+		]
+	},
+	"1966210": {
+		"name": "G Lagiacrus Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#98D8F0",
+		"kiranicoPath": "/item/category/577e0",
+		"members": [
+			{"itemId": 2278, "points": 1},
+			{"itemId": 2280, "points": 1},
+			{"itemId": 873, "points": 2},
+			{"itemId": 892, "points": 3},
+			{"itemId": 876, "points": 3},
+			{"itemId": 882, "points": 4},
+			{"itemId": 887, "points": 4},
+			{"itemId": 879, "points": 5},
+			{"itemId": 884, "points": 5},
+			{"itemId": 890, "points": 9}
+		]
+	},
+	"1966212": {
+		"name": "HR Uroktor Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5abb4",
+		"members": [
+			{"itemId": 2281, "points": 1},
+			{"itemId": 897, "points": 2},
+			{"itemId": 894, "points": 2},
+			{"itemId": 899, "points": 3},
+			{"itemId": 896, "points": 3},
+			{"itemId": 901, "points": 4},
+			{"itemId": 903, "points": 4},
+			{"itemId": 906, "points": 4},
+			{"itemId": 907, "points": 5},
+			{"itemId": 905, "points": 6}
+		]
+	},
+	"1966213": {
+		"name": "G Uroktor Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/56aaa",
+		"members": [
+			{"itemId": 2282, "points": 1},
+			{"itemId": 898, "points": 2},
+			{"itemId": 536, "points": 2},
+			{"itemId": 895, "points": 2},
+			{"itemId": 900, "points": 3},
+			{"itemId": 904, "points": 4},
+			{"itemId": 902, "points": 4},
+			{"itemId": 908, "points": 5}
+		]
+	},
+	"1966215": {
+		"name": "HR Agnaktor Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/59778",
+		"members": [
+			{"itemId": 2281, "points": 1},
+			{"itemId": 2283, "points": 1},
+			{"itemId": 897, "points": 2},
+			{"itemId": 899, "points": 3},
+			{"itemId": 896, "points": 3},
+			{"itemId": 909, "points": 3},
+			{"itemId": 901, "points": 4},
+			{"itemId": 903, "points": 4},
+			{"itemId": 906, "points": 4},
+			{"itemId": 907, "points": 5},
+			{"itemId": 905, "points": 6}
+		]
+	},
+	"1966216": {
+		"name": "G Agnaktor Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/53007",
+		"members": [
+			{"itemId": 2282, "points": 1},
+			{"itemId": 2284, "points": 1},
+			{"itemId": 898, "points": 2},
+			{"itemId": 900, "points": 3},
+			{"itemId": 910, "points": 3},
+			{"itemId": 904, "points": 4},
+			{"itemId": 902, "points": 4},
+			{"itemId": 908, "points": 5}
+		]
+	},
+	"1966217": {
+		"name": "LR Tetsucabra Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5eaa7",
+		"members": [
+			{"itemId": 2285, "points": 1},
+			{"itemId": 911, "points": 2},
+			{"itemId": 925, "points": 3},
+			{"itemId": 914, "points": 3},
+			{"itemId": 917, "points": 4},
+			{"itemId": 920, "points": 4},
+			{"itemId": 923, "points": 6}
+		]
+	},
+	"1966218": {
+		"name": "HR Tetsucabra Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/50770",
+		"members": [
+			{"itemId": 2290, "points": 1},
+			{"itemId": 2288, "points": 1},
+			{"itemId": 2291, "points": 1},
+			{"itemId": 2286, "points": 1},
+			{"itemId": 930, "points": 2},
+			{"itemId": 933, "points": 2},
+			{"itemId": 912, "points": 2},
+			{"itemId": 936, "points": 3},
+			{"itemId": 928, "points": 3},
+			{"itemId": 926, "points": 3},
+			{"itemId": 915, "points": 3},
+			{"itemId": 934, "points": 4},
+			{"itemId": 931, "points": 4},
+			{"itemId": 918, "points": 4},
+			{"itemId": 921, "points": 4},
+			{"itemId": 937, "points": 5}
+		]
+	},
+	"1966219": {
+		"name": "G Tetsucabra Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5866e",
+		"members": [
+			{"itemId": 2292, "points": 1},
+			{"itemId": 2287, "points": 1},
+			{"itemId": 2289, "points": 1},
+			{"itemId": 2293, "points": 1},
+			{"itemId": 932, "points": 2},
+			{"itemId": 913, "points": 2},
+			{"itemId": 929, "points": 3},
+			{"itemId": 927, "points": 3},
+			{"itemId": 916, "points": 3},
+			{"itemId": 935, "points": 4},
+			{"itemId": 922, "points": 4},
+			{"itemId": 919, "points": 4},
+			{"itemId": 938, "points": 5},
+			{"itemId": 924, "points": 6}
+		]
+	},
+	"1966221": {
+		"name": "HR Drilltusk Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#AA3C3C",
+		"kiranicoPath": "/item/category/57770",
+		"members": [
+			{"itemId": 1903, "points": 1},
+			{"itemId": 1904, "points": 1},
+			{"itemId": 1905, "points": 1},
+			{"itemId": 1906, "points": 1},
+			{"itemId": 1911, "points": 1},
+			{"itemId": 1907, "points": 1},
+			{"itemId": 1908, "points": 1},
+			{"itemId": 1909, "points": 1},
+			{"itemId": 1910, "points": 1},
+			{"itemId": 1912, "points": 1},
+			{"itemId": 2290, "points": 1},
+			{"itemId": 2291, "points": 1},
+			{"itemId": 930, "points": 2},
+			{"itemId": 933, "points": 2},
+			{"itemId": 936, "points": 3},
+			{"itemId": 934, "points": 4},
+			{"itemId": 931, "points": 4},
+			{"itemId": 937, "points": 5}
+		]
+	},
+	"1966222": {
+		"name": "G Drilltusk Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#AA3C3C",
+		"kiranicoPath": "/item/category/5bdd8",
+		"members": [
+			{"itemId": 1913, "points": 1},
+			{"itemId": 1914, "points": 1},
+			{"itemId": 1915, "points": 1},
+			{"itemId": 1916, "points": 1},
+			{"itemId": 1917, "points": 1},
+			{"itemId": 2292, "points": 1},
+			{"itemId": 2293, "points": 1},
+			{"itemId": 932, "points": 2},
+			{"itemId": 935, "points": 4},
+			{"itemId": 938, "points": 5}
+		]
+	},
+	"1966224": {
+		"name": "HR Zamtrios Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#98D8F0",
+		"kiranicoPath": "/item/category/56a8a",
+		"members": [
+			{"itemId": 2296, "points": 1},
+			{"itemId": 940, "points": 1},
+			{"itemId": 939, "points": 1},
+			{"itemId": 2294, "points": 1},
+			{"itemId": 941, "points": 2},
+			{"itemId": 951, "points": 3},
+			{"itemId": 926, "points": 3},
+			{"itemId": 943, "points": 3},
+			{"itemId": 945, "points": 4},
+			{"itemId": 947, "points": 4},
+			{"itemId": 949, "points": 5}
+		]
+	},
+	"1966225": {
+		"name": "G Zamtrios Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#98D8F0",
+		"kiranicoPath": "/item/category/54844",
+		"members": [
+			{"itemId": 2295, "points": 1},
+			{"itemId": 2297, "points": 1},
+			{"itemId": 942, "points": 2},
+			{"itemId": 952, "points": 3},
+			{"itemId": 927, "points": 3},
+			{"itemId": 944, "points": 3},
+			{"itemId": 946, "points": 4},
+			{"itemId": 948, "points": 4},
+			{"itemId": 950, "points": 5}
+		]
+	},
+	"1966226": {
+		"name": "LR Najarala Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/59768",
+		"members": [
+			{"itemId": 2298, "points": 1},
+			{"itemId": 953, "points": 2},
+			{"itemId": 964, "points": 3},
+			{"itemId": 957, "points": 3},
+			{"itemId": 962, "points": 4},
+			{"itemId": 960, "points": 6},
+			{"itemId": 965, "points": 7}
+		]
+	},
+	"1966227": {
+		"name": "HR Najarala Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/53067",
+		"members": [
+			{"itemId": 2301, "points": 1},
+			{"itemId": 2299, "points": 1},
+			{"itemId": 955, "points": 2},
+			{"itemId": 967, "points": 3},
+			{"itemId": 958, "points": 3},
+			{"itemId": 963, "points": 4},
+			{"itemId": 961, "points": 6}
+		]
+	},
+	"1966228": {
+		"name": "G Najarala Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/5ead7",
+		"members": [
+			{"itemId": 2300, "points": 1},
+			{"itemId": 2302, "points": 1},
+			{"itemId": 956, "points": 2},
+			{"itemId": 968, "points": 3},
+			{"itemId": 959, "points": 3},
+			{"itemId": 954, "points": 4},
+			{"itemId": 966, "points": 7}
+		]
+	},
+	"1966229": {
+		"name": "LR Hermitaur Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/50740",
+		"members": [
+			{"itemId": 2303, "points": 1},
+			{"itemId": 975, "points": 2},
+			{"itemId": 969, "points": 3},
+			{"itemId": 977, "points": 3},
+			{"itemId": 973, "points": 4},
+			{"itemId": 980, "points": 4}
+		]
+	},
+	"1966230": {
+		"name": "HR Hermitaur Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5860e",
+		"members": [
+			{"itemId": 2304, "points": 1},
+			{"itemId": 2306, "points": 1},
+			{"itemId": 2309, "points": 1},
+			{"itemId": 2308, "points": 1},
+			{"itemId": 988, "points": 2},
+			{"itemId": 985, "points": 2},
+			{"itemId": 978, "points": 3},
+			{"itemId": 981, "points": 4},
+			{"itemId": 983, "points": 4},
+			{"itemId": 986, "points": 4},
+			{"itemId": 989, "points": 4}
+		]
+	},
+	"1966231": {
+		"name": "G Hermitaur Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5dd49",
+		"members": [
+			{"itemId": 2310, "points": 1},
+			{"itemId": 2305, "points": 1},
+			{"itemId": 2307, "points": 1},
+			{"itemId": 2311, "points": 1},
+			{"itemId": 987, "points": 2},
+			{"itemId": 976, "points": 2},
+			{"itemId": 970, "points": 3},
+			{"itemId": 979, "points": 3},
+			{"itemId": 982, "points": 4},
+			{"itemId": 984, "points": 4},
+			{"itemId": 990, "points": 4},
+			{"itemId": 974, "points": 4}
+		]
+	},
+	"1966233": {
+		"name": "HR Stonefist Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#AA3C3C",
+		"kiranicoPath": "/item/category/5bdb8",
+		"members": [
+			{"itemId": 2309, "points": 1},
+			{"itemId": 1873, "points": 1},
+			{"itemId": 1874, "points": 1},
+			{"itemId": 1875, "points": 1},
+			{"itemId": 1876, "points": 1},
+			{"itemId": 1881, "points": 1},
+			{"itemId": 1877, "points": 1},
+			{"itemId": 1878, "points": 1},
+			{"itemId": 1879, "points": 1},
+			{"itemId": 1880, "points": 1},
+			{"itemId": 1882, "points": 1},
+			{"itemId": 2308, "points": 1},
+			{"itemId": 988, "points": 2},
+			{"itemId": 985, "points": 2},
+			{"itemId": 986, "points": 4},
+			{"itemId": 989, "points": 4}
+		]
+	},
+	"1966234": {
+		"name": "G Stonefist Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#AA3C3C",
+		"kiranicoPath": "/item/category/5ab84",
+		"members": [
+			{"itemId": 2310, "points": 1},
+			{"itemId": 2311, "points": 1},
+			{"itemId": 1883, "points": 1},
+			{"itemId": 1884, "points": 1},
+			{"itemId": 1885, "points": 1},
+			{"itemId": 1886, "points": 1},
+			{"itemId": 1887, "points": 1},
+			{"itemId": 987, "points": 2},
+			{"itemId": 990, "points": 4}
+		]
+	},
+	"1966235": {
+		"name": "LR Ceanataur Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/56ada",
+		"members": [
+			{"itemId": 2312, "points": 1},
+			{"itemId": 991, "points": 2},
+			{"itemId": 969, "points": 3},
+			{"itemId": 998, "points": 3},
+			{"itemId": 992, "points": 3},
+			{"itemId": 995, "points": 4},
+			{"itemId": 971, "points": 4}
+		]
+	},
+	"1966236": {
+		"name": "HR Ceanataur Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/548d4",
+		"members": [
+			{"itemId": 2315, "points": 1},
+			{"itemId": 2313, "points": 1},
+			{"itemId": 993, "points": 3},
+			{"itemId": 999, "points": 3},
+			{"itemId": 996, "points": 4},
+			{"itemId": 1001, "points": 4}
+		]
+	},
+	"1966237": {
+		"name": "G Ceanataur Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/59788",
+		"members": [
+			{"itemId": 2317, "points": 1},
+			{"itemId": 2314, "points": 1},
+			{"itemId": 2316, "points": 1},
+			{"itemId": 2318, "points": 1},
+			{"itemId": 1004, "points": 2},
+			{"itemId": 994, "points": 3},
+			{"itemId": 1000, "points": 3},
+			{"itemId": 970, "points": 3},
+			{"itemId": 997, "points": 4},
+			{"itemId": 1003, "points": 4},
+			{"itemId": 972, "points": 4},
+			{"itemId": 1002, "points": 4},
+			{"itemId": 1005, "points": 5}
+		]
+	},
+	"1966240": {
+		"name": "G Rustrazor Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/507e0",
+		"members": [
+			{"itemId": 2317, "points": 1},
+			{"itemId": 2318, "points": 1},
+			{"itemId": 2028, "points": 1},
+			{"itemId": 2029, "points": 1},
+			{"itemId": 2030, "points": 1},
+			{"itemId": 2031, "points": 1},
+			{"itemId": 2032, "points": 1},
+			{"itemId": 1004, "points": 2},
+			{"itemId": 1003, "points": 4},
+			{"itemId": 1005, "points": 5}
+		]
+	},
+	"1966242": {
+		"name": "HR Seltas Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/5dda9",
+		"members": [
+			{"itemId": 1015, "points": 2},
+			{"itemId": 1017, "points": 3},
+			{"itemId": 1019, "points": 4}
+		]
+	},
+	"1966243": {
+		"name": "G Seltas Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/57780",
+		"members": [
+			{"itemId": 1016, "points": 2},
+			{"itemId": 1018, "points": 3},
+			{"itemId": 1020, "points": 4}
+		]
+	},
+	"1966245": {
+		"name": "HR Seltas Queen Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/5ab74",
+		"members": [
+			{"itemId": 2324, "points": 1},
+			{"itemId": 2322, "points": 1},
+			{"itemId": 1021, "points": 2},
+			{"itemId": 1033, "points": 3},
+			{"itemId": 1023, "points": 3},
+			{"itemId": 1025, "points": 4},
+			{"itemId": 1029, "points": 5},
+			{"itemId": 1027, "points": 5},
+			{"itemId": 1031, "points": 6}
+		]
+	},
+	"1966246": {
+		"name": "G Seltas Queen Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/56a6a",
+		"members": [
+			{"itemId": 2323, "points": 1},
+			{"itemId": 2325, "points": 1},
+			{"itemId": 1022, "points": 2},
+			{"itemId": 1034, "points": 3},
+			{"itemId": 1024, "points": 3},
+			{"itemId": 1026, "points": 4},
+			{"itemId": 1028, "points": 5},
+			{"itemId": 1030, "points": 5},
+			{"itemId": 1032, "points": 6}
+		]
+	},
+	"1966247": {
+		"name": "LR Uragaan Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/54874",
+		"members": [
+			{"itemId": 2329, "points": 1},
+			{"itemId": 1047, "points": 2},
+			{"itemId": 1050, "points": 3},
+			{"itemId": 1055, "points": 4},
+			{"itemId": 1053, "points": 5},
+			{"itemId": 1057, "points": 7}
+		]
+	},
+	"1966248": {
+		"name": "HR Uragaan Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/59738",
+		"members": [
+			{"itemId": 2334, "points": 1},
+			{"itemId": 2332, "points": 1},
+			{"itemId": 2335, "points": 1},
+			{"itemId": 2330, "points": 1},
+			{"itemId": 1065, "points": 2},
+			{"itemId": 1062, "points": 2},
+			{"itemId": 1048, "points": 2},
+			{"itemId": 1060, "points": 3},
+			{"itemId": 1051, "points": 3},
+			{"itemId": 1066, "points": 4},
+			{"itemId": 1063, "points": 4},
+			{"itemId": 1068, "points": 5},
+			{"itemId": 1058, "points": 7}
+		]
+	},
+	"1966249": {
+		"name": "G Uragaan Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/53077",
+		"members": [
+			{"itemId": 2336, "points": 1},
+			{"itemId": 2331, "points": 1},
+			{"itemId": 2333, "points": 1},
+			{"itemId": 2337, "points": 1},
+			{"itemId": 1064, "points": 2},
+			{"itemId": 1049, "points": 2},
+			{"itemId": 1061, "points": 3},
+			{"itemId": 1052, "points": 3},
+			{"itemId": 1067, "points": 4},
+			{"itemId": 1056, "points": 4},
+			{"itemId": 1069, "points": 5},
+			{"itemId": 1054, "points": 5},
+			{"itemId": 1059, "points": 7}
+		]
+	},
+	"1966251": {
+		"name": "HR Crystalbeard Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/50790",
+		"members": [
+			{"itemId": 1933, "points": 1},
+			{"itemId": 1934, "points": 1},
+			{"itemId": 1935, "points": 1},
+			{"itemId": 1936, "points": 1},
+			{"itemId": 1941, "points": 1},
+			{"itemId": 1937, "points": 1},
+			{"itemId": 1938, "points": 1},
+			{"itemId": 1939, "points": 1},
+			{"itemId": 1940, "points": 1},
+			{"itemId": 1942, "points": 1},
+			{"itemId": 2334, "points": 1},
+			{"itemId": 2335, "points": 1},
+			{"itemId": 1065, "points": 2},
+			{"itemId": 1062, "points": 2},
+			{"itemId": 1066, "points": 4},
+			{"itemId": 1063, "points": 4},
+			{"itemId": 1068, "points": 5}
+		]
+	},
+	"1966252": {
+		"name": "G Crystalbeard Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/586ae",
+		"members": [
+			{"itemId": 1943, "points": 1},
+			{"itemId": 1944, "points": 1},
+			{"itemId": 1945, "points": 1},
+			{"itemId": 1946, "points": 1},
+			{"itemId": 1947, "points": 1},
+			{"itemId": 2336, "points": 1},
+			{"itemId": 2337, "points": 1},
+			{"itemId": 1064, "points": 2},
+			{"itemId": 1067, "points": 4},
+			{"itemId": 1069, "points": 5}
+		]
+	},
+	"1966253": {
+		"name": "LR Brachydios Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/5ddb9",
+		"members": [
+			{"itemId": 2338, "points": 1},
+			{"itemId": 1070, "points": 2},
+			{"itemId": 1080, "points": 2},
+			{"itemId": 1073, "points": 3},
+			{"itemId": 1083, "points": 4},
+			{"itemId": 1076, "points": 4},
+			{"itemId": 1087, "points": 5},
+			{"itemId": 1089, "points": 7}
+		]
+	},
+	"1966254": {
+		"name": "HR Brachydios Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/57740",
+		"members": [
+			{"itemId": 2339, "points": 1},
+			{"itemId": 2341, "points": 1},
+			{"itemId": 1071, "points": 2},
+			{"itemId": 1074, "points": 3},
+			{"itemId": 1093, "points": 3},
+			{"itemId": 1084, "points": 4},
+			{"itemId": 1077, "points": 4},
+			{"itemId": 1090, "points": 7}
+		]
+	},
+	"1966255": {
+		"name": "G Brachydios Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#90B0F8",
+		"kiranicoPath": "/item/category/5bd08",
+		"members": [
+			{"itemId": 2340, "points": 1},
+			{"itemId": 2342, "points": 1},
+			{"itemId": 1072, "points": 2},
+			{"itemId": 1081, "points": 2},
+			{"itemId": 1075, "points": 3},
+			{"itemId": 1082, "points": 3},
+			{"itemId": 1094, "points": 3},
+			{"itemId": 1078, "points": 4},
+			{"itemId": 1085, "points": 4},
+			{"itemId": 1088, "points": 5},
+			{"itemId": 1086, "points": 5},
+			{"itemId": 1079, "points": 5},
+			{"itemId": 1091, "points": 7},
+			{"itemId": 1092, "points": 8}
+		]
+	},
+	"1966257": {
+		"name": "HR Duramboros Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/56a4a",
+		"members": [
+			{"itemId": 2343, "points": 1},
+			{"itemId": 2345, "points": 1},
+			{"itemId": 1095, "points": 2},
+			{"itemId": 1097, "points": 3},
+			{"itemId": 1107, "points": 3},
+			{"itemId": 1101, "points": 4},
+			{"itemId": 1099, "points": 4},
+			{"itemId": 1103, "points": 5},
+			{"itemId": 1105, "points": 7}
+		]
+	},
+	"1966258": {
+		"name": "G Duramboros Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/548a4",
+		"members": [
+			{"itemId": 2344, "points": 1},
+			{"itemId": 2346, "points": 1},
+			{"itemId": 1096, "points": 2},
+			{"itemId": 1098, "points": 3},
+			{"itemId": 1108, "points": 3},
+			{"itemId": 1102, "points": 4},
+			{"itemId": 1100, "points": 4},
+			{"itemId": 1104, "points": 5},
+			{"itemId": 1106, "points": 7}
+		]
+	},
+	"1966259": {
+		"name": "LR Khezu Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/597a8",
+		"members": [
+			{"itemId": 2347, "points": 1},
+			{"itemId": 1109, "points": 2},
+			{"itemId": 1112, "points": 5}
+		]
+	},
+	"1966260": {
+		"name": "HR Khezu Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/53037",
+		"members": [
+			{"itemId": 2350, "points": 1},
+			{"itemId": 2348, "points": 1},
+			{"itemId": 1110, "points": 2},
+			{"itemId": 1115, "points": 3},
+			{"itemId": 1113, "points": 5}
+		]
+	},
+	"1966261": {
+		"name": "G Khezu Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5ea77",
+		"members": [
+			{"itemId": 2349, "points": 1},
+			{"itemId": 2351, "points": 1},
+			{"itemId": 1111, "points": 2},
+			{"itemId": 1116, "points": 3},
+			{"itemId": 1114, "points": 5}
+		]
+	},
+	"1966262": {
+		"name": "LR Nargacuga Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/50760",
+		"members": [
+			{"itemId": 2352, "points": 1},
+			{"itemId": 1117, "points": 2},
+			{"itemId": 1120, "points": 3},
+			{"itemId": 1130, "points": 3},
+			{"itemId": 1125, "points": 4},
+			{"itemId": 1127, "points": 4},
+			{"itemId": 1123, "points": 5},
+			{"itemId": 1133, "points": 7}
+		]
+	},
+	"1966263": {
+		"name": "HR Nargacuga Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5863e",
+		"members": [
+			{"itemId": 2355, "points": 1},
+			{"itemId": 2353, "points": 1},
+			{"itemId": 2358, "points": 1},
+			{"itemId": 2357, "points": 1},
+			{"itemId": 1118, "points": 2},
+			{"itemId": 1141, "points": 2},
+			{"itemId": 1138, "points": 2},
+			{"itemId": 1136, "points": 3},
+			{"itemId": 1131, "points": 3},
+			{"itemId": 1121, "points": 3},
+			{"itemId": 1128, "points": 4},
+			{"itemId": 1142, "points": 4},
+			{"itemId": 1139, "points": 4},
+			{"itemId": 1134, "points": 7}
+		]
+	},
+	"1966264": {
+		"name": "G Nargacuga Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5dd79",
+		"members": [
+			{"itemId": 2359, "points": 1},
+			{"itemId": 2354, "points": 1},
+			{"itemId": 2356, "points": 1},
+			{"itemId": 2360, "points": 1},
+			{"itemId": 1119, "points": 2},
+			{"itemId": 1140, "points": 2},
+			{"itemId": 1137, "points": 3},
+			{"itemId": 1122, "points": 3},
+			{"itemId": 1132, "points": 3},
+			{"itemId": 1126, "points": 4},
+			{"itemId": 1129, "points": 4},
+			{"itemId": 1143, "points": 4},
+			{"itemId": 1124, "points": 5},
+			{"itemId": 1135, "points": 8}
+		]
+	},
+	"1966266": {
+		"name": "HR Silverwind Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5bd78",
+		"members": [
+			{"itemId": 2358, "points": 1},
+			{"itemId": 1918, "points": 1},
+			{"itemId": 1919, "points": 1},
+			{"itemId": 1920, "points": 1},
+			{"itemId": 1921, "points": 1},
+			{"itemId": 1926, "points": 1},
+			{"itemId": 1922, "points": 1},
+			{"itemId": 1923, "points": 1},
+			{"itemId": 1924, "points": 1},
+			{"itemId": 1925, "points": 1},
+			{"itemId": 1927, "points": 1},
+			{"itemId": 2357, "points": 1},
+			{"itemId": 1141, "points": 2},
+			{"itemId": 1138, "points": 2},
+			{"itemId": 1142, "points": 4},
+			{"itemId": 1139, "points": 4}
+		]
+	},
+	"1966267": {
+		"name": "G Silverwind Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5ab64",
+		"members": [
+			{"itemId": 2359, "points": 1},
+			{"itemId": 2360, "points": 1},
+			{"itemId": 1928, "points": 1},
+			{"itemId": 1929, "points": 1},
+			{"itemId": 1930, "points": 1},
+			{"itemId": 1931, "points": 1},
+			{"itemId": 1932, "points": 1},
+			{"itemId": 1140, "points": 2},
+			{"itemId": 1143, "points": 4}
+		]
+	},
+	"1966268": {
+		"name": "LR Rathian Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/56a0a",
+		"members": [
+			{"itemId": 1232, "points": 1},
+			{"itemId": 2370, "points": 1},
+			{"itemId": 1172, "points": 2},
+			{"itemId": 1175, "points": 3},
+			{"itemId": 1178, "points": 4},
+			{"itemId": 1180, "points": 5},
+			{"itemId": 1234, "points": 8},
+			{"itemId": 1183, "points": 9}
+		]
+	},
+	"1966269": {
+		"name": "HR Rathian Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/54834",
+		"members": [
+			{"itemId": 2375, "points": 1},
+			{"itemId": 2373, "points": 1},
+			{"itemId": 2376, "points": 1},
+			{"itemId": 2371, "points": 1},
+			{"itemId": 1188, "points": 2},
+			{"itemId": 1191, "points": 2},
+			{"itemId": 1173, "points": 2},
+			{"itemId": 1186, "points": 3},
+			{"itemId": 1176, "points": 3},
+			{"itemId": 1192, "points": 4},
+			{"itemId": 1189, "points": 4},
+			{"itemId": 1194, "points": 4},
+			{"itemId": 1200, "points": 5},
+			{"itemId": 1181, "points": 5},
+			{"itemId": 1196, "points": 6},
+			{"itemId": 1198, "points": 8},
+			{"itemId": 1235, "points": 8},
+			{"itemId": 1184, "points": 9}
+		]
+	},
+	"1966270": {
+		"name": "G Rathian Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#70C888",
+		"kiranicoPath": "/item/category/59798",
+		"members": [
+			{"itemId": 2377, "points": 1},
+			{"itemId": 2372, "points": 1},
+			{"itemId": 2374, "points": 1},
+			{"itemId": 2378, "points": 1},
+			{"itemId": 1233, "points": 1},
+			{"itemId": 1190, "points": 2},
+			{"itemId": 1174, "points": 2},
+			{"itemId": 1187, "points": 3},
+			{"itemId": 1177, "points": 3},
+			{"itemId": 1193, "points": 4},
+			{"itemId": 1195, "points": 4},
+			{"itemId": 1179, "points": 4},
+			{"itemId": 1201, "points": 5},
+			{"itemId": 1182, "points": 5},
+			{"itemId": 1197, "points": 6},
+			{"itemId": 1199, "points": 8},
+			{"itemId": 1185, "points": 9}
+		]
+	},
+	"1966272": {
+		"name": "HR Dreadqueen Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/5eae7",
+		"members": [
+			{"itemId": 1888, "points": 1},
+			{"itemId": 1889, "points": 1},
+			{"itemId": 1890, "points": 1},
+			{"itemId": 1891, "points": 1},
+			{"itemId": 1896, "points": 1},
+			{"itemId": 1892, "points": 1},
+			{"itemId": 1893, "points": 1},
+			{"itemId": 1894, "points": 1},
+			{"itemId": 1895, "points": 1},
+			{"itemId": 1897, "points": 1},
+			{"itemId": 2375, "points": 1},
+			{"itemId": 2376, "points": 1},
+			{"itemId": 1188, "points": 2},
+			{"itemId": 1191, "points": 2},
+			{"itemId": 1192, "points": 4},
+			{"itemId": 1189, "points": 4}
+		]
+	},
+	"1966273": {
+		"name": "G Dreadqueen Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/50700",
+		"members": [
+			{"itemId": 1898, "points": 1},
+			{"itemId": 1899, "points": 1},
+			{"itemId": 1900, "points": 1},
+			{"itemId": 1901, "points": 1},
+			{"itemId": 1902, "points": 1},
+			{"itemId": 2377, "points": 1},
+			{"itemId": 2378, "points": 1},
+			{"itemId": 1190, "points": 2},
+			{"itemId": 1193, "points": 4}
+		]
+	},
+	"1966275": {
+		"name": "HR Gold Rathian Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/5dd39",
+		"members": [
+			{"itemId": 1194, "points": 4},
+			{"itemId": 1200, "points": 5},
+			{"itemId": 1196, "points": 6},
+			{"itemId": 1236, "points": 7},
+			{"itemId": 1198, "points": 8},
+			{"itemId": 1235, "points": 8}
+		]
+	},
+	"1966276": {
+		"name": "G Gold Rathian Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/577a0",
+		"members": [
+			{"itemId": 1195, "points": 4},
+			{"itemId": 1201, "points": 5},
+			{"itemId": 1197, "points": 6},
+			{"itemId": 1237, "points": 7},
+			{"itemId": 1199, "points": 8}
+		]
+	},
+	"1966277": {
+		"name": "LR Rathalos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5bd48",
+		"members": [
+			{"itemId": 1232, "points": 1},
+			{"itemId": 2379, "points": 1},
+			{"itemId": 1202, "points": 2},
+			{"itemId": 1205, "points": 3},
+			{"itemId": 1208, "points": 4},
+			{"itemId": 1211, "points": 5},
+			{"itemId": 1234, "points": 8},
+			{"itemId": 1213, "points": 9}
+		]
+	},
+	"1966278": {
+		"name": "HR Rathalos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5ab34",
+		"members": [
+			{"itemId": 2384, "points": 1},
+			{"itemId": 2382, "points": 1},
+			{"itemId": 2385, "points": 1},
+			{"itemId": 2380, "points": 1},
+			{"itemId": 1218, "points": 2},
+			{"itemId": 1221, "points": 2},
+			{"itemId": 1203, "points": 2},
+			{"itemId": 1216, "points": 3},
+			{"itemId": 1206, "points": 3},
+			{"itemId": 1222, "points": 4},
+			{"itemId": 1219, "points": 4},
+			{"itemId": 1209, "points": 4},
+			{"itemId": 1224, "points": 4},
+			{"itemId": 1230, "points": 5},
+			{"itemId": 1226, "points": 6},
+			{"itemId": 1228, "points": 7},
+			{"itemId": 1235, "points": 8},
+			{"itemId": 1214, "points": 9}
+		]
+	},
+	"1966279": {
+		"name": "G Rathalos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/56a9a",
+		"members": [
+			{"itemId": 2386, "points": 1},
+			{"itemId": 2381, "points": 1},
+			{"itemId": 2383, "points": 1},
+			{"itemId": 2387, "points": 1},
+			{"itemId": 1233, "points": 1},
+			{"itemId": 1220, "points": 2},
+			{"itemId": 1204, "points": 2},
+			{"itemId": 1217, "points": 3},
+			{"itemId": 1207, "points": 3},
+			{"itemId": 1223, "points": 4},
+			{"itemId": 1210, "points": 4},
+			{"itemId": 1225, "points": 4},
+			{"itemId": 1231, "points": 5},
+			{"itemId": 1212, "points": 5},
+			{"itemId": 1227, "points": 6},
+			{"itemId": 1229, "points": 7},
+			{"itemId": 1215, "points": 9}
+		]
+	},
+	"1966281": {
+		"name": "HR Dreadking Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#AA3C3C",
+		"kiranicoPath": "/item/category/5486d",
+		"members": [
+			{"itemId": 1963, "points": 1},
+			{"itemId": 1964, "points": 1},
+			{"itemId": 1965, "points": 1},
+			{"itemId": 1966, "points": 1},
+			{"itemId": 1971, "points": 1},
+			{"itemId": 1967, "points": 1},
+			{"itemId": 1968, "points": 1},
+			{"itemId": 1969, "points": 1},
+			{"itemId": 1970, "points": 1},
+			{"itemId": 1972, "points": 1},
+			{"itemId": 2384, "points": 1},
+			{"itemId": 2385, "points": 1},
+			{"itemId": 1218, "points": 2},
+			{"itemId": 1221, "points": 2},
+			{"itemId": 1222, "points": 4},
+			{"itemId": 1219, "points": 4}
+		]
+	},
+	"1966282": {
+		"name": "G Dreadking Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#AA3C3C",
+		"kiranicoPath": "/item/category/59703",
+		"members": [
+			{"itemId": 1973, "points": 1},
+			{"itemId": 1974, "points": 1},
+			{"itemId": 1975, "points": 1},
+			{"itemId": 1976, "points": 1},
+			{"itemId": 1977, "points": 1},
+			{"itemId": 2386, "points": 1},
+			{"itemId": 2387, "points": 1},
+			{"itemId": 1220, "points": 2},
+			{"itemId": 1223, "points": 4}
+		]
+	},
+	"1966284": {
+		"name": "HR S.Rathalos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5ea6e",
+		"members": [
+			{"itemId": 1224, "points": 4},
+			{"itemId": 1230, "points": 5},
+			{"itemId": 1226, "points": 6},
+			{"itemId": 1236, "points": 7},
+			{"itemId": 1228, "points": 7},
+			{"itemId": 1235, "points": 8}
+		]
+	},
+	"1966285": {
+		"name": "G S.Rathalos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/50733",
+		"members": [
+			{"itemId": 1225, "points": 4},
+			{"itemId": 1231, "points": 5},
+			{"itemId": 1227, "points": 6},
+			{"itemId": 1237, "points": 7},
+			{"itemId": 1229, "points": 7}
+		]
+	},
+	"1966286": {
+		"name": "LR Rath Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/586eb",
+		"members": [
+			{"itemId": 1232, "points": 1},
+			{"itemId": 1202, "points": 2},
+			{"itemId": 1172, "points": 2},
+			{"itemId": 1205, "points": 3},
+			{"itemId": 1175, "points": 3},
+			{"itemId": 1208, "points": 4},
+			{"itemId": 1178, "points": 4},
+			{"itemId": 1211, "points": 5},
+			{"itemId": 1180, "points": 5},
+			{"itemId": 1234, "points": 8},
+			{"itemId": 1213, "points": 9},
+			{"itemId": 1183, "points": 9}
+		]
+	},
+	"1966287": {
+		"name": "HR Rath Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5dd80",
+		"members": [
+			{"itemId": 1218, "points": 2},
+			{"itemId": 1221, "points": 2},
+			{"itemId": 1188, "points": 2},
+			{"itemId": 1191, "points": 2},
+			{"itemId": 1203, "points": 2},
+			{"itemId": 1173, "points": 2},
+			{"itemId": 1216, "points": 3},
+			{"itemId": 1186, "points": 3},
+			{"itemId": 1206, "points": 3},
+			{"itemId": 1176, "points": 3},
+			{"itemId": 1222, "points": 4},
+			{"itemId": 1219, "points": 4},
+			{"itemId": 1192, "points": 4},
+			{"itemId": 1189, "points": 4},
+			{"itemId": 1194, "points": 4},
+			{"itemId": 1209, "points": 4},
+			{"itemId": 1224, "points": 4},
+			{"itemId": 1200, "points": 5},
+			{"itemId": 1230, "points": 5},
+			{"itemId": 1181, "points": 5},
+			{"itemId": 1196, "points": 6},
+			{"itemId": 1226, "points": 6},
+			{"itemId": 1236, "points": 7},
+			{"itemId": 1228, "points": 7},
+			{"itemId": 1198, "points": 8},
+			{"itemId": 1235, "points": 8},
+			{"itemId": 1214, "points": 9},
+			{"itemId": 1184, "points": 9}
+		]
+	},
+	"1966288": {
+		"name": "G Rath Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/57736",
+		"members": [
+			{"itemId": 1233, "points": 1},
+			{"itemId": 1220, "points": 2},
+			{"itemId": 1190, "points": 2},
+			{"itemId": 1204, "points": 2},
+			{"itemId": 1174, "points": 2},
+			{"itemId": 1217, "points": 3},
+			{"itemId": 1187, "points": 3},
+			{"itemId": 1207, "points": 3},
+			{"itemId": 1177, "points": 3},
+			{"itemId": 1223, "points": 4},
+			{"itemId": 1193, "points": 4},
+			{"itemId": 1195, "points": 4},
+			{"itemId": 1210, "points": 4},
+			{"itemId": 1179, "points": 4},
+			{"itemId": 1225, "points": 4},
+			{"itemId": 1201, "points": 5},
+			{"itemId": 1231, "points": 5},
+			{"itemId": 1212, "points": 5},
+			{"itemId": 1182, "points": 5},
+			{"itemId": 1197, "points": 6},
+			{"itemId": 1227, "points": 6},
+			{"itemId": 1237, "points": 7},
+			{"itemId": 1229, "points": 7},
+			{"itemId": 1199, "points": 8},
+			{"itemId": 1215, "points": 9},
+			{"itemId": 1185, "points": 9}
+		]
+	},
+	"1966289": {
+		"name": "HR Rath (Rare) Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5bd69",
+		"members": [
+			{"itemId": 1194, "points": 4},
+			{"itemId": 1224, "points": 4},
+			{"itemId": 1200, "points": 5},
+			{"itemId": 1230, "points": 5},
+			{"itemId": 1196, "points": 6},
+			{"itemId": 1226, "points": 6},
+			{"itemId": 1236, "points": 7},
+			{"itemId": 1228, "points": 7},
+			{"itemId": 1198, "points": 8}
+		]
+	},
+	"1966290": {
+		"name": "G Rath (Rare) Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5abdb",
+		"members": [
+			{"itemId": 1195, "points": 4},
+			{"itemId": 1225, "points": 4},
+			{"itemId": 1201, "points": 5},
+			{"itemId": 1231, "points": 5},
+			{"itemId": 1197, "points": 6},
+			{"itemId": 1227, "points": 6},
+			{"itemId": 1237, "points": 7},
+			{"itemId": 1229, "points": 7},
+			{"itemId": 1199, "points": 8}
+		]
+	},
+	"1966295": {
+		"name": "LR Zinogre Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#5CCCFF",
+		"kiranicoPath": "/item/category/5ea3e",
+		"members": [
+			{"itemId": 2388, "points": 1},
+			{"itemId": 394, "points": 2},
+			{"itemId": 1238, "points": 2},
+			{"itemId": 1247, "points": 3},
+			{"itemId": 1241, "points": 3},
+			{"itemId": 1244, "points": 4},
+			{"itemId": 1252, "points": 4},
+			{"itemId": 1250, "points": 5},
+			{"itemId": 1255, "points": 8}
+		]
+	},
+	"1966296": {
+		"name": "HR Zinogre Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#5CCCFF",
+		"kiranicoPath": "/item/category/507a3",
+		"members": [
+			{"itemId": 2391, "points": 1},
+			{"itemId": 2394, "points": 1},
+			{"itemId": 2393, "points": 1},
+			{"itemId": 2389, "points": 1},
+			{"itemId": 1260, "points": 2},
+			{"itemId": 1263, "points": 2},
+			{"itemId": 1239, "points": 2},
+			{"itemId": 1258, "points": 3},
+			{"itemId": 1266, "points": 3},
+			{"itemId": 1248, "points": 3},
+			{"itemId": 1242, "points": 3},
+			{"itemId": 1261, "points": 4},
+			{"itemId": 1264, "points": 4},
+			{"itemId": 1245, "points": 4},
+			{"itemId": 1253, "points": 4},
+			{"itemId": 1267, "points": 5},
+			{"itemId": 1256, "points": 8}
+		]
+	},
+	"1966297": {
+		"name": "G Zinogre Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#5CCCFF",
+		"kiranicoPath": "/item/category/586bb",
+		"members": [
+			{"itemId": 2395, "points": 1},
+			{"itemId": 2390, "points": 1},
+			{"itemId": 2392, "points": 1},
+			{"itemId": 2396, "points": 1},
+			{"itemId": 1262, "points": 2},
+			{"itemId": 1240, "points": 2},
+			{"itemId": 1259, "points": 3},
+			{"itemId": 1243, "points": 3},
+			{"itemId": 1249, "points": 3},
+			{"itemId": 1265, "points": 4},
+			{"itemId": 1254, "points": 4},
+			{"itemId": 1246, "points": 4},
+			{"itemId": 1268, "points": 5},
+			{"itemId": 1251, "points": 5},
+			{"itemId": 1257, "points": 8}
+		]
+	},
+	"1966299": {
+		"name": "HR Thunderlord Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/577b6",
+		"members": [
+			{"itemId": 2394, "points": 1},
+			{"itemId": 1978, "points": 1},
+			{"itemId": 1979, "points": 1},
+			{"itemId": 1980, "points": 1},
+			{"itemId": 1981, "points": 1},
+			{"itemId": 1986, "points": 1},
+			{"itemId": 1982, "points": 1},
+			{"itemId": 1983, "points": 1},
+			{"itemId": 1984, "points": 1},
+			{"itemId": 1985, "points": 1},
+			{"itemId": 1987, "points": 1},
+			{"itemId": 2393, "points": 1},
+			{"itemId": 1260, "points": 2},
+			{"itemId": 1263, "points": 2},
+			{"itemId": 1266, "points": 3},
+			{"itemId": 1261, "points": 4},
+			{"itemId": 1264, "points": 4},
+			{"itemId": 1267, "points": 5}
+		]
+	},
+	"1966300": {
+		"name": "G Thunderlord Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/5bd39",
+		"members": [
+			{"itemId": 2395, "points": 1},
+			{"itemId": 2396, "points": 1},
+			{"itemId": 1988, "points": 1},
+			{"itemId": 1989, "points": 1},
+			{"itemId": 1990, "points": 1},
+			{"itemId": 1991, "points": 1},
+			{"itemId": 1992, "points": 1},
+			{"itemId": 1262, "points": 2},
+			{"itemId": 1265, "points": 4},
+			{"itemId": 1268, "points": 5}
+		]
+	},
+	"1966301": {
+		"name": "LR Astalos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/5ab9b",
+		"members": [
+			{"itemId": 2397, "points": 1},
+			{"itemId": 1269, "points": 2},
+			{"itemId": 1272, "points": 3},
+			{"itemId": 1286, "points": 3},
+			{"itemId": 1275, "points": 4},
+			{"itemId": 1278, "points": 4},
+			{"itemId": 1281, "points": 5},
+			{"itemId": 1284, "points": 5},
+			{"itemId": 1289, "points": 8}
+		]
+	},
+	"1966302": {
+		"name": "HR Astalos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/56ae8",
+		"members": [
+			{"itemId": 2398, "points": 1},
+			{"itemId": 2400, "points": 1},
+			{"itemId": 1270, "points": 2},
+			{"itemId": 1273, "points": 3},
+			{"itemId": 1287, "points": 3},
+			{"itemId": 1292, "points": 3},
+			{"itemId": 1276, "points": 4},
+			{"itemId": 1279, "points": 4},
+			{"itemId": 1282, "points": 5},
+			{"itemId": 1290, "points": 8}
+		]
+	},
+	"1966303": {
+		"name": "G Astalos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/5489d",
+		"members": [
+			{"itemId": 2402, "points": 1},
+			{"itemId": 2399, "points": 1},
+			{"itemId": 2401, "points": 1},
+			{"itemId": 2403, "points": 1},
+			{"itemId": 1271, "points": 2},
+			{"itemId": 1294, "points": 2},
+			{"itemId": 1288, "points": 3},
+			{"itemId": 1274, "points": 3},
+			{"itemId": 1293, "points": 3},
+			{"itemId": 1277, "points": 4},
+			{"itemId": 1280, "points": 4},
+			{"itemId": 1295, "points": 4},
+			{"itemId": 1285, "points": 5},
+			{"itemId": 1296, "points": 5},
+			{"itemId": 1283, "points": 5},
+			{"itemId": 1291, "points": 8}
+		]
+	},
+	"1966306": {
+		"name": "G Boltreaver Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#5CCCFF",
+		"kiranicoPath": "/item/category/5ea8e",
+		"members": [
+			{"itemId": 2038, "points": 1},
+			{"itemId": 2039, "points": 1},
+			{"itemId": 2040, "points": 1},
+			{"itemId": 2041, "points": 1},
+			{"itemId": 2042, "points": 1},
+			{"itemId": 2402, "points": 1},
+			{"itemId": 2403, "points": 1},
+			{"itemId": 1294, "points": 2},
+			{"itemId": 1295, "points": 4},
+			{"itemId": 1296, "points": 5}
+		]
+	},
+	"1966307": {
+		"name": "LR Gammoth Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/507d3",
+		"members": [
+			{"itemId": 2404, "points": 1},
+			{"itemId": 1297, "points": 2},
+			{"itemId": 1300, "points": 3},
+			{"itemId": 1309, "points": 3},
+			{"itemId": 1308, "points": 4},
+			{"itemId": 1303, "points": 5},
+			{"itemId": 1306, "points": 6},
+			{"itemId": 1312, "points": 8}
+		]
+	},
+	"1966308": {
+		"name": "HR Gammoth Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/5868b",
+		"members": [
+			{"itemId": 2405, "points": 1},
+			{"itemId": 2407, "points": 1},
+			{"itemId": 1298, "points": 2},
+			{"itemId": 1301, "points": 3},
+			{"itemId": 1315, "points": 3},
+			{"itemId": 1310, "points": 3},
+			{"itemId": 1304, "points": 5},
+			{"itemId": 1313, "points": 8}
+		]
+	},
+	"1966309": {
+		"name": "G Gammoth Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/5dd00",
+		"members": [
+			{"itemId": 2409, "points": 1},
+			{"itemId": 2406, "points": 1},
+			{"itemId": 2408, "points": 1},
+			{"itemId": 2410, "points": 1},
+			{"itemId": 1317, "points": 2},
+			{"itemId": 1299, "points": 2},
+			{"itemId": 1302, "points": 3},
+			{"itemId": 1311, "points": 3},
+			{"itemId": 1316, "points": 3},
+			{"itemId": 1318, "points": 4},
+			{"itemId": 1319, "points": 5},
+			{"itemId": 1305, "points": 5},
+			{"itemId": 1307, "points": 6},
+			{"itemId": 1314, "points": 8}
+		]
+	},
+	"1966312": {
+		"name": "G Elderfrost Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5abeb",
+		"members": [
+			{"itemId": 2043, "points": 1},
+			{"itemId": 2044, "points": 1},
+			{"itemId": 2045, "points": 1},
+			{"itemId": 2046, "points": 1},
+			{"itemId": 2047, "points": 1},
+			{"itemId": 2409, "points": 1},
+			{"itemId": 2410, "points": 1},
+			{"itemId": 1317, "points": 2},
+			{"itemId": 1318, "points": 4},
+			{"itemId": 1319, "points": 5}
+		]
+	},
+	"1966313": {
+		"name": "LR Mizutsune Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#803A8E",
+		"kiranicoPath": "/item/category/56a78",
+		"members": [
+			{"itemId": 2411, "points": 1},
+			{"itemId": 1320, "points": 2},
+			{"itemId": 1323, "points": 3},
+			{"itemId": 1334, "points": 4},
+			{"itemId": 1329, "points": 4},
+			{"itemId": 1326, "points": 5},
+			{"itemId": 1332, "points": 6},
+			{"itemId": 1337, "points": 8}
+		]
+	},
+	"1966314": {
+		"name": "HR Mizutsune Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#803A8E",
+		"kiranicoPath": "/item/category/548ed",
+		"members": [
+			{"itemId": 2414, "points": 1},
+			{"itemId": 2412, "points": 1},
+			{"itemId": 1321, "points": 2},
+			{"itemId": 1340, "points": 3},
+			{"itemId": 1324, "points": 3},
+			{"itemId": 1335, "points": 4},
+			{"itemId": 1330, "points": 4},
+			{"itemId": 1327, "points": 5},
+			{"itemId": 1338, "points": 8}
+		]
+	},
+	"1966315": {
+		"name": "G Mizutsune Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#803A8E",
+		"kiranicoPath": "/item/category/597e3",
+		"members": [
+			{"itemId": 2416, "points": 1},
+			{"itemId": 2413, "points": 1},
+			{"itemId": 2415, "points": 1},
+			{"itemId": 2417, "points": 1},
+			{"itemId": 1322, "points": 2},
+			{"itemId": 1342, "points": 2},
+			{"itemId": 1341, "points": 3},
+			{"itemId": 1325, "points": 3},
+			{"itemId": 1336, "points": 4},
+			{"itemId": 1331, "points": 4},
+			{"itemId": 1343, "points": 4},
+			{"itemId": 1328, "points": 5},
+			{"itemId": 1344, "points": 5},
+			{"itemId": 1333, "points": 6},
+			{"itemId": 1339, "points": 8}
+		]
+	},
+	"1966318": {
+		"name": "G Soulseer Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/50783",
+		"members": [
+			{"itemId": 2416, "points": 1},
+			{"itemId": 2417, "points": 1},
+			{"itemId": 2033, "points": 1},
+			{"itemId": 2034, "points": 1},
+			{"itemId": 2035, "points": 1},
+			{"itemId": 2036, "points": 1},
+			{"itemId": 2037, "points": 1},
+			{"itemId": 1342, "points": 2},
+			{"itemId": 1343, "points": 4},
+			{"itemId": 1344, "points": 5}
+		]
+	},
+	"1966319": {
+		"name": "LR Glavenus Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/5869b",
+		"members": [
+			{"itemId": 2418, "points": 1},
+			{"itemId": 1345, "points": 2},
+			{"itemId": 1354, "points": 3},
+			{"itemId": 1348, "points": 3},
+			{"itemId": 1359, "points": 3},
+			{"itemId": 1351, "points": 4},
+			{"itemId": 1360, "points": 5},
+			{"itemId": 1357, "points": 6},
+			{"itemId": 1363, "points": 8}
+		]
+	},
+	"1966320": {
+		"name": "HR Glavenus Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/5dd60",
+		"members": [
+			{"itemId": 2419, "points": 1},
+			{"itemId": 2423, "points": 1},
+			{"itemId": 2421, "points": 1},
+			{"itemId": 2424, "points": 1},
+			{"itemId": 1346, "points": 2},
+			{"itemId": 1368, "points": 2},
+			{"itemId": 1371, "points": 2},
+			{"itemId": 1349, "points": 3},
+			{"itemId": 1355, "points": 3},
+			{"itemId": 1366, "points": 3},
+			{"itemId": 1352, "points": 4},
+			{"itemId": 1372, "points": 4},
+			{"itemId": 1369, "points": 4},
+			{"itemId": 1374, "points": 5},
+			{"itemId": 1361, "points": 5},
+			{"itemId": 1364, "points": 8}
+		]
+	},
+	"1966321": {
+		"name": "G Glavenus Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/57766",
+		"members": [
+			{"itemId": 2425, "points": 1},
+			{"itemId": 2420, "points": 1},
+			{"itemId": 2422, "points": 1},
+			{"itemId": 2426, "points": 1},
+			{"itemId": 1347, "points": 2},
+			{"itemId": 1370, "points": 2},
+			{"itemId": 1350, "points": 3},
+			{"itemId": 1356, "points": 3},
+			{"itemId": 1367, "points": 3},
+			{"itemId": 1353, "points": 4},
+			{"itemId": 1373, "points": 4},
+			{"itemId": 1362, "points": 5},
+			{"itemId": 1358, "points": 6},
+			{"itemId": 1365, "points": 8}
+		]
+	},
+	"1966323": {
+		"name": "HR Hellblade Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#AA3C3C",
+		"kiranicoPath": "/item/category/5a04b",
+		"members": [
+			{"itemId": 2008, "points": 1},
+			{"itemId": 2009, "points": 1},
+			{"itemId": 2010, "points": 1},
+			{"itemId": 2011, "points": 1},
+			{"itemId": 2016, "points": 1},
+			{"itemId": 2012, "points": 1},
+			{"itemId": 2013, "points": 1},
+			{"itemId": 2014, "points": 1},
+			{"itemId": 2015, "points": 1},
+			{"itemId": 2017, "points": 1},
+			{"itemId": 2423, "points": 1},
+			{"itemId": 2424, "points": 1},
+			{"itemId": 1368, "points": 2},
+			{"itemId": 1371, "points": 2},
+			{"itemId": 1372, "points": 4},
+			{"itemId": 1369, "points": 4},
+			{"itemId": 1374, "points": 5}
+		]
+	},
+	"1966324": {
+		"name": "G Hellblade Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#AA3C3C",
+		"kiranicoPath": "/item/category/56838",
+		"members": [
+			{"itemId": 2425, "points": 1},
+			{"itemId": 2018, "points": 1},
+			{"itemId": 2019, "points": 1},
+			{"itemId": 2020, "points": 1},
+			{"itemId": 2021, "points": 1},
+			{"itemId": 2022, "points": 1},
+			{"itemId": 2426, "points": 1},
+			{"itemId": 1370, "points": 2},
+			{"itemId": 1373, "points": 4}
+		]
+	},
+	"1966325": {
+		"name": "LR Tigrex Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/5440d",
+		"members": [
+			{"itemId": 2427, "points": 1},
+			{"itemId": 1383, "points": 2},
+			{"itemId": 1375, "points": 2},
+			{"itemId": 1386, "points": 3},
+			{"itemId": 1378, "points": 3},
+			{"itemId": 1381, "points": 5},
+			{"itemId": 1389, "points": 6}
+		]
+	},
+	"1966326": {
+		"name": "HR Tigrex Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/59643",
+		"members": [
+			{"itemId": 2432, "points": 1},
+			{"itemId": 2430, "points": 1},
+			{"itemId": 2433, "points": 1},
+			{"itemId": 2428, "points": 1},
+			{"itemId": 1394, "points": 2},
+			{"itemId": 1397, "points": 2},
+			{"itemId": 1384, "points": 2},
+			{"itemId": 1376, "points": 2},
+			{"itemId": 1400, "points": 3},
+			{"itemId": 1392, "points": 3},
+			{"itemId": 1379, "points": 3},
+			{"itemId": 1387, "points": 3},
+			{"itemId": 1398, "points": 4},
+			{"itemId": 1395, "points": 4},
+			{"itemId": 1401, "points": 5},
+			{"itemId": 1390, "points": 6}
+		]
+	},
+	"1966327": {
+		"name": "G Tigrex Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/536e3",
+		"members": [
+			{"itemId": 2434, "points": 1},
+			{"itemId": 2429, "points": 1},
+			{"itemId": 2431, "points": 1},
+			{"itemId": 2435, "points": 1},
+			{"itemId": 1396, "points": 2},
+			{"itemId": 1385, "points": 2},
+			{"itemId": 1377, "points": 2},
+			{"itemId": 1393, "points": 3},
+			{"itemId": 1380, "points": 3},
+			{"itemId": 1388, "points": 3},
+			{"itemId": 1399, "points": 4},
+			{"itemId": 1402, "points": 5},
+			{"itemId": 1382, "points": 5},
+			{"itemId": 1391, "points": 8}
+		]
+	},
+	"1966329": {
+		"name": "HR Grimclaw Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/504b3",
+		"members": [
+			{"itemId": 1993, "points": 1},
+			{"itemId": 1994, "points": 1},
+			{"itemId": 1995, "points": 1},
+			{"itemId": 1996, "points": 1},
+			{"itemId": 2001, "points": 1},
+			{"itemId": 1997, "points": 1},
+			{"itemId": 1998, "points": 1},
+			{"itemId": 1999, "points": 1},
+			{"itemId": 2000, "points": 1},
+			{"itemId": 2002, "points": 1},
+			{"itemId": 2432, "points": 1},
+			{"itemId": 2433, "points": 1},
+			{"itemId": 1394, "points": 2},
+			{"itemId": 1397, "points": 2},
+			{"itemId": 1400, "points": 3},
+			{"itemId": 1398, "points": 4},
+			{"itemId": 1395, "points": 4},
+			{"itemId": 1401, "points": 5}
+		]
+	},
+	"1966330": {
+		"name": "G Grimclaw Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/580db",
+		"members": [
+			{"itemId": 2434, "points": 1},
+			{"itemId": 2003, "points": 1},
+			{"itemId": 2004, "points": 1},
+			{"itemId": 2005, "points": 1},
+			{"itemId": 2006, "points": 1},
+			{"itemId": 2007, "points": 1},
+			{"itemId": 2435, "points": 1},
+			{"itemId": 1396, "points": 2},
+			{"itemId": 1399, "points": 4},
+			{"itemId": 1402, "points": 5}
+		]
+	},
+	"1966331": {
+		"name": "LR Seregios Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/5d4e0",
+		"members": [
+			{"itemId": 2436, "points": 1},
+			{"itemId": 1403, "points": 2},
+			{"itemId": 1406, "points": 3},
+			{"itemId": 1409, "points": 4},
+			{"itemId": 1417, "points": 4},
+			{"itemId": 1412, "points": 5},
+			{"itemId": 1414, "points": 5}
+		]
+	},
+	"1966332": {
+		"name": "HR Seregios Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/57de6",
+		"members": [
+			{"itemId": 2439, "points": 1},
+			{"itemId": 2437, "points": 1},
+			{"itemId": 1404, "points": 2},
+			{"itemId": 1422, "points": 3},
+			{"itemId": 1407, "points": 3},
+			{"itemId": 1410, "points": 4},
+			{"itemId": 1418, "points": 4},
+			{"itemId": 1415, "points": 5},
+			{"itemId": 1420, "points": 8}
+		]
+	},
+	"1966333": {
+		"name": "G Seregios Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/5bbd9",
+		"members": [
+			{"itemId": 2438, "points": 1},
+			{"itemId": 2440, "points": 1},
+			{"itemId": 1405, "points": 2},
+			{"itemId": 1423, "points": 3},
+			{"itemId": 1408, "points": 3},
+			{"itemId": 1411, "points": 4},
+			{"itemId": 1419, "points": 4},
+			{"itemId": 1416, "points": 5},
+			{"itemId": 1413, "points": 5},
+			{"itemId": 1421, "points": 8}
+		]
+	},
+	"1966334": {
+		"name": "LR Gore Magala Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5a0bb",
+		"members": [
+			{"itemId": 2446, "points": 1},
+			{"itemId": 1439, "points": 2},
+			{"itemId": 1442, "points": 3},
+			{"itemId": 1462, "points": 4},
+			{"itemId": 1449, "points": 4},
+			{"itemId": 1445, "points": 4},
+			{"itemId": 1452, "points": 5},
+			{"itemId": 1458, "points": 6},
+			{"itemId": 1454, "points": 9}
+		]
+	},
+	"1966335": {
+		"name": "HR Gore Magala Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/568a8",
+		"members": [
+			{"itemId": 2447, "points": 1},
+			{"itemId": 2449, "points": 1},
+			{"itemId": 1440, "points": 2},
+			{"itemId": 1443, "points": 3},
+			{"itemId": 1464, "points": 3},
+			{"itemId": 1450, "points": 4},
+			{"itemId": 1446, "points": 4},
+			{"itemId": 1459, "points": 6},
+			{"itemId": 1456, "points": 9}
+		]
+	},
+	"1966336": {
+		"name": "G Gore Magala Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5448d",
+		"members": [
+			{"itemId": 2451, "points": 1},
+			{"itemId": 2448, "points": 1},
+			{"itemId": 2450, "points": 1},
+			{"itemId": 1441, "points": 2},
+			{"itemId": 1444, "points": 3},
+			{"itemId": 1465, "points": 3},
+			{"itemId": 1447, "points": 4},
+			{"itemId": 1451, "points": 4},
+			{"itemId": 1448, "points": 5},
+			{"itemId": 1463, "points": 5},
+			{"itemId": 1453, "points": 5},
+			{"itemId": 1460, "points": 6},
+			{"itemId": 1461, "points": 7},
+			{"itemId": 1455, "points": 9},
+			{"itemId": 1457, "points": 9}
+		]
+	},
+	"1966337": {
+		"name": "LR S. Magala Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/59673",
+		"members": [
+			{"itemId": 2452, "points": 1},
+			{"itemId": 1466, "points": 2},
+			{"itemId": 1469, "points": 3},
+			{"itemId": 1486, "points": 4},
+			{"itemId": 1475, "points": 4},
+			{"itemId": 1472, "points": 4},
+			{"itemId": 1478, "points": 5},
+			{"itemId": 1483, "points": 6},
+			{"itemId": 1480, "points": 9}
+		]
+	},
+	"1966338": {
+		"name": "HR S. Magala Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/53603",
+		"members": [
+			{"itemId": 2453, "points": 1},
+			{"itemId": 1467, "points": 2},
+			{"itemId": 1470, "points": 3},
+			{"itemId": 1476, "points": 4},
+			{"itemId": 1473, "points": 4},
+			{"itemId": 1484, "points": 6},
+			{"itemId": 1481, "points": 9}
+		]
+	},
+	"1966339": {
+		"name": "G S. Magala Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5edae",
+		"members": [
+			{"itemId": 2451, "points": 1},
+			{"itemId": 2454, "points": 1},
+			{"itemId": 1468, "points": 2},
+			{"itemId": 1471, "points": 3},
+			{"itemId": 1474, "points": 4},
+			{"itemId": 1477, "points": 4},
+			{"itemId": 1448, "points": 5},
+			{"itemId": 1463, "points": 5},
+			{"itemId": 1479, "points": 5},
+			{"itemId": 1485, "points": 6},
+			{"itemId": 1461, "points": 7},
+			{"itemId": 1455, "points": 9},
+			{"itemId": 1482, "points": 9}
+		]
+	},
+	"1966341": {
+		"name": "HR Rajang Materials",
+		"iconKey": "fang.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/5806b",
+		"members": [
+			{"itemId": 2457, "points": 1},
+			{"itemId": 2455, "points": 1},
+			{"itemId": 1491, "points": 2},
+			{"itemId": 1504, "points": 3},
+			{"itemId": 1493, "points": 3},
+			{"itemId": 1489, "points": 4},
+			{"itemId": 1498, "points": 4},
+			{"itemId": 1495, "points": 4},
+			{"itemId": 1496, "points": 5},
+			{"itemId": 1487, "points": 5},
+			{"itemId": 1502, "points": 6},
+			{"itemId": 1500, "points": 8}
+		]
+	},
+	"1966342": {
+		"name": "G Rajang Materials",
+		"iconKey": "fang.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/5d4d0",
+		"members": [
+			{"itemId": 2456, "points": 1},
+			{"itemId": 2458, "points": 1},
+			{"itemId": 1492, "points": 2},
+			{"itemId": 1505, "points": 3},
+			{"itemId": 1494, "points": 3},
+			{"itemId": 1499, "points": 4},
+			{"itemId": 1490, "points": 4},
+			{"itemId": 1497, "points": 5},
+			{"itemId": 1488, "points": 5},
+			{"itemId": 1503, "points": 6},
+			{"itemId": 1501, "points": 8}
+		]
+	},
+	"1966344": {
+		"name": "HR Deviljho Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/5bbb9",
+		"members": [
+			{"itemId": 2459, "points": 1},
+			{"itemId": 2461, "points": 1},
+			{"itemId": 1506, "points": 2},
+			{"itemId": 1509, "points": 3},
+			{"itemId": 1520, "points": 3},
+			{"itemId": 1524, "points": 3},
+			{"itemId": 1521, "points": 4},
+			{"itemId": 1512, "points": 4},
+			{"itemId": 1515, "points": 4},
+			{"itemId": 1517, "points": 5},
+			{"itemId": 1518, "points": 5},
+			{"itemId": 1522, "points": 5},
+			{"itemId": 1523, "points": 9}
+		]
+	},
+	"1966345": {
+		"name": "G Deviljho Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#639929",
+		"kiranicoPath": "/item/category/5a00b",
+		"members": [
+			{"itemId": 2460, "points": 1},
+			{"itemId": 2462, "points": 1},
+			{"itemId": 1507, "points": 2},
+			{"itemId": 1510, "points": 3},
+			{"itemId": 1525, "points": 3},
+			{"itemId": 1513, "points": 4},
+			{"itemId": 1516, "points": 4},
+			{"itemId": 1511, "points": 5},
+			{"itemId": 1519, "points": 5},
+			{"itemId": 1514, "points": 5},
+			{"itemId": 1508, "points": 9}
+		]
+	},
+	"1966346": {
+		"name": "LR Kirin Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/56888",
+		"members": [
+			{"itemId": 2463, "points": 1},
+			{"itemId": 1527, "points": 2},
+			{"itemId": 1530, "points": 3},
+			{"itemId": 1526, "points": 4}
+		]
+	},
+	"1966347": {
+		"name": "HR Kirin Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5444d",
+		"members": [
+			{"itemId": 2464, "points": 1},
+			{"itemId": 1528, "points": 2},
+			{"itemId": 1534, "points": 4},
+			{"itemId": 1532, "points": 4}
+		]
+	},
+	"1966348": {
+		"name": "G Kirin Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/59663",
+		"members": [
+			{"itemId": 2465, "points": 1},
+			{"itemId": 1529, "points": 2},
+			{"itemId": 1531, "points": 3},
+			{"itemId": 1535, "points": 4},
+			{"itemId": 1533, "points": 4}
+		]
+	},
+	"1966349": {
+		"name": "LR Kushala Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/53663",
+		"members": [
+			{"itemId": 2466, "points": 1},
+			{"itemId": 1539, "points": 2},
+			{"itemId": 1536, "points": 3},
+			{"itemId": 1549, "points": 4},
+			{"itemId": 1542, "points": 4},
+			{"itemId": 1544, "points": 5},
+			{"itemId": 1547, "points": 5}
+		]
+	},
+	"1966350": {
+		"name": "HR Kushala Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5edde",
+		"members": [
+			{"itemId": 2467, "points": 1},
+			{"itemId": 1540, "points": 2},
+			{"itemId": 1537, "points": 3},
+			{"itemId": 1550, "points": 4},
+			{"itemId": 1546, "points": 5},
+			{"itemId": 1552, "points": 9}
+		]
+	},
+	"1966351": {
+		"name": "G Kushala Materials",
+		"iconKey": "scale.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/50443",
+		"members": [
+			{"itemId": 2468, "points": 1},
+			{"itemId": 1541, "points": 2},
+			{"itemId": 1538, "points": 3},
+			{"itemId": 1543, "points": 4},
+			{"itemId": 1551, "points": 4},
+			{"itemId": 1545, "points": 5},
+			{"itemId": 1548, "points": 5},
+			{"itemId": 1553, "points": 9}
+		]
+	},
+	"1966352": {
+		"name": "LR Chameleos Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/5800b",
+		"members": [
+			{"itemId": 2469, "points": 1},
+			{"itemId": 1554, "points": 2},
+			{"itemId": 1560, "points": 3},
+			{"itemId": 1563, "points": 3},
+			{"itemId": 1565, "points": 4},
+			{"itemId": 1557, "points": 5}
+		]
+	},
+	"1966353": {
+		"name": "HR Chameleos Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/5d440",
+		"members": [
+			{"itemId": 2470, "points": 1},
+			{"itemId": 1555, "points": 2},
+			{"itemId": 1561, "points": 3},
+			{"itemId": 1558, "points": 5},
+			{"itemId": 1567, "points": 9}
+		]
+	},
+	"1966354": {
+		"name": "G Chameleos Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/57dd6",
+		"members": [
+			{"itemId": 2471, "points": 1},
+			{"itemId": 1556, "points": 2},
+			{"itemId": 1564, "points": 3},
+			{"itemId": 1562, "points": 3},
+			{"itemId": 1566, "points": 4},
+			{"itemId": 1559, "points": 5},
+			{"itemId": 1553, "points": 9}
+		]
+	},
+	"1966355": {
+		"name": "LR Teostra Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5bba9",
+		"members": [
+			{"itemId": 2472, "points": 1},
+			{"itemId": 1568, "points": 2},
+			{"itemId": 1577, "points": 3},
+			{"itemId": 1571, "points": 4},
+			{"itemId": 1583, "points": 4},
+			{"itemId": 1580, "points": 5},
+			{"itemId": 1572, "points": 5},
+			{"itemId": 1574, "points": 6}
+		]
+	},
+	"1966356": {
+		"name": "HR Teostra Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5a08b",
+		"members": [
+			{"itemId": 2473, "points": 1},
+			{"itemId": 1569, "points": 2},
+			{"itemId": 1578, "points": 3},
+			{"itemId": 1584, "points": 4},
+			{"itemId": 1581, "points": 5},
+			{"itemId": 1575, "points": 6},
+			{"itemId": 1585, "points": 9}
+		]
+	},
+	"1966357": {
+		"name": "G Teostra Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/568d8",
+		"members": [
+			{"itemId": 2474, "points": 1},
+			{"itemId": 1570, "points": 2},
+			{"itemId": 1579, "points": 3},
+			{"itemId": 1582, "points": 5},
+			{"itemId": 1573, "points": 5},
+			{"itemId": 1576, "points": 6},
+			{"itemId": 1553, "points": 9}
+		]
+	},
+	"1966359": {
+		"name": "HR Akantor Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/59683",
+		"members": [
+			{"itemId": 2475, "points": 1},
+			{"itemId": 1588, "points": 2},
+			{"itemId": 1590, "points": 3},
+			{"itemId": 1586, "points": 3},
+			{"itemId": 1594, "points": 4},
+			{"itemId": 1598, "points": 5},
+			{"itemId": 1592, "points": 5},
+			{"itemId": 1596, "points": 5},
+			{"itemId": 1600, "points": 9}
+		]
+	},
+	"1966360": {
+		"name": "G Akantor Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/536d3",
+		"members": [
+			{"itemId": 2476, "points": 1},
+			{"itemId": 1589, "points": 2},
+			{"itemId": 1591, "points": 3},
+			{"itemId": 1587, "points": 3},
+			{"itemId": 1595, "points": 4},
+			{"itemId": 1593, "points": 5},
+			{"itemId": 1597, "points": 5},
+			{"itemId": 1599, "points": 5},
+			{"itemId": 1601, "points": 9}
+		]
+	},
+	"1966362": {
+		"name": "HR Ukanlos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/504e3",
+		"members": [
+			{"itemId": 2477, "points": 1},
+			{"itemId": 1602, "points": 2},
+			{"itemId": 1604, "points": 3},
+			{"itemId": 1586, "points": 3},
+			{"itemId": 1608, "points": 4},
+			{"itemId": 1612, "points": 5},
+			{"itemId": 1610, "points": 5},
+			{"itemId": 1606, "points": 5},
+			{"itemId": 1614, "points": 9}
+		]
+	},
+	"1966363": {
+		"name": "G Ukanlos Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5807b",
+		"members": [
+			{"itemId": 2478, "points": 1},
+			{"itemId": 1603, "points": 2},
+			{"itemId": 1587, "points": 3},
+			{"itemId": 1605, "points": 3},
+			{"itemId": 1609, "points": 4},
+			{"itemId": 1607, "points": 5},
+			{"itemId": 1611, "points": 5},
+			{"itemId": 1613, "points": 5},
+			{"itemId": 1615, "points": 9}
+		]
+	},
+	"1966365": {
+		"name": "HR Alatreon Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/57d86",
+		"members": [
+			{"itemId": 2479, "points": 1},
+			{"itemId": 1616, "points": 2},
+			{"itemId": 1618, "points": 3},
+			{"itemId": 1620, "points": 3},
+			{"itemId": 1626, "points": 4},
+			{"itemId": 1624, "points": 5},
+			{"itemId": 1622, "points": 5},
+			{"itemId": 1627, "points": 7},
+			{"itemId": 1629, "points": 9}
+		]
+	},
+	"1966366": {
+		"name": "G Alatreon Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/5bb09",
+		"members": [
+			{"itemId": 2480, "points": 1},
+			{"itemId": 1617, "points": 2},
+			{"itemId": 1619, "points": 3},
+			{"itemId": 1621, "points": 3},
+			{"itemId": 1625, "points": 5},
+			{"itemId": 1623, "points": 5},
+			{"itemId": 1628, "points": 7},
+			{"itemId": 1630, "points": 9}
+		]
+	},
+	"1966368": {
+		"name": "HR Amatsu Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/56868",
+		"members": [
+			{"itemId": 2481, "points": 1},
+			{"itemId": 1631, "points": 2},
+			{"itemId": 1633, "points": 3},
+			{"itemId": 1637, "points": 4},
+			{"itemId": 1641, "points": 4},
+			{"itemId": 1639, "points": 5},
+			{"itemId": 1643, "points": 5},
+			{"itemId": 1635, "points": 6},
+			{"itemId": 1645, "points": 9}
+		]
+	},
+	"1966369": {
+		"name": "G Amatsu Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5447d",
+		"members": [
+			{"itemId": 2482, "points": 1},
+			{"itemId": 1632, "points": 2},
+			{"itemId": 1634, "points": 3},
+			{"itemId": 1638, "points": 4},
+			{"itemId": 1642, "points": 4},
+			{"itemId": 1640, "points": 5},
+			{"itemId": 1644, "points": 5},
+			{"itemId": 1636, "points": 6},
+			{"itemId": 1646, "points": 9}
+		]
+	},
+	"1966370": {
+		"name": "LR Nakarkos Materials",
+		"iconKey": "bone.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/59633",
+		"members": [
+			{"itemId": 2487, "points": 1},
+			{"itemId": 1668, "points": 2},
+			{"itemId": 1671, "points": 3},
+			{"itemId": 1687, "points": 3},
+			{"itemId": 1674, "points": 4},
+			{"itemId": 1676, "points": 4}
+		]
+	},
+	"1966371": {
+		"name": "HR Nakarkos Materials",
+		"iconKey": "bone.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/53673",
+		"members": [
+			{"itemId": 2488, "points": 1},
+			{"itemId": 2490, "points": 1},
+			{"itemId": 1669, "points": 2},
+			{"itemId": 1678, "points": 3},
+			{"itemId": 1672, "points": 3},
+			{"itemId": 1688, "points": 3},
+			{"itemId": 1680, "points": 4},
+			{"itemId": 1682, "points": 4},
+			{"itemId": 1683, "points": 5},
+			{"itemId": 1685, "points": 9}
+		]
+	},
+	"1966372": {
+		"name": "G Nakarkos Materials",
+		"iconKey": "bone.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5ed0e",
+		"members": [
+			{"itemId": 2489, "points": 1},
+			{"itemId": 2491, "points": 1},
+			{"itemId": 1670, "points": 2},
+			{"itemId": 1679, "points": 3},
+			{"itemId": 1673, "points": 3},
+			{"itemId": 1689, "points": 3},
+			{"itemId": 1675, "points": 4},
+			{"itemId": 1677, "points": 4},
+			{"itemId": 1681, "points": 4},
+			{"itemId": 1684, "points": 5},
+			{"itemId": 1686, "points": 9}
+		]
+	},
+	"1966374": {
+		"name": "HR Basarios Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/580ab",
+		"members": [
+			{"itemId": 2364, "points": 1},
+			{"itemId": 1156, "points": 2},
+			{"itemId": 1157, "points": 3},
+			{"itemId": 1158, "points": 6}
+		]
+	},
+	"1966375": {
+		"name": "G Basarios Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5d4b0",
+		"members": [
+			{"itemId": 2365, "points": 1},
+			{"itemId": 2366, "points": 1},
+			{"itemId": 1159, "points": 2},
+			{"itemId": 1160, "points": 3},
+			{"itemId": 1162, "points": 3},
+			{"itemId": 1161, "points": 7}
+		]
+	},
+	"1966377": {
+		"name": "HR Gravios Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5bb79",
+		"members": [
+			{"itemId": 2367, "points": 1},
+			{"itemId": 1163, "points": 2},
+			{"itemId": 1167, "points": 3},
+			{"itemId": 1165, "points": 5},
+			{"itemId": 1169, "points": 8}
+		]
+	},
+	"1966378": {
+		"name": "G Gravios Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5a0ab",
+		"members": [
+			{"itemId": 2368, "points": 1},
+			{"itemId": 2369, "points": 1},
+			{"itemId": 1164, "points": 2},
+			{"itemId": 1168, "points": 3},
+			{"itemId": 1171, "points": 3},
+			{"itemId": 1166, "points": 5},
+			{"itemId": 1170, "points": 8}
+		]
+	},
+	"1966380": {
+		"name": "HR Diablos Materials",
+		"iconKey": "fang.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/5684d",
+		"members": [
+			{"itemId": 2441, "points": 1},
+			{"itemId": 1424, "points": 2},
+			{"itemId": 1426, "points": 3},
+			{"itemId": 1431, "points": 4},
+			{"itemId": 1428, "points": 4},
+			{"itemId": 1432, "points": 5},
+			{"itemId": 1429, "points": 6},
+			{"itemId": 1434, "points": 7}
+		]
+	},
+	"1966381": {
+		"name": "G Diablos Materials",
+		"iconKey": "fang.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/544a7",
+		"members": [
+			{"itemId": 2444, "points": 1},
+			{"itemId": 2442, "points": 1},
+			{"itemId": 2443, "points": 1},
+			{"itemId": 2445, "points": 1},
+			{"itemId": 1436, "points": 2},
+			{"itemId": 1425, "points": 2},
+			{"itemId": 1427, "points": 3},
+			{"itemId": 1435, "points": 3},
+			{"itemId": 1437, "points": 4},
+			{"itemId": 1438, "points": 5},
+			{"itemId": 1433, "points": 5},
+			{"itemId": 1430, "points": 8}
+		]
+	},
+	"1966384": {
+		"name": "G Bloodbath Materials",
+		"iconKey": "fang.png",
+		"iconColor": "#4066BB",
+		"kiranicoPath": "/item/category/5ed76",
+		"members": [
+			{"itemId": 2048, "points": 1},
+			{"itemId": 2049, "points": 1},
+			{"itemId": 2050, "points": 1},
+			{"itemId": 2051, "points": 1},
+			{"itemId": 2052, "points": 1},
+			{"itemId": 2444, "points": 1},
+			{"itemId": 2445, "points": 1},
+			{"itemId": 1436, "points": 2},
+			{"itemId": 1437, "points": 4},
+			{"itemId": 1438, "points": 5}
+		]
+	},
+	"1966387": {
+		"name": "G Lao-Shan Lung Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5d476",
+		"members": [
+			{"itemId": 2483, "points": 1},
+			{"itemId": 1648, "points": 2},
+			{"itemId": 1649, "points": 3},
+			{"itemId": 1650, "points": 4},
+			{"itemId": 1651, "points": 5},
+			{"itemId": 1652, "points": 9}
+		]
+	},
+	"1966390": {
+		"name": "G Fatalis Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#A0A0A0",
+		"kiranicoPath": "/item/category/5a060",
+		"members": [
+			{"itemId": 2484, "points": 1},
+			{"itemId": 1653, "points": 2},
+			{"itemId": 1654, "points": 3},
+			{"itemId": 1657, "points": 4},
+			{"itemId": 1655, "points": 4},
+			{"itemId": 1656, "points": 8}
+		]
+	},
+	"1966393": {
+		"name": "G Fatalis (Crimson) Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#F85858",
+		"kiranicoPath": "/item/category/5969a",
+		"members": [
+			{"itemId": 2485, "points": 1},
+			{"itemId": 1658, "points": 2},
+			{"itemId": 1659, "points": 3},
+			{"itemId": 1660, "points": 4},
+			{"itemId": 1661, "points": 4},
+			{"itemId": 1662, "points": 8}
+		]
+	},
+	"1966396": {
+		"name": "G Fatalis (Old) Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5040a",
+		"members": [
+			{"itemId": 2486, "points": 1},
+			{"itemId": 1663, "points": 2},
+			{"itemId": 1664, "points": 3},
+			{"itemId": 1666, "points": 4},
+			{"itemId": 1665, "points": 4},
+			{"itemId": 1667, "points": 8}
+		]
+	},
+	"1966398": {
+		"name": "HR Conga Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E890A0",
+		"kiranicoPath": "/item/category/5d436",
+		"members": [
+			{"itemId": 763, "points": 1},
+			{"itemId": 766, "points": 2},
+			{"itemId": 768, "points": 3},
+			{"itemId": 769, "points": 4},
+			{"itemId": 770, "points": 5}
+		]
+	},
+	"1966399": {
+		"name": "G Conga Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E890A0",
+		"kiranicoPath": "/item/category/57d3e",
+		"members": [
+			{"itemId": 764, "points": 1},
+			{"itemId": 767, "points": 2},
+			{"itemId": 765, "points": 3},
+			{"itemId": 772, "points": 4},
+			{"itemId": 771, "points": 5}
+		]
+	},
+	"1966401": {
+		"name": "HR Congalala Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E890A0",
+		"kiranicoPath": "/item/category/5a030",
+		"members": [
+			{"itemId": 2243, "points": 1},
+			{"itemId": 766, "points": 2},
+			{"itemId": 768, "points": 3},
+			{"itemId": 769, "points": 4},
+			{"itemId": 770, "points": 5}
+		]
+	},
+	"1966402": {
+		"name": "G Congalala Materials",
+		"iconKey": "hide.png",
+		"iconColor": "#E890A0",
+		"kiranicoPath": "/item/category/5689d",
+		"members": [
+			{"itemId": 2244, "points": 1},
+			{"itemId": 2245, "points": 1},
+			{"itemId": 767, "points": 2},
+			{"itemId": 765, "points": 3},
+			{"itemId": 773, "points": 3},
+			{"itemId": 772, "points": 4},
+			{"itemId": 771, "points": 5}
+		]
+	},
+	"1966404": {
+		"name": "HR Barioth Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5960a",
+		"members": [
+			{"itemId": 2361, "points": 1},
+			{"itemId": 1144, "points": 2},
+			{"itemId": 1146, "points": 3},
+			{"itemId": 1150, "points": 4},
+			{"itemId": 1148, "points": 4},
+			{"itemId": 1152, "points": 5},
+			{"itemId": 1153, "points": 5}
+		]
+	},
+	"1966405": {
+		"name": "G Barioth Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/5368a",
+		"members": [
+			{"itemId": 2362, "points": 1},
+			{"itemId": 2363, "points": 1},
+			{"itemId": 1145, "points": 2},
+			{"itemId": 1147, "points": 3},
+			{"itemId": 1155, "points": 3},
+			{"itemId": 1151, "points": 4},
+			{"itemId": 1149, "points": 4},
+			{"itemId": 1154, "points": 5}
+		]
+	},
+	"1966407": {
+		"name": "HR Barroth Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/5043a",
+		"members": [
+			{"itemId": 2326, "points": 1},
+			{"itemId": 1045, "points": 1},
+			{"itemId": 1035, "points": 2},
+			{"itemId": 1037, "points": 3},
+			{"itemId": 1039, "points": 4},
+			{"itemId": 1041, "points": 5},
+			{"itemId": 1043, "points": 5}
+		]
+	},
+	"1966408": {
+		"name": "G Barroth Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#E2A626",
+		"kiranicoPath": "/item/category/580e8",
+		"members": [
+			{"itemId": 2327, "points": 1},
+			{"itemId": 2328, "points": 1},
+			{"itemId": 1036, "points": 2},
+			{"itemId": 1038, "points": 3},
+			{"itemId": 1046, "points": 3},
+			{"itemId": 1040, "points": 4},
+			{"itemId": 1042, "points": 5},
+			{"itemId": 1044, "points": 5}
+		]
+	},
+	"1966410": {
+		"name": "HR Nerscylla Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/57dbe",
+		"members": [
+			{"itemId": 2319, "points": 1},
+			{"itemId": 1006, "points": 2},
+			{"itemId": 1008, "points": 3},
+			{"itemId": 1010, "points": 4},
+			{"itemId": 1012, "points": 5}
+		]
+	},
+	"1966411": {
+		"name": "G Nerscylla Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#B890C0",
+		"kiranicoPath": "/item/category/5bb6d",
+		"members": [
+			{"itemId": 2320, "points": 1},
+			{"itemId": 2321, "points": 1},
+			{"itemId": 1007, "points": 2},
+			{"itemId": 1014, "points": 3},
+			{"itemId": 1009, "points": 3},
+			{"itemId": 1011, "points": 4},
+			{"itemId": 1013, "points": 5}
+		]
+	},
+	"1966413": {
+		"name": "HR Valstrax Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/568bd",
+		"members": [
+			{"itemId": 1704, "points": 1},
+			{"itemId": 2492, "points": 1},
+			{"itemId": 1690, "points": 2},
+			{"itemId": 1692, "points": 3},
+			{"itemId": 1694, "points": 4},
+			{"itemId": 1698, "points": 4},
+			{"itemId": 1700, "points": 4},
+			{"itemId": 1696, "points": 5},
+			{"itemId": 1702, "points": 9}
+		]
+	},
+	"1966414": {
+		"name": "G Valstrax Materials",
+		"iconKey": "carapace.png",
+		"iconColor": "#FFFFFF",
+		"kiranicoPath": "/item/category/544b7",
+		"members": [
+			{"itemId": 2493, "points": 1},
+			{"itemId": 1691, "points": 2},
+			{"itemId": 1705, "points": 3},
+			{"itemId": 1693, "points": 3},
+			{"itemId": 1695, "points": 4},
+			{"itemId": 1699, "points": 4},
+			{"itemId": 1701, "points": 4},
+			{"itemId": 1697, "points": 5},
+			{"itemId": 1703, "points": 9}
+		]
+	},
+	"1966417": {
+		"name": "G Ahtal-Ka Materials",
+		"iconKey": "shell.png",
+		"iconColor": "#F8D058",
+		"kiranicoPath": "/item/category/5ed36",
+		"members": [
+			{"itemId": 2494, "points": 1},
+			{"itemId": 1707, "points": 2},
+			{"itemId": 1706, "points": 2},
+			{"itemId": 1711, "points": 3},
+			{"itemId": 1708, "points": 3},
+			{"itemId": 1714, "points": 3},
+			{"itemId": 1709, "points": 4},
+			{"itemId": 1710, "points": 5},
+			{"itemId": 1712, "points": 6},
+			{"itemId": 1713, "points": 9}
+		]
+	}
+}

@@ -52,7 +52,11 @@ function getAmmoArray(ammo: string | string[]) {
 </script>
 
 <template>
-	<WeaponItemRanged :weapon="props.weapon" :dimmed="props.dimmed">
+	<WeaponItemRanged
+		:weapon="props.weapon"
+		:dimmed="props.dimmed"
+		info-title="Ammo details"
+	>
 		<template #tooltip>
 			<div>
 				<div class="grid grid-cols-3 grid-rows-3 gap-y-2 text-xs">

@@ -9,18 +9,22 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
+    "tauri": "tauri",
+    "portable:build": "npm run tauri -- build --no-bundle",
     "lint": "run-s lint:*",
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+    "@tauri-apps/plugin-opener": "^2.5.4",
     "@tailwindcss/vite": "^4.2.4",
     "vue": "^3.5.32",
     "vue-router": "^5.0.4"
   },
   "devDependencies": {
     "@iconify/vue": "^5.0.0",
+    "@tauri-apps/cli": "^2.11.4",
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^24.12.2",
     "@vitejs/plugin-vue": "^6.0.6",

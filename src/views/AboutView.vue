@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {Icon} from '@iconify/vue'
+import Icon from '@/components/common/AppIcon.vue'
 </script>
 
 <template>
@@ -21,17 +21,23 @@ import {Icon} from '@iconify/vue'
 						Data Sources
 					</h2>
 					<p>
-						Weapon data is sourced from the
+						Weapon and armor data is sourced from the
 						<a
 							href="https://github.com/gatheringhallstudios/MHGenDatabase"
 							class="text-secondary-400 hover:text-secondary-300 underline underline-offset-2 transition-colors"
 							>MHGU Database</a
 						>
-						and
+						,
 						<a
 							href="https://mhapi.info/"
 							class="text-secondary-400 hover:text-secondary-300 underline underline-offset-2 transition-colors"
 							>Poogie's Toolbox</a
+						>
+						and
+						<a
+							href="https://mhgu.kiranico.com/"
+							class="text-secondary-400 hover:text-secondary-300 underline underline-offset-2 transition-colors"
+							>Kiranico</a
 						>.
 					</p>
 				</div>

@@ -1,13 +1,17 @@
 <script lang="ts" setup>
 import type {TWeapon, TWeaponDataAny} from '@/interfaces/Weapons'
-import {computed, ref} from 'vue'
-import {Icon} from '@iconify/vue'
+import {computed, inject, ref} from 'vue'
+import Icon from '@/components/common/AppIcon.vue'
 import WeaponSlots from './WeaponSlots.vue'
+import {weaponTreeContextKey} from './weaponTreeContext'
+import {resolveAssetUrl} from '@/data/assets'
+import MobileInfoButton from '@/components/common/MobileInfoButton.vue'
 
 // ── Props ──────────────────────────────────────────────────────────────────
 interface IProps {
 	weapon: TWeapon<TWeaponDataAny>
 	dimmed?: boolean
+	infoTitle: string
 }
 const props = withDefaults(defineProps<IProps>(), {
 	dimmed: false,
@@ -23,6 +27,7 @@ const rarityColor = computed(() => {
 })
 
 const hovered = ref(false)
+const treeContext = inject(weaponTreeContextKey, null)
 </script>
 
 <template>
@@ -32,38 +37,65 @@ const hovered = ref(false)
 		@mouseenter="hovered = true"
 		@mouseleave="hovered = false"
 	>
-		<!-- Left Element stripe -->
+		<!-- Right Element stripe -->
 		<div
-			class="absolute left-0 inset-y-0 w-1.5 rounded-l-md bg-linear-0 group-hover:opacity-70"
+			class="absolute right-0 inset-y-0 w-1.5 rounded-r-md bg-linear-0 group-hover:opacity-70"
 			:class="[stripeColor, {'opacity-25': props.dimmed}]"
 		/>
 
 		<!-- Main content -->
 		<div
-			class="transition-all duration-200"
+			class="h-full transition-all duration-200"
 			:class="{'opacity-25': props.dimmed}"
 		>
-			<div class="flex flex-col justify-center h-full pl-3 pr-2 py-1">
+			<div class="flex flex-col justify-center h-full pl-3 pr-3 py-1">
 				<!-- Name & Rarity Pip -->
 				<div class="flex justify-between items-center">
-					<span class="text-sm font-bold tracking-wider truncate">
-						{{ props.weapon.data.name }}
+					<div class="flex min-w-0 items-center gap-1">
+						<button
+							v-if="treeContext"
+							type="button"
+							class="grid h-5 w-5 shrink-0 place-items-center rounded text-accent-400 transition hover:bg-primary-600 hover:text-accent-300 focus-visible:outline-2 focus-visible:outline-secondary-400"
+							:aria-label="`Focus ${props.weapon.data.name} upgrade tree`"
+							:title="`Focus ${props.weapon.data.name} upgrade tree`"
+							@click.stop="treeContext.showUpgradePath(props.weapon)"
+							@keydown.stop
+						>
+							<Icon icon="tabler:git-branch" class="h-4 w-4" />
+						</button>
+						<span class="truncate text-sm font-bold tracking-wider">
+							{{ props.weapon.data.name }}
+						</span>
+					</div>
+					<span :title="`Rarity ${props.weapon.data.rarity}`">
+						<Icon
+							icon="tabler:diamond-filled"
+							class="size-4"
+							:class="rarityColor"
+						/>
 					</span>
-					<Icon icon="tabler:diamond-filled" :class="rarityColor"></Icon>
 				</div>
 
 				<!-- Core Stats -->
 				<div class="flex gap-2 items-center my-1">
 					<!-- Attack -->
-					<div class="flex items-center">
-						<img :src="`/icons/atk.png`" alt="Attack" class="inline w-4 h-4" />
+					<div class="flex items-center" title="Attack">
+						<img
+							:src="resolveAssetUrl('icons/atk.png')"
+							alt="Attack"
+							class="inline w-4 h-4"
+						/>
 						<span class="text-sm leading-none">{{
 							props.weapon.data.attack
 						}}</span>
 					</div>
 					<!-- Defense -->
-					<div class="flex items-center">
-						<img :src="`/icons/def.png`" alt="Defense" class="inline w-4 h-4" />
+					<div class="flex items-center" title="Defense">
+						<img
+							:src="resolveAssetUrl('icons/def.png')"
+							alt="Defense"
+							class="inline w-4 h-4"
+						/>
 						<span
 							class="text-sm leading-none"
 							:class="{
@@ -73,9 +105,9 @@ const hovered = ref(false)
 						>
 					</div>
 					<!-- Affinity -->
-					<div class="flex items-center">
+					<div class="flex items-center" title="Affinity">
 						<img
-							:src="`/icons/aff.png`"
+							:src="resolveAssetUrl('icons/aff.png')"
 							alt="Affinity"
 							class="inline w-4 h-4"
 						/>
@@ -89,9 +121,17 @@ const hovered = ref(false)
 						>
 					</div>
 					<!-- Element -->
-					<div class="flex items-center" v-if="props.weapon.data.element">
+					<div
+						class="flex items-center"
+						v-if="props.weapon.data.element"
+						:title="props.weapon.data.element"
+					>
 						<img
-							:src="`/icons/status/${props.weapon.data.element.toLowerCase()}.png`"
+							:src="
+								resolveAssetUrl(
+									`icons/status/${props.weapon.data.element.toLowerCase()}.png`
+								)
+							"
 							:alt="props.weapon.data.element"
 							class="inline w-4 h-4"
 						/>
@@ -112,11 +152,14 @@ const hovered = ref(false)
 		<Transition name="fade">
 			<div
 				v-if="hovered"
-				class="absolute z-10 left-2 top-full mt-1 right-0 rounded-md bg-gray-800 border border-gray-600 p-2 text-[11px] text-gray-100 shadow-xl pointer-events-none"
+				class="pointer-events-none absolute left-2 right-0 top-full z-10 mt-1 hidden rounded-md border border-gray-600 bg-gray-800 p-2 text-[11px] text-gray-100 shadow-xl md:block"
 			>
 				<slot name="tooltip"></slot>
 			</div>
 		</Transition>
+		<MobileInfoButton :title="props.infoTitle" placement="weapon">
+			<slot name="tooltip"></slot>
+		</MobileInfoButton>
 	</div>
 </template>
 

@@ -1,0 +1,8007 @@
+{
+	"schemaVersion": 3,
+	"families": {
+		"617": [
+			{
+				"id": 1311337,
+				"slot": "head",
+				"name": "Redhelm Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 26, "max": 158},
+				"resistances": {
+					"fire": -2,
+					"water": 2,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 2},
+					{"treeId": 162, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 654,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 642,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376873,
+				"slot": "body",
+				"name": "Redhelm Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 26, "max": 158},
+				"resistances": {
+					"fire": -2,
+					"water": 2,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 1},
+					{"treeId": 162, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 648,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 639,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 424, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442409,
+				"slot": "arms",
+				"name": "Redhelm Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 26, "max": 158},
+				"resistances": {
+					"fire": -2,
+					"water": 2,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 3},
+					{"treeId": 162, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 651,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 645,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507945,
+				"slot": "waist",
+				"name": "Redhelm Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 26, "max": 158},
+				"resistances": {
+					"fire": -2,
+					"water": 2,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 2},
+					{"treeId": 162, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 648,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 639,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573481,
+				"slot": "legs",
+				"name": "Redhelm Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 26, "max": 158},
+				"resistances": {
+					"fire": -2,
+					"water": 2,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 2},
+					{"treeId": 162, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 651,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 645,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 424, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"618": [
+			{
+				"id": 1311338,
+				"slot": "head",
+				"name": "Redhelm Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 13, "max": 95},
+				"resistances": {
+					"fire": -2,
+					"water": 3,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 3},
+					{"treeId": 162, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 654,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 642,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376874,
+				"slot": "body",
+				"name": "Redhelm Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 13, "max": 95},
+				"resistances": {
+					"fire": -2,
+					"water": 3,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 1},
+					{"treeId": 162, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 648,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 639,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 424, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442410,
+				"slot": "arms",
+				"name": "Redhelm Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 13, "max": 95},
+				"resistances": {
+					"fire": -2,
+					"water": 3,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 2},
+					{"treeId": 162, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 651,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 645,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507946,
+				"slot": "waist",
+				"name": "Redhelm Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 13, "max": 95},
+				"resistances": {
+					"fire": -2,
+					"water": 3,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 2},
+					{"treeId": 162, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 648,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 639,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573482,
+				"slot": "legs",
+				"name": "Redhelm Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 13, "max": 95},
+				"resistances": {
+					"fire": -2,
+					"water": 3,
+					"thunder": 1,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 79, "points": 3},
+					{"treeId": 19, "points": 2},
+					{"treeId": 144, "points": 2},
+					{"treeId": 162, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1843,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 651,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 645,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 424, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"619": [
+			{
+				"id": 1311339,
+				"slot": "head",
+				"name": "Snowbaron Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 22, "max": 154},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 2},
+					{"treeId": 163, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 668,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 660,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 424, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376875,
+				"slot": "body",
+				"name": "Snowbaron Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 22, "max": 154},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 1},
+					{"treeId": 163, "points": 1},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 671,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 657,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 424, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442411,
+				"slot": "arms",
+				"name": "Snowbaron Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 22, "max": 154},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 2},
+					{"treeId": 163, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 671,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 665,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507947,
+				"slot": "waist",
+				"name": "Snowbaron Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 22, "max": 154},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 2},
+					{"treeId": 163, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 668,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 662,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573483,
+				"slot": "legs",
+				"name": "Snowbaron Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 22, "max": 154},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 3},
+					{"treeId": 163, "points": 3},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 668,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 665,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"620": [
+			{
+				"id": 1311340,
+				"slot": "head",
+				"name": "Snowbaron Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 11, "max": 93},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 5,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 3},
+					{"treeId": 163, "points": 3},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 668,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 660,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 424, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376876,
+				"slot": "body",
+				"name": "Snowbaron Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 11, "max": 93},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 5,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 1},
+					{"treeId": 163, "points": 1},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 671,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 657,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 424, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442412,
+				"slot": "arms",
+				"name": "Snowbaron Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 11, "max": 93},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 5,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 2},
+					{"treeId": 163, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 671,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 665,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507948,
+				"slot": "waist",
+				"name": "Snowbaron Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 11, "max": 93},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 5,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 2},
+					{"treeId": 163, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 668,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 662,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573484,
+				"slot": "legs",
+				"name": "Snowbaron Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 11, "max": 93},
+				"resistances": {
+					"fire": -4,
+					"water": 3,
+					"thunder": -2,
+					"ice": 5,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 118, "points": 3},
+					{"treeId": 145, "points": 2},
+					{"treeId": 163, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1858,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 668,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 665,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"621": [
+			{
+				"id": 1311341,
+				"slot": "head",
+				"name": "Stonefist Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 0,
+					"water": 4,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 2},
+					{"treeId": 164, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 988,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 973,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376877,
+				"slot": "body",
+				"name": "Stonefist Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 0,
+					"water": 4,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 1},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 1},
+					{"treeId": 164, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 985,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 969,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 409, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442413,
+				"slot": "arms",
+				"name": "Stonefist Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 0,
+					"water": 4,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 2},
+					{"treeId": 164, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 988,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 977,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507949,
+				"slot": "waist",
+				"name": "Stonefist Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 0,
+					"water": 4,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 3},
+					{"treeId": 164, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 985,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 980,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 409, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573485,
+				"slot": "legs",
+				"name": "Stonefist Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 0,
+					"water": 4,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 3},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 2},
+					{"treeId": 164, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 988,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 969,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"622": [
+			{
+				"id": 1311342,
+				"slot": "head",
+				"name": "Stonefist Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 0,
+					"water": 5,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 3},
+					{"treeId": 164, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 988,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 973,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376878,
+				"slot": "body",
+				"name": "Stonefist Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 0,
+					"water": 5,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 1},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 1},
+					{"treeId": 164, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 985,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 969,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 409, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442414,
+				"slot": "arms",
+				"name": "Stonefist Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 0,
+					"water": 5,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 2},
+					{"treeId": 164, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 988,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 977,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507950,
+				"slot": "waist",
+				"name": "Stonefist Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 0,
+					"water": 5,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 2},
+					{"treeId": 164, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 985,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 980,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 409, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573486,
+				"slot": "legs",
+				"name": "Stonefist Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 0,
+					"water": 5,
+					"thunder": -4,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 3},
+					{"treeId": 101, "points": 2},
+					{"treeId": 146, "points": 2},
+					{"treeId": 164, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1873,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 988,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 969,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"623": [
+			{
+				"id": 1311343,
+				"slot": "head",
+				"name": "Dreadqueen Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 4,
+					"water": 0,
+					"thunder": -1,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 2},
+					{"treeId": 166, "points": 2},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1188,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1180,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 409, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376879,
+				"slot": "body",
+				"name": "Dreadqueen Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 4,
+					"water": 0,
+					"thunder": -1,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 1},
+					{"treeId": 166, "points": 1},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1188,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1175,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442415,
+				"slot": "arms",
+				"name": "Dreadqueen Braces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 4,
+					"water": 0,
+					"thunder": -1,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 2},
+					{"treeId": 166, "points": 2},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1191,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1232,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 460, "quantity": 5, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507951,
+				"slot": "waist",
+				"name": "Dreadqueen Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 4,
+					"water": 0,
+					"thunder": -1,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 3},
+					{"treeId": 166, "points": 3},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1188,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1178,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573487,
+				"slot": "legs",
+				"name": "Dreadqueen Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 30, "max": 162},
+				"resistances": {
+					"fire": 4,
+					"water": 0,
+					"thunder": -1,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 2},
+					{"treeId": 166, "points": 2},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1191,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1172,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"624": [
+			{
+				"id": 1311344,
+				"slot": "head",
+				"name": "Dreadqueen Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 4,
+					"water": 1,
+					"thunder": -1,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 3},
+					{"treeId": 166, "points": 3},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1188,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1180,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 409, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376880,
+				"slot": "body",
+				"name": "Dreadqueen Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 4,
+					"water": 1,
+					"thunder": -1,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 1},
+					{"treeId": 166, "points": 1},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1188,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1175,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442416,
+				"slot": "arms",
+				"name": "Dreadqueen Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 4,
+					"water": 1,
+					"thunder": -1,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 2},
+					{"treeId": 166, "points": 2},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1191,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1232,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 460, "quantity": 5, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507952,
+				"slot": "waist",
+				"name": "Dreadqueen Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 4,
+					"water": 1,
+					"thunder": -1,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 2},
+					{"treeId": 166, "points": 2},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1188,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1178,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573488,
+				"slot": "legs",
+				"name": "Dreadqueen Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 15, "max": 97},
+				"resistances": {
+					"fire": 4,
+					"water": 1,
+					"thunder": -1,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 73, "points": 2},
+					{"treeId": 148, "points": 2},
+					{"treeId": 166, "points": 2},
+					{"treeId": 70, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1888,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1191,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1172,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"625": [
+			{
+				"id": 1311345,
+				"slot": "head",
+				"name": "Drilltusk Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 52, "max": 160},
+				"resistances": {
+					"fire": 3,
+					"water": -3,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 2},
+					{"treeId": 165, "points": 2},
+					{"treeId": 85, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 936,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 923,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 915, "quantity": 3, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376881,
+				"slot": "body",
+				"name": "Drilltusk Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 52, "max": 160},
+				"resistances": {
+					"fire": 3,
+					"water": -3,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 1},
+					{"treeId": 165, "points": 1},
+					{"treeId": 85, "points": 3},
+					{"treeId": 71, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 930,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 915,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442417,
+				"slot": "arms",
+				"name": "Drilltusk Braces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 52, "max": 160},
+				"resistances": {
+					"fire": 3,
+					"water": -3,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 3},
+					{"treeId": 165, "points": 3},
+					{"treeId": 85, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 933,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 918,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507953,
+				"slot": "waist",
+				"name": "Drilltusk Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 52, "max": 160},
+				"resistances": {
+					"fire": 3,
+					"water": -3,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 2},
+					{"treeId": 165, "points": 2},
+					{"treeId": 85, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 930,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 912,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 425, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573489,
+				"slot": "legs",
+				"name": "Drilltusk Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 52, "max": 160},
+				"resistances": {
+					"fire": 3,
+					"water": -3,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 2},
+					{"treeId": 165, "points": 2},
+					{"treeId": 85, "points": 3},
+					{"treeId": 71, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 933,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 918,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"626": [
+			{
+				"id": 1311346,
+				"slot": "head",
+				"name": "Drilltusk Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 26, "max": 96},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 3},
+					{"treeId": 165, "points": 3},
+					{"treeId": 45, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 936,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 923,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 915, "quantity": 3, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376882,
+				"slot": "body",
+				"name": "Drilltusk Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 26, "max": 96},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 1},
+					{"treeId": 165, "points": 1},
+					{"treeId": 45, "points": 3},
+					{"treeId": 71, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 930,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 915,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442418,
+				"slot": "arms",
+				"name": "Drilltusk Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 26, "max": 96},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 2},
+					{"treeId": 165, "points": 2},
+					{"treeId": 45, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 933,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 918,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507954,
+				"slot": "waist",
+				"name": "Drilltusk Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 26, "max": 96},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 2},
+					{"treeId": 165, "points": 2},
+					{"treeId": 45, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 930,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 912,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 425, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573490,
+				"slot": "legs",
+				"name": "Drilltusk Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 26, "max": 96},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 147, "points": 2},
+					{"treeId": 165, "points": 2},
+					{"treeId": 45, "points": 3},
+					{"treeId": 71, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1903,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 933,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 918,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"627": [
+			{
+				"id": 1311347,
+				"slot": "head",
+				"name": "Silverwind Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 44, "max": 152},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 2},
+					{"treeId": 168, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1141,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1121,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376883,
+				"slot": "body",
+				"name": "Silverwind Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 44, "max": 152},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 1},
+					{"treeId": 168, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1138,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1131,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442419,
+				"slot": "arms",
+				"name": "Silverwind Braces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 44, "max": 152},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 2},
+					{"treeId": 168, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1138,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1128,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507955,
+				"slot": "waist",
+				"name": "Silverwind Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 44, "max": 152},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 2},
+					{"treeId": 168, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1141,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1128,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1123,
+							"quantity": 3,
+							"keyMaterial": false
+						}
+					]
+				}
+			},
+			{
+				"id": 1573491,
+				"slot": "legs",
+				"name": "Silverwind Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 44, "max": 152},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 0,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 3},
+					{"treeId": 168, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1138,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1125,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"628": [
+			{
+				"id": 1311348,
+				"slot": "head",
+				"name": "Silverwind Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 22, "max": 92},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 3},
+					{"treeId": 168, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1141,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1121,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376884,
+				"slot": "body",
+				"name": "Silverwind Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 22, "max": 92},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 1},
+					{"treeId": 168, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1138,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1131,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442420,
+				"slot": "arms",
+				"name": "Silverwind Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 22, "max": 92},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 2},
+					{"treeId": 168, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1138,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1128,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507956,
+				"slot": "waist",
+				"name": "Silverwind Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 22, "max": 92},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 2},
+					{"treeId": 168, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1141,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1128,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1123,
+							"quantity": 3,
+							"keyMaterial": false
+						}
+					]
+				}
+			},
+			{
+				"id": 1573492,
+				"slot": "legs",
+				"name": "Silverwind Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 22, "max": 92},
+				"resistances": {
+					"fire": -2,
+					"water": 1,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 75, "points": 2},
+					{"treeId": 83, "points": 2},
+					{"treeId": 150, "points": 2},
+					{"treeId": 168, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1918,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1138,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1125,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"629": [
+			{
+				"id": 1311349,
+				"slot": "head",
+				"name": "Crystalbeard Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 2},
+					{"treeId": 96, "points": 2},
+					{"treeId": 167, "points": 2},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1062,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1055,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 5, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376885,
+				"slot": "body",
+				"name": "Crystalbeard Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 1},
+					{"treeId": 96, "points": 1},
+					{"treeId": 167, "points": 1},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1065,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1053,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442421,
+				"slot": "arms",
+				"name": "Crystalbeard Braces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 3},
+					{"treeId": 96, "points": 2},
+					{"treeId": 167, "points": 3},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1065,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1051,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507957,
+				"slot": "waist",
+				"name": "Crystalbeard Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 2},
+					{"treeId": 96, "points": 3},
+					{"treeId": 167, "points": 2},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1062,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1048,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573493,
+				"slot": "legs",
+				"name": "Crystalbeard Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 2},
+					{"treeId": 96, "points": 2},
+					{"treeId": 167, "points": 2},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1062,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1051,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"630": [
+			{
+				"id": 1311350,
+				"slot": "head",
+				"name": "Crystalbeard Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 5,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 3},
+					{"treeId": 96, "points": 2},
+					{"treeId": 167, "points": 3},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1062,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1055,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 5, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376886,
+				"slot": "body",
+				"name": "Crystalbeard Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 5,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 1},
+					{"treeId": 96, "points": 1},
+					{"treeId": 167, "points": 1},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1065,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1053,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442422,
+				"slot": "arms",
+				"name": "Crystalbeard Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 5,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 2},
+					{"treeId": 96, "points": 2},
+					{"treeId": 167, "points": 2},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1065,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1051,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507958,
+				"slot": "waist",
+				"name": "Crystalbeard Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 5,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 2},
+					{"treeId": 96, "points": 3},
+					{"treeId": 167, "points": 2},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1062,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1048,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573494,
+				"slot": "legs",
+				"name": "Crystalbeard Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 5,
+					"water": -4,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 149, "points": 2},
+					{"treeId": 96, "points": 2},
+					{"treeId": 167, "points": 2},
+					{"treeId": 135, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1933,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1062,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1051,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"631": [
+			{
+				"id": 1311351,
+				"slot": "head",
+				"name": "Deadeye Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 66, "max": 174},
+				"resistances": {
+					"fire": 2,
+					"water": -4,
+					"thunder": 2,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 2},
+					{"treeId": 169, "points": 2},
+					{"treeId": 102, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 748,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 736,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376887,
+				"slot": "body",
+				"name": "Deadeye Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 66, "max": 174},
+				"resistances": {
+					"fire": 2,
+					"water": -4,
+					"thunder": 2,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 1},
+					{"treeId": 169, "points": 1},
+					{"treeId": 102, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 745,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 731,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442423,
+				"slot": "arms",
+				"name": "Deadeye Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 66, "max": 174},
+				"resistances": {
+					"fire": 2,
+					"water": -4,
+					"thunder": 2,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 2},
+					{"treeId": 169, "points": 2},
+					{"treeId": 102, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 745,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 734,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507959,
+				"slot": "waist",
+				"name": "Deadeye Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 66, "max": 174},
+				"resistances": {
+					"fire": 2,
+					"water": -4,
+					"thunder": 2,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 2},
+					{"treeId": 169, "points": 2},
+					{"treeId": 102, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 745,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 739,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573495,
+				"slot": "legs",
+				"name": "Deadeye Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 66, "max": 174},
+				"resistances": {
+					"fire": 2,
+					"water": -4,
+					"thunder": 2,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 3},
+					{"treeId": 169, "points": 3},
+					{"treeId": 102, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 745,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 728,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"632": [
+			{
+				"id": 1311352,
+				"slot": "head",
+				"name": "Deadeye Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 33, "max": 103},
+				"resistances": {
+					"fire": 3,
+					"water": -4,
+					"thunder": 3,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 3},
+					{"treeId": 169, "points": 3},
+					{"treeId": 102, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 748,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 736,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376888,
+				"slot": "body",
+				"name": "Deadeye Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 33, "max": 103},
+				"resistances": {
+					"fire": 3,
+					"water": -4,
+					"thunder": 3,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 1},
+					{"treeId": 169, "points": 1},
+					{"treeId": 102, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 745,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 731,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 414, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442424,
+				"slot": "arms",
+				"name": "Deadeye Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 33, "max": 103},
+				"resistances": {
+					"fire": 3,
+					"water": -4,
+					"thunder": 3,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 2},
+					{"treeId": 169, "points": 2},
+					{"treeId": 102, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 745,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 734,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507960,
+				"slot": "waist",
+				"name": "Deadeye Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 33, "max": 103},
+				"resistances": {
+					"fire": 3,
+					"water": -4,
+					"thunder": 3,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 2},
+					{"treeId": 169, "points": 2},
+					{"treeId": 102, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 745,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 739,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573496,
+				"slot": "legs",
+				"name": "Deadeye Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 33, "max": 103},
+				"resistances": {
+					"fire": 3,
+					"water": -4,
+					"thunder": 3,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 72, "points": 2},
+					{"treeId": 151, "points": 2},
+					{"treeId": 169, "points": 2},
+					{"treeId": 102, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1948,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 745,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 728,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"633": [
+			{
+				"id": 1311353,
+				"slot": "head",
+				"name": "Dreadking Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 68, "max": 168},
+				"resistances": {
+					"fire": 5,
+					"water": 0,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 2},
+					{"treeId": 170, "points": 2},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1218,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 461,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376889,
+				"slot": "body",
+				"name": "Dreadking Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 68, "max": 168},
+				"resistances": {
+					"fire": 5,
+					"water": 0,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 1},
+					{"treeId": 170, "points": 1},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1218,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1209,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442425,
+				"slot": "arms",
+				"name": "Dreadking Braces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 68, "max": 168},
+				"resistances": {
+					"fire": 5,
+					"water": 0,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 2},
+					{"treeId": 170, "points": 2},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1218,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1206,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507961,
+				"slot": "waist",
+				"name": "Dreadking Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 68, "max": 168},
+				"resistances": {
+					"fire": 5,
+					"water": 0,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 3},
+					{"treeId": 170, "points": 3},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1221,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1211,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 5, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573497,
+				"slot": "legs",
+				"name": "Dreadking Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 68, "max": 168},
+				"resistances": {
+					"fire": 5,
+					"water": 0,
+					"thunder": -2,
+					"ice": 0,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 2},
+					{"treeId": 170, "points": 2},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1221,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1203,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"634": [
+			{
+				"id": 1311354,
+				"slot": "head",
+				"name": "Dreadking Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 34, "max": 100},
+				"resistances": {
+					"fire": 5,
+					"water": 1,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 3},
+					{"treeId": 170, "points": 3},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1218,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 461,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376890,
+				"slot": "body",
+				"name": "Dreadking Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 34, "max": 100},
+				"resistances": {
+					"fire": 5,
+					"water": 1,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 1},
+					{"treeId": 170, "points": 1},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1218,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1209,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442426,
+				"slot": "arms",
+				"name": "Dreadking Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 34, "max": 100},
+				"resistances": {
+					"fire": 5,
+					"water": 1,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 2},
+					{"treeId": 170, "points": 2},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1218,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1206,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507962,
+				"slot": "waist",
+				"name": "Dreadking Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 34, "max": 100},
+				"resistances": {
+					"fire": 5,
+					"water": 1,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 2},
+					{"treeId": 170, "points": 2},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1221,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1211,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 5, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573498,
+				"slot": "legs",
+				"name": "Dreadking Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 34, "max": 100},
+				"resistances": {
+					"fire": 5,
+					"water": 1,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -3
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 152, "points": 2},
+					{"treeId": 170, "points": 2},
+					{"treeId": 5, "points": 3},
+					{"treeId": 71, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1963,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1221,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1203,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"635": [
+			{
+				"id": 1311355,
+				"slot": "head",
+				"name": "Thunderlord Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 68, "max": 176},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 2},
+					{"treeId": 171, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1266,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1242,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376891,
+				"slot": "body",
+				"name": "Thunderlord Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 68, "max": 176},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 1},
+					{"treeId": 171, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1263,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1253,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442427,
+				"slot": "arms",
+				"name": "Thunderlord Braces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 68, "max": 176},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 2},
+					{"treeId": 171, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1263,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1248,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507963,
+				"slot": "waist",
+				"name": "Thunderlord Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 68, "max": 176},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 2},
+					{"treeId": 171, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1260,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1250,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573499,
+				"slot": "legs",
+				"name": "Thunderlord Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 68, "max": 176},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 3},
+					{"treeId": 171, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1260,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1239,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"636": [
+			{
+				"id": 1311356,
+				"slot": "head",
+				"name": "Thunderlord Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 34, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 5,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 3},
+					{"treeId": 171, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1266,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1242,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376892,
+				"slot": "body",
+				"name": "Thunderlord Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 34, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 5,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 1},
+					{"treeId": 171, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1263,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1253,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442428,
+				"slot": "arms",
+				"name": "Thunderlord Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 34, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 5,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 2},
+					{"treeId": 171, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1263,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1248,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507964,
+				"slot": "waist",
+				"name": "Thunderlord Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 34, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 5,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 2},
+					{"treeId": 171, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1260,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1250,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573500,
+				"slot": "legs",
+				"name": "Thunderlord Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 34, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 0,
+					"thunder": 5,
+					"ice": -3,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 15, "points": 2},
+					{"treeId": 78, "points": 2},
+					{"treeId": 153, "points": 2},
+					{"treeId": 171, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1978,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1260,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1239,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"637": [
+			{
+				"id": 1311357,
+				"slot": "head",
+				"name": "Grimclaw Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 2,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 40, "points": 2},
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 2},
+					{"treeId": 172, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1394,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1389,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 5, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376893,
+				"slot": "body",
+				"name": "Grimclaw Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 2,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 40, "points": 1},
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 1},
+					{"treeId": 172, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1400,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1379,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442429,
+				"slot": "arms",
+				"name": "Grimclaw Braces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 2,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 40, "points": 2},
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 3},
+					{"treeId": 172, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1394,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1384,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507965,
+				"slot": "waist",
+				"name": "Grimclaw Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 2,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 40, "points": 2},
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 2},
+					{"treeId": 172, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1397,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1381,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573501,
+				"slot": "legs",
+				"name": "Grimclaw Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 2,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 40, "points": 3},
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 2},
+					{"treeId": 172, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1394,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1387,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"638": [
+			{
+				"id": 1311358,
+				"slot": "head",
+				"name": "Grimclaw Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 3,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 3},
+					{"treeId": 172, "points": 3},
+					{"treeId": 48, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1394,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1389,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 5, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376894,
+				"slot": "body",
+				"name": "Grimclaw Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 3,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 1},
+					{"treeId": 172, "points": 1},
+					{"treeId": 48, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1400,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1379,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442430,
+				"slot": "arms",
+				"name": "Grimclaw Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 3,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 2},
+					{"treeId": 172, "points": 2},
+					{"treeId": 48, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1394,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1384,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507966,
+				"slot": "waist",
+				"name": "Grimclaw Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 3,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 2},
+					{"treeId": 172, "points": 2},
+					{"treeId": 48, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1397,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1381,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573502,
+				"slot": "legs",
+				"name": "Grimclaw Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 3,
+					"water": 1,
+					"thunder": -4,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 91, "points": 2},
+					{"treeId": 154, "points": 2},
+					{"treeId": 172, "points": 2},
+					{"treeId": 48, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 1993,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1394,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1387,
+							"quantity": 6,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"639": [
+			{
+				"id": 1311359,
+				"slot": "head",
+				"name": "Hellblade Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 2},
+					{"treeId": 173, "points": 2},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1368,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1352,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376895,
+				"slot": "body",
+				"name": "Hellblade Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 1},
+					{"treeId": 173, "points": 1},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1368,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1361,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442431,
+				"slot": "arms",
+				"name": "Hellblade Braces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 2},
+					{"treeId": 173, "points": 2},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1371,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1355,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507967,
+				"slot": "waist",
+				"name": "Hellblade Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 3},
+					{"treeId": 173, "points": 3},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1371,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1357,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573503,
+				"slot": "legs",
+				"name": "Hellblade Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 70, "max": 178},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 2},
+					{"treeId": 173, "points": 2},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1371,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1346,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"640": [
+			{
+				"id": 1311360,
+				"slot": "head",
+				"name": "Hellblade Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 3},
+					{"treeId": 173, "points": 3},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1368,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1352,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1376896,
+				"slot": "body",
+				"name": "Hellblade Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 1},
+					{"treeId": 173, "points": 1},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1368,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1361,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442432,
+				"slot": "arms",
+				"name": "Hellblade Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 2},
+					{"treeId": 173, "points": 2},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1371,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1355,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1507968,
+				"slot": "waist",
+				"name": "Hellblade Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 2},
+					{"treeId": 173, "points": 2},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1371,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1357,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 429, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573504,
+				"slot": "legs",
+				"name": "Hellblade Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 35, "max": 105},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": 1,
+					"ice": -2,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 38, "points": 2},
+					{"treeId": 155, "points": 2},
+					{"treeId": 173, "points": 2},
+					{"treeId": 115, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2008,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1371,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1346,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 415, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1108": [
+			{
+				"id": 1311828,
+				"slot": "head",
+				"name": "Rustrazor Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 110, "max": 160},
+				"resistances": {
+					"fire": 1,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 157, "points": 2},
+					{"treeId": 175, "points": 2},
+					{"treeId": 36, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1005,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 994,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377364,
+				"slot": "body",
+				"name": "Rustrazor Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 110, "max": 160},
+				"resistances": {
+					"fire": 1,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 157, "points": 1},
+					{"treeId": 175, "points": 1},
+					{"treeId": 36, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1004,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1000,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 3, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442900,
+				"slot": "arms",
+				"name": "Rustrazor Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 110, "max": 160},
+				"resistances": {
+					"fire": 1,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 157, "points": 2},
+					{"treeId": 175, "points": 2},
+					{"treeId": 36, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1004,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1000,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 3, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508436,
+				"slot": "waist",
+				"name": "Rustrazor Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 110, "max": 160},
+				"resistances": {
+					"fire": 1,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 157, "points": 3},
+					{"treeId": 175, "points": 3},
+					{"treeId": 36, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1004,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 997,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573972,
+				"slot": "legs",
+				"name": "Rustrazor Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 110, "max": 160},
+				"resistances": {
+					"fire": 1,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 157, "points": 2},
+					{"treeId": 175, "points": 2},
+					{"treeId": 36, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1004,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 994,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1109": [
+			{
+				"id": 1311829,
+				"slot": "head",
+				"name": "Rustrazor Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 66, "max": 96},
+				"resistances": {
+					"fire": 2,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 49, "points": 2},
+					{"treeId": 157, "points": 3},
+					{"treeId": 175, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1005,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 994,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377365,
+				"slot": "body",
+				"name": "Rustrazor Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 66, "max": 96},
+				"resistances": {
+					"fire": 2,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 49, "points": 1},
+					{"treeId": 157, "points": 1},
+					{"treeId": 175, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1004,
+							"quantity": 5,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1000,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 3, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442901,
+				"slot": "arms",
+				"name": "Rustrazor Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 66, "max": 96},
+				"resistances": {
+					"fire": 2,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 49, "points": 2},
+					{"treeId": 157, "points": 2},
+					{"treeId": 175, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1004,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1000,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 3, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508437,
+				"slot": "waist",
+				"name": "Rustrazor Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 66, "max": 96},
+				"resistances": {
+					"fire": 2,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 49, "points": 2},
+					{"treeId": 157, "points": 2},
+					{"treeId": 175, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1004,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 997,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573973,
+				"slot": "legs",
+				"name": "Rustrazor Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 66, "max": 96},
+				"resistances": {
+					"fire": 2,
+					"water": 3,
+					"thunder": -2,
+					"ice": -1,
+					"dragon": 0
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 86, "points": 2},
+					{"treeId": 49, "points": 3},
+					{"treeId": 157, "points": 2},
+					{"treeId": 175, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2028,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1004,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 994,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1110": [
+			{
+				"id": 1311830,
+				"slot": "head",
+				"name": "Nightcloak Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 106, "max": 156},
+				"resistances": {
+					"fire": -2,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 2},
+					{"treeId": 156, "points": 2},
+					{"treeId": 174, "points": 2},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 717,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 426, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377366,
+				"slot": "body",
+				"name": "Nightcloak Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 106, "max": 156},
+				"resistances": {
+					"fire": -2,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 1},
+					{"treeId": 156, "points": 1},
+					{"treeId": 174, "points": 1},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 712,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442902,
+				"slot": "arms",
+				"name": "Nightcloak Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 106, "max": 156},
+				"resistances": {
+					"fire": -2,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 2},
+					{"treeId": 156, "points": 2},
+					{"treeId": 174, "points": 2},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 709,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508438,
+				"slot": "waist",
+				"name": "Nightcloak Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 106, "max": 156},
+				"resistances": {
+					"fire": -2,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 2},
+					{"treeId": 156, "points": 3},
+					{"treeId": 174, "points": 3},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 719,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 426, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573974,
+				"slot": "legs",
+				"name": "Nightcloak Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 106, "max": 156},
+				"resistances": {
+					"fire": -2,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 3},
+					{"treeId": 156, "points": 2},
+					{"treeId": 174, "points": 2},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 715,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1111": [
+			{
+				"id": 1311831,
+				"slot": "head",
+				"name": "Nightcloak Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 63, "max": 93},
+				"resistances": {
+					"fire": -1,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 2},
+					{"treeId": 156, "points": 3},
+					{"treeId": 174, "points": 3},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 717,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 426, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377367,
+				"slot": "body",
+				"name": "Nightcloak Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 63, "max": 93},
+				"resistances": {
+					"fire": -1,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 1},
+					{"treeId": 156, "points": 1},
+					{"treeId": 174, "points": 1},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 712,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442903,
+				"slot": "arms",
+				"name": "Nightcloak Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 63, "max": 93},
+				"resistances": {
+					"fire": -1,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 2},
+					{"treeId": 156, "points": 2},
+					{"treeId": 174, "points": 2},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 709,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508439,
+				"slot": "waist",
+				"name": "Nightcloak Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 63, "max": 93},
+				"resistances": {
+					"fire": -1,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 2},
+					{"treeId": 156, "points": 2},
+					{"treeId": 174, "points": 2},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 719,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 426, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573975,
+				"slot": "legs",
+				"name": "Nightcloak Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 63, "max": 93},
+				"resistances": {
+					"fire": -1,
+					"water": -3,
+					"thunder": 1,
+					"ice": 1,
+					"dragon": 1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 108, "points": 3},
+					{"treeId": 156, "points": 2},
+					{"treeId": 174, "points": 2},
+					{"treeId": 103, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2023,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 724,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 715,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1112": [
+			{
+				"id": 1311832,
+				"slot": "head",
+				"name": "Soulseer Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 116, "max": 174},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 2},
+					{"treeId": 158, "points": 2},
+					{"treeId": 176, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1342,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1325,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377368,
+				"slot": "body",
+				"name": "Soulseer Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 116, "max": 174},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 1},
+					{"treeId": 158, "points": 1},
+					{"treeId": 176, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1342,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1331,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442904,
+				"slot": "arms",
+				"name": "Soulseer Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 116, "max": 174},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 2},
+					{"treeId": 158, "points": 2},
+					{"treeId": 176, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1344,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 970,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508440,
+				"slot": "waist",
+				"name": "Soulseer Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 116, "max": 174},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 2},
+					{"treeId": 158, "points": 3},
+					{"treeId": 176, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1342,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1325,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573976,
+				"slot": "legs",
+				"name": "Soulseer Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 116, "max": 174},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -3,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 3},
+					{"treeId": 158, "points": 2},
+					{"treeId": 176, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1342,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1322,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1113": [
+			{
+				"id": 1311833,
+				"slot": "head",
+				"name": "Soulseer Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 69, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 2},
+					{"treeId": 158, "points": 3},
+					{"treeId": 176, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1342,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1325,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377369,
+				"slot": "body",
+				"name": "Soulseer Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 69, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 1},
+					{"treeId": 158, "points": 1},
+					{"treeId": 176, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1342,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1331,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442905,
+				"slot": "arms",
+				"name": "Soulseer Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 69, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 2},
+					{"treeId": 158, "points": 2},
+					{"treeId": 176, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1344,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 970,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508441,
+				"slot": "waist",
+				"name": "Soulseer Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 69, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 2},
+					{"treeId": 158, "points": 2},
+					{"treeId": 176, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1342,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1325,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573977,
+				"slot": "legs",
+				"name": "Soulseer Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 69, "max": 104},
+				"resistances": {
+					"fire": 0,
+					"water": 3,
+					"thunder": -2,
+					"ice": 1,
+					"dragon": -2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 84, "points": 2},
+					{"treeId": 191, "points": 3},
+					{"treeId": 158, "points": 2},
+					{"treeId": 176, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2033,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1342,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1322,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1114": [
+			{
+				"id": 1311834,
+				"slot": "head",
+				"name": "Boltreaver Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 118, "max": 176},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 3,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 2},
+					{"treeId": 177, "points": 2},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1294,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1283,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377370,
+				"slot": "body",
+				"name": "Boltreaver Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 118, "max": 176},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 3,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 1},
+					{"treeId": 177, "points": 1},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1294,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1276,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442906,
+				"slot": "arms",
+				"name": "Boltreaver Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 118, "max": 176},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 3,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 2},
+					{"treeId": 177, "points": 2},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1294,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1285,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508442,
+				"slot": "waist",
+				"name": "Boltreaver Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 118, "max": 176},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 3,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 3},
+					{"treeId": 177, "points": 3},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1294,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1280,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573978,
+				"slot": "legs",
+				"name": "Boltreaver Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 118, "max": 176},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 3,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 2},
+					{"treeId": 177, "points": 2},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1296,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1277,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1115": [
+			{
+				"id": 1311835,
+				"slot": "head",
+				"name": "Boltreaver Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 70, "max": 105},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 3},
+					{"treeId": 177, "points": 3},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1294,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1283,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377371,
+				"slot": "body",
+				"name": "Boltreaver Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 70, "max": 105},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 1},
+					{"treeId": 177, "points": 1},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1294,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1276,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 1, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442907,
+				"slot": "arms",
+				"name": "Boltreaver Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 70, "max": 105},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 2},
+					{"treeId": 177, "points": 2},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1294,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1285,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508443,
+				"slot": "waist",
+				"name": "Boltreaver Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 70, "max": 105},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 2},
+					{"treeId": 177, "points": 2},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1294,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1280,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573979,
+				"slot": "legs",
+				"name": "Boltreaver Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 70, "max": 105},
+				"resistances": {
+					"fire": -1,
+					"water": -1,
+					"thunder": 4,
+					"ice": -3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 159, "points": 2},
+					{"treeId": 177, "points": 2},
+					{"treeId": 72, "points": 2},
+					{"treeId": 107, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2038,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1296,
+							"quantity": 1,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1277,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1116": [
+			{
+				"id": 1311836,
+				"slot": "head",
+				"name": "Elderfrost Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 2},
+					{"treeId": 178, "points": 2},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1317,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1305,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 426, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377372,
+				"slot": "body",
+				"name": "Elderfrost Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 1},
+					{"treeId": 178, "points": 1},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1317,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1302,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442908,
+				"slot": "arms",
+				"name": "Elderfrost Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 2},
+					{"treeId": 178, "points": 2},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1317,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1307,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508444,
+				"slot": "waist",
+				"name": "Elderfrost Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 3},
+					{"treeId": 178, "points": 3},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1319,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1308,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573980,
+				"slot": "legs",
+				"name": "Elderfrost Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 3,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 2},
+					{"treeId": 178, "points": 2},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1317,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1302,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1117": [
+			{
+				"id": 1311837,
+				"slot": "head",
+				"name": "Elderfrost Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 3},
+					{"treeId": 178, "points": 3},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1317,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1305,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 426, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377373,
+				"slot": "body",
+				"name": "Elderfrost Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 1},
+					{"treeId": 178, "points": 1},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 1}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1317,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1302,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442909,
+				"slot": "arms",
+				"name": "Elderfrost Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 2},
+					{"treeId": 178, "points": 2},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1317,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1307,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508445,
+				"slot": "waist",
+				"name": "Elderfrost Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 2},
+					{"treeId": 178, "points": 2},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1319,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1308,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573981,
+				"slot": "legs",
+				"name": "Elderfrost Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": -3,
+					"water": 2,
+					"thunder": -2,
+					"ice": 4,
+					"dragon": 2
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 160, "points": 2},
+					{"treeId": 178, "points": 2},
+					{"treeId": 77, "points": 2},
+					{"treeId": 80, "points": 3}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2043,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1317,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1302,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1118": [
+			{
+				"id": 1311838,
+				"slot": "head",
+				"name": "Bloodbath Helm",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 2},
+					{"treeId": 179, "points": 2},
+					{"treeId": 100, "points": 2},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1433,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377374,
+				"slot": "body",
+				"name": "Bloodbath Mail",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 1},
+					{"treeId": 179, "points": 1},
+					{"treeId": 100, "points": 1},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1427,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442910,
+				"slot": "arms",
+				"name": "Bloodbath Vambraces",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 2},
+					{"treeId": 179, "points": 2},
+					{"treeId": 100, "points": 2},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1425,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508446,
+				"slot": "waist",
+				"name": "Bloodbath Faulds",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 3},
+					{"treeId": 179, "points": 3},
+					{"treeId": 100, "points": 2},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1433,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573982,
+				"slot": "legs",
+				"name": "Bloodbath Greaves",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 122, "max": 180},
+				"resistances": {
+					"fire": 4,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 2},
+					{"treeId": 179, "points": 2},
+					{"treeId": 100, "points": 3},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1429,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		],
+		"1119": [
+			{
+				"id": 1311839,
+				"slot": "head",
+				"name": "Bloodbath Cap",
+				"iconKey": "armor_head.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": 5,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 3},
+					{"treeId": 179, "points": 3},
+					{"treeId": 100, "points": 2},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1433,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1377375,
+				"slot": "body",
+				"name": "Bloodbath Vest",
+				"iconKey": "armor_body.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": 5,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 1},
+					{"treeId": 179, "points": 1},
+					{"treeId": 100, "points": 1},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1427,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1442911,
+				"slot": "arms",
+				"name": "Bloodbath Guards",
+				"iconKey": "armor_arms.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": 5,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 2},
+					{"treeId": 179, "points": 2},
+					{"treeId": 100, "points": 2},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 3,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1425,
+							"quantity": 4,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 416, "quantity": 4, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1508447,
+				"slot": "waist",
+				"name": "Bloodbath Coat",
+				"iconKey": "armor_waist.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": 5,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 2},
+					{"treeId": 179, "points": 2},
+					{"treeId": 100, "points": 2},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1433,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			},
+			{
+				"id": 1573983,
+				"slot": "legs",
+				"name": "Bloodbath Leggings",
+				"iconKey": "armor_legs.png",
+				"defense": {"base": 73, "max": 108},
+				"resistances": {
+					"fire": 5,
+					"water": -3,
+					"thunder": -1,
+					"ice": -1,
+					"dragon": -1
+				},
+				"slots": 0,
+				"skills": [
+					{"treeId": 161, "points": 2},
+					{"treeId": 179, "points": 2},
+					{"treeId": 100, "points": 3},
+					{"treeId": 76, "points": 2}
+				],
+				"recipe": {
+					"materials": [
+						{
+							"kind": "item",
+							"itemId": 2048,
+							"quantity": 1,
+							"keyMaterial": true
+						},
+						{
+							"kind": "item",
+							"itemId": 1436,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{
+							"kind": "item",
+							"itemId": 1429,
+							"quantity": 2,
+							"keyMaterial": false
+						},
+						{"kind": "item", "itemId": 430, "quantity": 2, "keyMaterial": false}
+					]
+				}
+			}
+		]
+	}
+}

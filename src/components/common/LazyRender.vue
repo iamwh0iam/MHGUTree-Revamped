@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import {ref, onMounted, onUnmounted} from 'vue'
+import {ref, onMounted, onUnmounted, watch} from 'vue'
 
 const props = withDefaults(
 	defineProps<{
 		minHeight?: string
+		forceVisible?: boolean
 	}>(),
-	{minHeight: '100px'}
+	{minHeight: '100px', forceVisible: false}
 )
 
 const emit = defineEmits<{revealed: []}>()
@@ -13,6 +14,22 @@ const emit = defineEmits<{revealed: []}>()
 const isVisible = ref(false)
 const containerRef = ref<HTMLElement | null>(null)
 let observer: IntersectionObserver | null = null
+
+function reveal() {
+	if (isVisible.value) return
+	isVisible.value = true
+	emit('revealed')
+	observer?.disconnect()
+	observer = null
+}
+
+watch(
+	() => props.forceVisible,
+	(forceVisible) => {
+		if (forceVisible) reveal()
+	},
+	{immediate: true}
+)
 
 /** Walk up the DOM to find the nearest scrollable ancestor. */
 function findScrollParent(el: HTMLElement): HTMLElement | null {
@@ -26,15 +43,13 @@ function findScrollParent(el: HTMLElement): HTMLElement | null {
 }
 
 onMounted(() => {
+	if (isVisible.value) return
 	const root = containerRef.value ? findScrollParent(containerRef.value) : null
 
 	observer = new IntersectionObserver(
 		(entries) => {
 			if (entries?.[0]?.isIntersecting) {
-				isVisible.value = true
-				emit('revealed')
-				observer?.disconnect()
-				observer = null
+				reveal()
 			}
 		},
 		// Use the scrollable container as root so horizontal scrolling

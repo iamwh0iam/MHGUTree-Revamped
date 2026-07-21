@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import type {TWeapon, TDualbladesData} from '@/interfaces/Weapons'
 import WeaponItemRegular from './WeaponItemRegular.vue'
+import {resolveAssetUrl} from '@/data/assets'
 
 // ── Props ──────────────────────────────────────────────────────────────────
 interface IProps {
@@ -26,9 +27,17 @@ function getStripeColor() {
 		:dimmed="props.dimmed"
 	>
 		<template #element2>
-			<div v-if="props.weapon.data.element_2" class="flex items-center gap-1">
+			<div
+				v-if="props.weapon.data.element_2"
+				class="flex items-center gap-1"
+				:title="props.weapon.data.element_2"
+			>
 				<img
-					:src="`/icons/status/${props.weapon.data.element_2!.toLowerCase()}.png`"
+					:src="
+						resolveAssetUrl(
+							`icons/status/${props.weapon.data.element_2!.toLowerCase()}.png`
+						)
+					"
 					:alt="props.weapon.data.element_2"
 					class="inline w-4 h-4"
 				/>

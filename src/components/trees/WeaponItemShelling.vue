@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import type {TWeapon, TGunlanceData} from '@/interfaces/Weapons'
 import WeaponItemRegular from './WeaponItemRegular.vue'
+import {resolveAssetUrl} from '@/data/assets'
 
 // ── Props ──────────────────────────────────────────────────────────────────
 interface IProps {
@@ -15,7 +16,11 @@ const props = withDefaults(defineProps<IProps>(), {dimmed: false})
 		<template #extras>
 			<div class="flex items-center">
 				<img
-					:src="`/icons/shells/${props.weapon.data.shelling_type.split(' ')[0]!.toLowerCase()}.png`"
+					:src="
+						resolveAssetUrl(
+							`icons/shells/${props.weapon.data.shelling_type.split(' ')[0]!.toLowerCase()}.png`
+						)
+					"
 					alt="Attack"
 					class="inline w-5 h-5"
 				/>

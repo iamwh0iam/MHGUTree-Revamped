@@ -1,21 +1,17 @@
 <script lang="ts" setup>
 import {ref, computed} from 'vue'
-import RAW_DATA from '@/json/cb.json'
-import WeaponTree from '@/components/trees/WeaponTree.vue'
-import LazyRender from '@/components/common/LazyRender.vue'
+import RAW_DATA from '@/data/weapons/trees/cb.json'
+import WeaponTreeExplorer from '@/components/trees/WeaponTreeExplorer.vue'
 import type {
 	TPhialWeaponData,
 	TWeapon,
 	TWeaponCluster,
 } from '@/interfaces/Weapons'
-import LoaderSpinner from '@/components/common/LoaderSpinner.vue'
 import WeaponFilterPanel from '@/components/trees/WeaponFilterPanel.vue'
 import type {TWeaponFilter} from '@/components/trees/WeaponFilterPanel.vue'
-import {Icon} from '@iconify/vue'
 import WeaponItemPhial from '@/components/trees/WeaponItemPhial.vue'
 
 const items = RAW_DATA as unknown as TWeaponCluster<TPhialWeaponData>[]
-const anyRevealed = ref(false)
 
 // ── Filter state ──────────────────────────────────────────────────────────────
 const currentFilter = ref<TWeaponFilter>({
@@ -102,51 +98,24 @@ const visibleClusters = computed(() => {
 </script>
 
 <template>
-	<div class="relative h-screen">
-		<div
-			class="absolute inset-0 z-10 flex items-center justify-center pointer-events-none select-none"
-		>
-			<LoaderSpinner :visible="!anyRevealed" />
-		</div>
-		<div class="overflow-auto h-full scrollable py-4 px-8">
-			<div
-				v-if="isFilterActive && visibleClusters.length === 0"
-				class="flex flex-col items-center justify-center gap-3 h-48 text-gray-400"
-			>
-				<Icon icon="material-symbols:search-rounded" class="text-4xl" />
-				<span class="text-base font-medium"
-					>No weapons match the current filters.</span
-				>
-			</div>
-			<div v-for="(cluster, idx) in visibleClusters" :key="idx" class="mb-8">
-				<LazyRender min-height="200px" @revealed="anyRevealed = true">
-					<div
-						class="w-full text-left px-4 rounded bg-gray-800 flex items-center gap-2"
-					>
-						<span class="text-lg font-semibold"
-							>{{ cluster.items[0]!.data.name.split(' ')[0] }} Tree</span
-						>
-						<span class="text-sm text-gray-400 pt-1">
-							{{ cluster.items.length }} Weapons
-						</span>
-					</div>
-
-					<WeaponTree :cluster="cluster" :node-height="104">
-						<template #default="{item}">
-							<!-- prettier-ignore -->
-							<WeaponItemPhial :weapon="(item as unknown as TWeapon<TPhialWeaponData>)" :dimmed="isFilterActive && !matchedIds?.has(item.id)" />
-						</template>
-					</WeaponTree>
-				</LazyRender>
-			</div>
-		</div>
-		<div class="absolute bottom-6 left-4">
+	<WeaponTreeExplorer
+		:clusters="visibleClusters"
+		weapon-type="charge-blade"
+		:eligible-ids="matchedIds"
+		:filter-active="isFilterActive"
+		:node-height="104"
+	>
+		<template #default="{item, isSearchPath, isFocusPath}">
+			<!-- prettier-ignore -->
+			<WeaponItemPhial :weapon="(item as unknown as TWeapon<TPhialWeaponData>)" :dimmed="!isFocusPath && isFilterActive && !matchedIds?.has(item.id) && !isSearchPath" />
+		</template>
+		<template #filter>
 			<WeaponFilterPanel
 				:phial-options="['Impact', 'Element']"
 				@update:filter="currentFilter = $event"
 			/>
-		</div>
-	</div>
+		</template>
+	</WeaponTreeExplorer>
 </template>
 
 <style scoped></style>

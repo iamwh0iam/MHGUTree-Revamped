@@ -3,13 +3,15 @@ import AppMainMenu from './components/navigation/AppMainMenu.vue'
 </script>
 
 <template>
-	<div class="min-w-screen min-h-screen grid grid-cols-[auto_1fr]">
+	<div
+		class="grid h-dvh min-w-screen grid-cols-1 overflow-hidden md:grid-cols-[auto_1fr]"
+	>
 		<AppMainMenu />
-		<div class="h-screen overflow-y-auto scrollable relative">
+		<div class="scrollable relative h-full min-h-0 min-w-0 overflow-y-auto">
 			<img
 				src="/background.png"
 				alt="Background"
-				class="absolute inset-0 w-full h-full opacity-25 object-fill"
+				class="pointer-events-none absolute inset-0 h-full w-full object-fill opacity-25"
 			/>
 			<RouterView />
 		</div>

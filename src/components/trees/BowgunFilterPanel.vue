@@ -71,7 +71,8 @@ export function makeDefaultFilter(): TWeaponFilter {
 
 <script lang="ts" setup>
 import {ref, computed} from 'vue'
-import {Icon} from '@iconify/vue'
+import Icon from '@/components/common/AppIcon.vue'
+import {resolveAssetUrl} from '@/data/assets'
 
 const emit = defineEmits<{
 	'update:filter': [filter: TWeaponFilter]
@@ -160,11 +161,19 @@ const SLOTS_OPTIONS = ['0+', '1+', '2+', '3']
 			</button>
 		</Transition>
 
+		<button
+			v-if="isOpen"
+			type="button"
+			class="fixed inset-0 z-0 cursor-default bg-transparent md:hidden"
+			aria-label="Close bowgun filters"
+			@click="isOpen = false"
+		/>
+
 		<!-- Panel (open state) -->
 		<Transition name="panel">
 			<div
 				v-if="isOpen"
-				class="absolute bottom-0 left-0 bg-primary-800 border border-primary-600 rounded-2xl shadow-2xl w-96 max-h-[80vh] overflow-y-auto flex flex-col gap-3 p-4"
+				class="filter-panel-scroll scrollable absolute bottom-0 left-0 z-10 flex max-h-[75vh] w-[min(24rem,calc(100vw-2rem))] flex-col gap-3 overflow-x-hidden overflow-y-auto rounded-2xl border border-primary-600 bg-primary-800 p-4 shadow-2xl"
 			>
 				<!-- Header -->
 				<div class="flex items-center justify-between">
@@ -186,7 +195,11 @@ const SLOTS_OPTIONS = ['0+', '1+', '2+', '3']
 				<div class="flex flex-col gap-2">
 					<!-- ATK -->
 					<div class="flex items-center gap-2">
-						<img src="/icons/atk.png" alt="Attack" class="w-4 h-4 shrink-0" />
+						<img
+							:src="resolveAssetUrl('icons/atk.png')"
+							alt="Attack"
+							class="w-4 h-4 shrink-0"
+						/>
 						<span class="text-xs text-gray-400 w-12 shrink-0">Attack</span>
 						<div
 							class="flex flex-1 min-w-0 bg-primary-900 border border-primary-600 focus-within:border-accent-500 rounded overflow-hidden"
@@ -207,7 +220,11 @@ const SLOTS_OPTIONS = ['0+', '1+', '2+', '3']
 					</div>
 					<!-- DEF -->
 					<div class="flex items-center gap-2">
-						<img src="/icons/def.png" alt="Defense" class="w-4 h-4 shrink-0" />
+						<img
+							:src="resolveAssetUrl('icons/def.png')"
+							alt="Defense"
+							class="w-4 h-4 shrink-0"
+						/>
 						<span class="text-xs text-gray-400 w-12 shrink-0">Defense</span>
 						<div
 							class="flex flex-1 min-w-0 bg-primary-900 border border-primary-600 focus-within:border-accent-500 rounded overflow-hidden"
@@ -228,7 +245,11 @@ const SLOTS_OPTIONS = ['0+', '1+', '2+', '3']
 					</div>
 					<!-- AFF -->
 					<div class="flex items-center gap-2">
-						<img src="/icons/aff.png" alt="Affinity" class="w-4 h-4 shrink-0" />
+						<img
+							:src="resolveAssetUrl('icons/aff.png')"
+							alt="Affinity"
+							class="w-4 h-4 shrink-0"
+						/>
 						<span class="text-xs text-gray-400 w-12 shrink-0">Affinity</span>
 						<div
 							class="flex flex-1 min-w-0 bg-primary-900 border border-primary-600 focus-within:border-accent-500 rounded overflow-hidden"

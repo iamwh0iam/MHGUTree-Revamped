@@ -1,5 +1,6 @@
 <script lang="ts" setup>
-import {Icon} from '@iconify/vue'
+import Icon from '@/components/common/AppIcon.vue'
+import {resolveAssetUrl} from '@/data/assets'
 
 const props = defineProps<{
 	label: string
@@ -12,6 +13,10 @@ const props = defineProps<{
 const emit = defineEmits<{
 	(e: 'click'): void
 }>()
+
+function menuImageUrl(image: string): string {
+	return `url('${resolveAssetUrl(`icons/${image}`)}')`
+}
 </script>
 
 <template>
@@ -28,14 +33,23 @@ const emit = defineEmits<{
 				v-if="props.icon"
 				:icon="props.icon"
 				class="text-2xl transition-colors group-hover:text-accent-400"
-				:class="`${(props.iconClass ?? '', props.active ? 'text-accent-500' : 'text-contrast-500')}`"
+				:class="[
+					props.iconClass,
+					props.active ? 'text-accent-500' : 'text-contrast-500',
+				]"
 			/>
-			<img
+			<span
 				v-else-if="props.imageSrc"
-				:src="'/icons/'+props.imageSrc"
-				alt="Icon"
-				class="w-6 h-6 transition-colors group-hover:text-accent-400"
-				:class="`${(props.iconClass ?? '', props.active ? 'text-accent-500' : 'text-contrast-500')}`"
+				aria-hidden="true"
+				class="weaponIcon h-6 w-6 shrink-0 bg-current transition-colors group-hover:text-accent-400"
+				:class="[
+					props.iconClass,
+					props.active ? 'text-accent-500' : 'text-contrast-500',
+				]"
+				:style="{
+					maskImage: menuImageUrl(props.imageSrc),
+					WebkitMaskImage: menuImageUrl(props.imageSrc),
+				}"
 			/>
 			<span class="tracking-wider transition-opacity 0.2s ease-out">{{
 				props.label
@@ -45,6 +59,16 @@ const emit = defineEmits<{
 </template>
 
 <style scoped>
+.weaponIcon {
+	mask-mode: luminance;
+	mask-position: center;
+	mask-repeat: no-repeat;
+	mask-size: contain;
+	-webkit-mask-position: center;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: contain;
+}
+
 .appLink:hover::before {
 	top: 12px;
 	bottom: 12px;

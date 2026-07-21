@@ -68,7 +68,7 @@ function fillCoatingArray(coatings: boolean[]) {
 </script>
 
 <template>
-	<WeaponItemRanged :weapon="props.weapon">
+	<WeaponItemRanged :weapon="props.weapon" info-title="Charges and coatings">
 		<template #tooltip>
 			<div class="grid grid-cols-5">
 				<div class="col-span-2">

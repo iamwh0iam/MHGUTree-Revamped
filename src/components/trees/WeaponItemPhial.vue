@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import type {TWeapon, TPhialWeaponData} from '@/interfaces/Weapons'
 import WeaponItemRegular from './WeaponItemRegular.vue'
+import {resolveAssetUrl} from '@/data/assets'
 
 // ── Props ──────────────────────────────────────────────────────────────────
 interface IProps {
@@ -15,7 +16,11 @@ const props = withDefaults(defineProps<IProps>(), {dimmed: false})
 		<template #extras>
 			<div class="flex items-center">
 				<img
-					:src="`/icons/phials/${props.weapon.data.phial.toLowerCase().replace('power', 'impact')}.png`"
+					:src="
+						resolveAssetUrl(
+							`icons/phials/${props.weapon.data.phial.toLowerCase().replace('power', 'impact')}.png`
+						)
+					"
 					alt="Attack"
 					class="inline w-5 h-5"
 				/>

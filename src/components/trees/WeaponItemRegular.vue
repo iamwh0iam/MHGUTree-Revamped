@@ -1,18 +1,22 @@
 <script lang="ts" setup>
 import type {TWeapon, TMeleeData} from '@/interfaces/Weapons'
-import {computed} from 'vue'
+import {computed, inject} from 'vue'
 import WeaponSharpnessBar from './WeaponSharpnessBar.vue'
 import WeaponSlots from './WeaponSlots.vue'
-import {Icon} from '@iconify/vue'
+import Icon from '@/components/common/AppIcon.vue'
+import {weaponTreeContextKey} from './weaponTreeContext'
+import {resolveAssetUrl} from '@/data/assets'
 
 // ── Props ──────────────────────────────────────────────────────────────────
 interface IProps {
 	weapon: TWeapon<TMeleeData>
 	elementStripeClasses?: string
 	dimmed?: boolean
+	visualPosition?: 'left' | 'right'
 }
 const props = withDefaults(defineProps<IProps>(), {
 	dimmed: false,
+	visualPosition: 'right',
 })
 
 const stripeColor = computed(() => {
@@ -23,6 +27,7 @@ const stripeColor = computed(() => {
 const rarityColor = computed(() => {
 	return `text-rarity-${props.weapon.data.rarity}`
 })
+const treeContext = inject(weaponTreeContextKey, null)
 </script>
 
 <template>
@@ -30,35 +35,68 @@ const rarityColor = computed(() => {
 		class="rounded-md select-none transition-all duration-200 w-full h-full bg-primary-700 relative"
 		:class="{'opacity-25': props.dimmed}"
 	>
-		<!-- Left Element stripe -->
+		<!-- Right Element stripe -->
 		<div
-			class="absolute left-0 inset-y-0 w-1.5 rounded-l-md bg-linear-0"
+			class="absolute right-0 inset-y-0 w-1.5 rounded-r-md bg-linear-0"
 			:class="props.elementStripeClasses || stripeColor"
 		/>
 
 		<!-- Main content -->
-		<div class="">
-			<div class="flex flex-col justify-center h-full pl-3 pr-2 py-1">
+		<div
+			class="h-full"
+			:class="{
+				'pl-20': $slots.visual && props.visualPosition === 'left',
+				'pr-20': $slots.visual && props.visualPosition === 'right',
+			}"
+		>
+			<div class="flex flex-col justify-center h-full pl-3 pr-3 py-1">
 				<!-- Name & Rarity Pip -->
 				<div class="flex justify-between items-center">
-					<span class="text-sm font-bold tracking-wider truncate">
-						{{ props.weapon.data.name }}
+					<div class="flex min-w-0 items-center gap-1">
+						<button
+							v-if="treeContext"
+							type="button"
+							class="grid h-5 w-5 shrink-0 place-items-center rounded text-accent-400 transition hover:bg-primary-600 hover:text-accent-300 focus-visible:outline-2 focus-visible:outline-secondary-400"
+							:aria-label="`Focus ${props.weapon.data.name} upgrade tree`"
+							:title="`Focus ${props.weapon.data.name} upgrade tree`"
+							@click.stop="treeContext.showUpgradePath(props.weapon)"
+							@keydown.stop
+						>
+							<Icon icon="tabler:git-branch" class="h-4 w-4" />
+						</button>
+						<span class="truncate text-sm font-bold tracking-wider">
+							{{ props.weapon.data.name }}
+						</span>
+					</div>
+					<span :title="`Rarity ${props.weapon.data.rarity}`">
+						<Icon
+							icon="tabler:diamond-filled"
+							class="size-4"
+							:class="rarityColor"
+						/>
 					</span>
-					<Icon icon="tabler:diamond-filled" :class="rarityColor"></Icon>
 				</div>
 
 				<!-- Core Stats -->
 				<div class="flex gap-2 items-center my-1">
 					<!-- Attack -->
-					<div class="flex items-center">
-						<img :src="`/icons/atk.png`" alt="Attack" class="inline w-4 h-4" />
+					<div class="flex items-center" title="Attack">
+						<img
+							:src="resolveAssetUrl('icons/atk.png')"
+							alt="Attack"
+							class="inline w-4 h-4"
+						/>
 						<span class="text-sm leading-none">{{
 							props.weapon.data.attack
 						}}</span>
 					</div>
 					<!-- Defense -->
-					<div class="flex items-center">
-						<img :src="`/icons/def.png`" alt="Defense" class="inline w-4 h-4" />
+					<div class="flex items-center" title="Defense">
+						<img
+							:src="resolveAssetUrl('icons/def.png')"
+							alt="Defense"
+							class="inline w-4 h-4"
+						/>
 						<span
 							class="text-sm leading-none"
 							:class="{
@@ -68,9 +106,9 @@ const rarityColor = computed(() => {
 						>
 					</div>
 					<!-- Affinity -->
-					<div class="flex items-center">
+					<div class="flex items-center" title="Affinity">
 						<img
-							:src="`/icons/aff.png`"
+							:src="resolveAssetUrl('icons/aff.png')"
 							alt="Affinity"
 							class="inline w-4 h-4"
 						/>
@@ -84,9 +122,17 @@ const rarityColor = computed(() => {
 						>
 					</div>
 					<!-- Element -->
-					<div class="flex items-center" v-if="props.weapon.data.element">
+					<div
+						class="flex items-center"
+						v-if="props.weapon.data.element"
+						:title="props.weapon.data.element"
+					>
 						<img
-							:src="`/icons/status/${props.weapon.data.element.toLowerCase()}.png`"
+							:src="
+								resolveAssetUrl(
+									`icons/status/${props.weapon.data.element.toLowerCase()}.png`
+								)
+							"
 							:alt="props.weapon.data.element"
 							class="inline w-4 h-4"
 						/>
@@ -104,6 +150,7 @@ const rarityColor = computed(() => {
 				<div class="flex justify-between items-center">
 					<div
 						class="rounded-sm p-1 flex flex-col gap-0.5 w-min bg-primary-900"
+						title="Sharpness"
 					>
 						<WeaponSharpnessBar :sharpness="props.weapon.data.sharpness" />
 						<WeaponSharpnessBar :sharpness="props.weapon.data.sharpness_plus" />
@@ -115,6 +162,14 @@ const rarityColor = computed(() => {
 					<WeaponSlots :slots="props.weapon.data.slots" />
 				</div>
 			</div>
+		</div>
+
+		<div
+			v-if="$slots.visual"
+			class="absolute inset-y-0"
+			:class="props.visualPosition === 'left' ? 'left-0' : 'right-0'"
+		>
+			<slot name="visual"></slot>
 		</div>
 	</div>
 </template>
