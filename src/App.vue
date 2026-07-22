@@ -4,7 +4,7 @@ import AppMainMenu from './components/navigation/AppMainMenu.vue'
 
 <template>
 	<div
-		class="grid h-dvh min-w-screen grid-cols-1 overflow-hidden md:grid-cols-[auto_1fr]"
+		class="grid h-dvh w-full min-w-0 grid-cols-1 overflow-hidden md:grid-cols-[auto_1fr]"
 	>
 		<AppMainMenu />
 		<div class="scrollable relative h-full min-h-0 min-w-0 overflow-y-auto">

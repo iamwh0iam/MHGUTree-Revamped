@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import type {TWeapon, TWeaponDataAny} from '@/interfaces/Weapons'
-import {computed, inject, ref} from 'vue'
+import {computed, inject} from 'vue'
 import Icon from '@/components/common/AppIcon.vue'
 import WeaponSlots from './WeaponSlots.vue'
 import {weaponTreeContextKey} from './weaponTreeContext'
@@ -26,7 +26,6 @@ const rarityColor = computed(() => {
 	return `text-rarity-${props.weapon.data.rarity}`
 })
 
-const hovered = ref(false)
 const treeContext = inject(weaponTreeContextKey, null)
 </script>
 
@@ -34,8 +33,6 @@ const treeContext = inject(weaponTreeContextKey, null)
 	<div
 		class="rounded-md select-none transition-all duration-200 w-full h-full bg-primary-700 hover:bg-primary-600 group relative cursor-pointer"
 		:class="{'bg-primary-700/25 hover:bg-primary-600/25': props.dimmed}"
-		@mouseenter="hovered = true"
-		@mouseleave="hovered = false"
 	>
 		<!-- Right Element stripe -->
 		<div
@@ -148,15 +145,6 @@ const treeContext = inject(weaponTreeContextKey, null)
 				<slot name="extras"></slot>
 			</div>
 		</div>
-		<!-- Hover tooltip -->
-		<Transition name="fade">
-			<div
-				v-if="hovered"
-				class="pointer-events-none absolute left-2 right-0 top-full z-10 mt-1 hidden rounded-md border border-gray-600 bg-gray-800 p-2 text-[11px] text-gray-100 shadow-xl md:block"
-			>
-				<slot name="tooltip"></slot>
-			</div>
-		</Transition>
 		<MobileInfoButton :title="props.infoTitle" placement="weapon">
 			<slot name="tooltip"></slot>
 		</MobileInfoButton>

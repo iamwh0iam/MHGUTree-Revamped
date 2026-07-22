@@ -170,13 +170,6 @@ const rarityGroups = computed<RarityGroup[]>(() => {
 		}
 	}).filter((group) => group.sets.length > 0)
 })
-const typeOptions: {value: ArmorHunterTypeFilter; label: string}[] = [
-	{value: 'all', label: 'All'},
-	{value: 'blademaster', label: 'Blademaster'},
-	{value: 'gunner', label: 'Gunner'},
-	{value: 'both', label: 'Both'},
-]
-
 async function openArmor(summary: ArmorSetSummary): Promise<void> {
 	const requestId = ++detailsRequestId
 	detailsGender.value = gender.value
@@ -277,7 +270,7 @@ onMounted(async () => {
 
 <template>
 	<main ref="catalogRoot" class="relative z-10 min-h-full">
-		<CatalogStickyToolbar mobile-menu-gutter>
+		<CatalogStickyToolbar mobile-menu-gutter :surface="false">
 			<CatalogSearchBar
 				v-model="searchQuery"
 				placeholder="Search armor…"
@@ -291,48 +284,6 @@ onMounted(async () => {
 				@clear="clearArmorSearch"
 				@select="selectArmorSearchOption"
 			/>
-			<div
-				class="hidden flex-wrap gap-2 md:flex"
-				role="group"
-				aria-label="Hunter type filter"
-			>
-				<button
-					v-for="option in typeOptions"
-					:key="option.value"
-					type="button"
-					class="rounded-md px-3 py-2 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-secondary-400"
-					:class="
-						hunterType === option.value
-							? 'bg-accent-600 text-white'
-							: 'bg-primary-700 text-primary-300 hover:bg-primary-600 hover:text-white'
-					"
-					:aria-pressed="hunterType === option.value"
-					@click="hunterType = option.value"
-				>
-					{{ option.label }}
-				</button>
-			</div>
-			<div
-				class="ml-auto hidden rounded-md bg-primary-900/70 p-1 md:flex"
-				role="group"
-				aria-label="Model gender"
-			>
-				<button
-					v-for="option in ['male', 'female'] as ArmorGender[]"
-					:key="option"
-					type="button"
-					class="rounded-sm px-4 py-1.5 text-sm font-semibold capitalize transition focus-visible:outline-2 focus-visible:outline-secondary-400"
-					:class="
-						gender === option
-							? 'bg-secondary-600 text-white shadow'
-							: 'text-primary-300 hover:bg-primary-700 hover:text-white'
-					"
-					:aria-pressed="gender === option"
-					@click="gender = option"
-				>
-					{{ option }}
-				</button>
-			</div>
 		</CatalogStickyToolbar>
 
 		<div class="mx-auto max-w-7xl px-5 pb-5 sm:px-8 lg:px-12">
@@ -356,18 +307,18 @@ onMounted(async () => {
 				<span class="text-base font-medium">No armor sets match</span>
 			</div>
 		</div>
-		<ScrollNavigationControls class="fixed bottom-6 right-6 z-30" />
+		<ScrollNavigationControls class="fixed bottom-6 right-6 z-20 md:z-30" />
 	</main>
 
 	<div
-		class="fixed bottom-[calc(1.5rem+env(safe-area-inset-bottom))] left-4 z-30 flex items-end gap-2 md:bottom-6 md:left-[13rem]"
+		class="fixed bottom-[calc(1.5rem+env(safe-area-inset-bottom))] left-4 z-40 flex items-end gap-2 md:bottom-6 md:left-[13rem] md:z-30"
 	>
 		<ArmorFilterPanel
 			v-model:hunter-type="hunterType"
 			@update:filter="currentFilter = $event"
 		/>
 		<div
-			class="flex h-12 items-center rounded-full border border-primary-600 bg-primary-900/95 p-1 shadow-xl backdrop-blur md:hidden"
+			class="flex h-12 items-center rounded-full border border-primary-600 bg-primary-900/95 p-1 shadow-xl backdrop-blur"
 			role="group"
 			aria-label="Armor model gender"
 		>

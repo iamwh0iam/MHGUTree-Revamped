@@ -70,6 +70,7 @@ const displayedClusters = computed<TWeaponCluster<T>[]>(() => {
 				!parentIds.has(weapon.id) &&
 				(props.eligibleIds === null || props.eligibleIds.has(weapon.id))
 		)
+		items.sort((left, right) => left.data.rarity - right.data.rarity)
 		return items.length ? [{...cluster, items}] : []
 	})
 })
@@ -191,34 +192,36 @@ watch(search.activeWeaponId, async (weaponId) => {
 
 <template>
 	<div class="relative h-full min-h-0">
-		<CatalogStickyToolbar overlay mobile-menu-gutter class="md:left-48">
+		<CatalogStickyToolbar
+			overlay
+			mobile-menu-gutter
+			:surface="false"
+			:content-class="
+				isFocusMode ? 'md:mx-0 md:max-w-[24rem]' : undefined
+			"
+			class="md:left-48"
+		>
 			<template v-if="isFocusMode">
 				<button
 					type="button"
-					class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-primary-700 bg-primary-900/90 text-sm font-semibold text-primary-200 shadow-xl backdrop-blur transition hover:bg-primary-700 hover:text-white focus-visible:outline-2 focus-visible:outline-secondary-400 md:h-auto md:w-auto md:gap-2 md:rounded-md md:border-0 md:bg-primary-700 md:px-3 md:py-2 md:shadow-none md:backdrop-blur-none md:hover:bg-primary-600"
+					class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-primary-700 bg-primary-900/90 text-sm font-semibold text-primary-200 shadow-xl backdrop-blur transition hover:bg-primary-700 hover:text-white focus-visible:outline-2 focus-visible:outline-secondary-400"
 					aria-label="Back to weapon tree"
 					@click="closeUpgradePath"
 				>
 					<Icon icon="tabler:arrow-left" class="h-5 w-5" />
-					<span class="hidden md:inline">Back</span>
 				</button>
 				<div
-					class="flex h-11 min-w-0 flex-1 flex-col justify-center rounded-full border border-primary-700 bg-primary-900/90 px-4 shadow-xl backdrop-blur md:h-auto md:rounded-none md:border-0 md:bg-transparent md:p-0 md:shadow-none md:backdrop-blur-none"
+					class="flex h-11 min-w-0 flex-1 flex-col justify-center rounded-full border border-primary-700 bg-primary-900/90 px-4 shadow-xl backdrop-blur"
 				>
-					<div class="flex min-w-0 items-center justify-between gap-3 md:block">
+					<div class="flex min-w-0 items-center justify-between gap-3">
 						<div class="truncate font-semibold">
 							{{ focusedWeapon?.data.name }}
 						</div>
 						<div
-							class="shrink-0 text-xs font-semibold tracking-wider text-primary-400 md:hidden"
+							class="shrink-0 text-xs font-semibold tracking-wider text-primary-400"
 						>
 							Tree
 						</div>
-					</div>
-					<div
-						class="hidden text-xs font-semibold tracking-wider text-primary-400 md:block"
-					>
-						Tree
 					</div>
 				</div>
 			</template>
@@ -236,34 +239,13 @@ watch(search.activeWeaponId, async (weaponId) => {
 					@select="search.select"
 					@clear="search.clear"
 				/>
-				<div
-					class="ml-auto hidden rounded-md bg-primary-900/70 p-1 md:flex"
-					role="group"
-					aria-label="Weapon tree view"
-				>
-					<button
-						v-for="mode in ['all', 'final'] as const"
-						:key="mode"
-						type="button"
-						class="rounded-sm px-4 py-1.5 text-sm font-semibold capitalize transition focus-visible:outline-2 focus-visible:outline-secondary-400"
-						:class="
-							displayMode === mode
-								? 'bg-secondary-600 text-white shadow'
-								: 'text-primary-300 hover:bg-primary-700 hover:text-white'
-						"
-						:aria-pressed="displayMode === mode"
-						@click="displayMode = mode"
-					>
-						{{ mode }}
-					</button>
-				</div>
 			</template>
 		</CatalogStickyToolbar>
 
 		<div
 			v-if="isFocusMode"
 			:id="upgradeSummaryTargetId"
-			class="pointer-events-none fixed bottom-0 left-0 right-0 z-20 px-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] pt-3 md:bottom-12 md:left-48 md:p-8"
+			class="pointer-events-none fixed bottom-0 left-0 right-0 z-40 px-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] pt-3 md:bottom-12 md:left-48 md:z-20 md:p-8"
 		/>
 
 		<div
@@ -354,7 +336,7 @@ watch(search.activeWeaponId, async (weaponId) => {
 
 		<div
 			v-show="!isFocusMode"
-			class="fixed bottom-[calc(1.5rem+env(safe-area-inset-bottom))] left-4 z-30 flex items-end gap-2 md:bottom-6 md:left-[13rem] md:z-20"
+			class="fixed bottom-[calc(1.5rem+env(safe-area-inset-bottom))] left-4 z-40 flex items-end gap-2 md:bottom-6 md:left-[13rem] md:z-20"
 		>
 			<slot name="filter" />
 			<CatalogResultNavigation
@@ -363,12 +345,12 @@ watch(search.activeWeaponId, async (weaponId) => {
 				result-label="filtered result"
 				:active-index="search.activeIndex.value"
 				:result-count="search.results.value.length"
-				class="absolute bottom-14 left-0 md:static md:left-auto md:self-center"
+				class="absolute bottom-14 left-0"
 				@previous="search.previous"
 				@next="search.next"
 			/>
 			<div
-				class="flex h-12 items-center rounded-full border border-primary-600 bg-primary-900/95 p-1 shadow-xl backdrop-blur md:hidden"
+				class="flex h-12 items-center rounded-full border border-primary-600 bg-primary-900/95 p-1 shadow-xl backdrop-blur"
 				role="group"
 				aria-label="Weapon tree view"
 			>
@@ -392,7 +374,7 @@ watch(search.activeWeaponId, async (weaponId) => {
 		<ScrollNavigationControls
 			:target="scrollContainer"
 			horizontal
-			class="fixed right-4 z-30"
+			class="fixed right-4 z-20 md:z-30"
 			:class="
 				isFocusMode
 					? 'bottom-[calc(5rem+env(safe-area-inset-bottom))] md:bottom-6'

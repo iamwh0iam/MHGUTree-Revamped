@@ -33,18 +33,18 @@ const equipment = [
 </script>
 
 <template>
-	<div class="relative z-10 flex flex-col gap-8 h-full overflow-hidden">
+	<div class="relative z-10 flex h-full min-w-0 flex-col gap-8 overflow-hidden">
 		<div
-			class="grid place-items-center h-full overflow-y-auto scrollable py-12"
+			class="grid h-full min-w-0 place-items-center overflow-x-hidden overflow-y-auto scrollable pb-12 pt-18 md:py-12"
 		>
 			<div
-				class="grid max-md:grid-cols-1 max-lg:grid-cols-2 max-2xl:grid-cols-3 grid-cols-4 gap-4"
+				class="grid w-full min-w-0 max-w-6xl grid-cols-[repeat(auto-fit,minmax(min(9rem,100%),1fr))] gap-4 px-4 md:grid-cols-2 lg:grid-cols-3"
 			>
 				<router-link
 					v-for="item in equipment"
 					:key="item.routeName"
 					:to="{name: item.routeName}"
-					class="group bg-primary-800/70 border border-primary-700 rounded-xl p-5 flex flex-col items-center gap-3 hover:bg-primary-700/80 hover:border-accent-500 transition-all duration-200 cursor-pointer backdrop-blur-sm min-w-64"
+					class="group flex w-full min-w-0 cursor-pointer flex-col items-center gap-3 rounded-xl border border-primary-700 bg-primary-800/70 p-5 backdrop-blur-sm transition-all duration-200 hover:border-accent-500 hover:bg-primary-700/80"
 				>
 					<img
 						:src="resolveAssetUrl(`icons/${item.icon}`)"

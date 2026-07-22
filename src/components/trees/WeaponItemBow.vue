@@ -70,7 +70,7 @@ function fillCoatingArray(coatings: boolean[]) {
 <template>
 	<WeaponItemRanged :weapon="props.weapon" info-title="Charges and coatings">
 		<template #tooltip>
-			<div class="grid grid-cols-5">
+			<div class="grid grid-cols-5 gap-x-3">
 				<div class="col-span-2">
 					<div>
 						<p class="tracking-wider uppercase font-semibold pb-0.5">Charges</p>
@@ -90,7 +90,7 @@ function fillCoatingArray(coatings: boolean[]) {
 					>
 						Coatings
 					</p>
-					<div class="grid grid-cols-2 grid-rows-5 grid-flow-col gap-x-1">
+						<div class="grid grid-cols-2 grid-rows-5 grid-flow-col gap-x-4">
 						<div
 							v-for="(value, index) in fillCoatingArray(
 								props.weapon.data.coatings

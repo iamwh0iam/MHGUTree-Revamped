@@ -218,9 +218,9 @@ function onDetailsClick(event: MouseEvent): void {
 				</h3>
 				<div class="grid gap-2 sm:grid-cols-3">
 					<div
-						v-for="(skill, skillIndex) in resolvedArmorSkills"
+						v-for="skill in resolvedArmorSkills"
 						:key="skill.treeId"
-						class="group relative min-h-16 rounded-lg border px-3 py-2 hover:z-10 md:min-h-0"
+						class="relative min-h-18 rounded-lg border px-3 py-2"
 						:class="
 							skill.activatedSkill
 								? skill.points < 0
@@ -246,21 +246,11 @@ function onDetailsClick(event: MouseEvent): void {
 						<div v-else class="mt-1 text-xs text-primary-400">
 							Not activated
 						</div>
-						<div
-							v-if="skill.activatedSkill"
-							class="pointer-events-none invisible absolute left-0 right-0 top-full z-10 mt-1 rounded-md border border-gray-600 bg-gray-800 p-2 text-xs text-gray-100 opacity-0 shadow-xl transition-opacity group-hover:visible group-hover:opacity-100 sm:w-64"
-							:class="{
-								'sm:left-0 sm:right-auto': skillIndex % 3 === 0,
-								'sm:left-1/2 sm:right-auto sm:-translate-x-1/2':
-									skillIndex % 3 === 1,
-								'sm:left-auto sm:right-0': skillIndex % 3 === 2,
-							}"
-						>
-							{{ skill.activatedSkill.description }}
-						</div>
 						<MobileInfoButton
 							v-if="skill.activatedSkill"
 							:title="skill.activatedSkill.name"
+							teleport-tooltip
+							large-tooltip
 						>
 							<p class="text-primary-100">
 								{{ skill.activatedSkill.description }}

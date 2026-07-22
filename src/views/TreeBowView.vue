@@ -103,7 +103,7 @@ const visibleClusters = computed(() => {
 		weapon-type="bow"
 		:eligible-ids="matchedIds"
 		:filter-active="isFilterActive"
-		:node-height="84"
+		:node-height="96"
 		cluster-margin-class="mb-32"
 	>
 		<template #default="{item, isSearchPath, isFocusPath}">

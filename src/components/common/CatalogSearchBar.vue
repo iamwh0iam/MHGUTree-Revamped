@@ -95,7 +95,7 @@ function onKeydown(event: KeyboardEvent): void {
 				:aria-expanded="hasOptions ? dropdownOpen : undefined"
 				:aria-controls="hasOptions ? listboxId : undefined"
 				:aria-autocomplete="hasOptions ? 'list' : undefined"
-				class="h-11 w-full rounded-full border border-primary-600 bg-primary-800 py-2 pl-10 pr-10 text-base text-white outline-none transition placeholder:text-primary-400 focus:border-accent-500 focus:ring-1 focus:ring-accent-500 md:rounded-md md:text-sm"
+				class="h-11 w-full rounded-full border border-primary-600 bg-primary-800 py-2 pl-10 pr-10 text-base text-white outline-none transition placeholder:text-primary-400 focus:border-accent-500 focus:ring-1 focus:ring-accent-500 md:text-sm"
 				@keydown="onKeydown"
 				@input="dropdownOpen = true"
 			/>

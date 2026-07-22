@@ -25,7 +25,7 @@ function formatPoints(points: number): string {
 		:key="skill.treeId"
 		:class="{'mt-2 border-t border-primary-500 pt-2': index > 0}"
 	>
-		<div class="flex items-baseline">
+		<div class="flex items-baseline gap-2">
 			<span class="shrink-0 text-sm font-semibold">{{ skill.treeName }}</span>
 			<span
 				class="ml-auto shrink-0 font-bold"

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {computed, ref} from 'vue'
+import {computed} from 'vue'
 import Icon from '@/components/common/AppIcon.vue'
 import MobileInfoButton from '@/components/common/MobileInfoButton.vue'
 import VisualThumbnail from '@/components/common/VisualThumbnail.vue'
@@ -33,7 +33,6 @@ type ArmorSkillDisplay = {
 	nextThreshold?: number
 }
 
-const hovered = ref(false)
 const thumbnailUrl = computed(() =>
 	props.visual?.thumbnail ? resolveArmorVisualUrl(props.visual.thumbnail) : null
 )
@@ -90,14 +89,12 @@ const displayName = computed(() =>
 <template>
 	<div
 		:data-armor-id="armor.id"
-		class="relative h-32 w-full rounded-md transition-opacity duration-200 hover:z-20 md:h-28"
+		class="relative h-32 w-full rounded-md transition-opacity duration-200 hover:z-20"
 		:class="{
 			'z-10 ring-2 ring-secondary-400 ring-offset-2 ring-offset-primary-900':
 				active,
 			'opacity-20': dimmed,
 		}"
-		@mouseenter="hovered = true"
-		@mouseleave="hovered = false"
 	>
 		<button
 			type="button"
@@ -106,7 +103,7 @@ const displayName = computed(() =>
 			@click="$emit('open')"
 		>
 			<div class="h-full pl-28">
-				<div class="flex h-full flex-col justify-center px-3 pb-5 pt-1 md:py-1">
+				<div class="flex h-full flex-col justify-center px-3 pb-6">
 					<div class="flex items-center justify-between gap-2">
 						<div class="min-w-0 truncate text-sm font-bold tracking-wider">
 							{{ displayName }}
@@ -186,13 +183,5 @@ const displayName = computed(() =>
 			<ArmorSkillSummaryList :skills="skillDetails" />
 		</MobileInfoButton>
 
-		<Transition name="fade">
-			<div
-				v-if="hovered"
-				class="pointer-events-none absolute right-0 top-full z-10 mt-1 hidden w-full rounded-md border border-gray-600 bg-gray-800 p-2 text-[11px] text-gray-100 shadow-xl md:block"
-			>
-				<ArmorSkillSummaryList :skills="skillDetails" />
-			</div>
-		</Transition>
 	</div>
 </template>

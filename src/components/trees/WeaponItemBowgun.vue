@@ -59,7 +59,7 @@ function getAmmoArray(ammo: string | string[]) {
 	>
 		<template #tooltip>
 			<div>
-				<div class="grid grid-cols-3 grid-rows-3 gap-y-2 text-xs">
+				<div class="grid grid-cols-3 grid-rows-3 gap-x-3 gap-y-2 text-xs">
 					<div
 						v-for="(val, name, index) in props.weapon.data.ammo"
 						:key="index"
@@ -90,7 +90,7 @@ function getAmmoArray(ammo: string | string[]) {
 					</div>
 				</div>
 				<div class="w-full h-px bg-primary-500 my-3"></div>
-				<div class="grid grid-cols-2">
+				<div class="grid grid-cols-2 gap-x-3">
 					<div class="flex flex-col items-center">
 						<p
 							class="uppercase tracking-wider text-xs text-gray-300 font-semibold"

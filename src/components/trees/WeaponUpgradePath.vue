@@ -43,7 +43,7 @@ const steps = ref<PathStep[]>([])
 const loading = ref(false)
 const selectedWeapon = ref<PathWeapon | null>(null)
 const summaryOpen = ref(false)
-const desktopSummaryOpen = ref(true)
+const desktopSummaryOpen = ref(false)
 const treeContext = inject(weaponTreeContextKey, null)
 let requestId = 0
 
@@ -109,6 +109,7 @@ watch(
 	[() => props.path, () => props.weaponType],
 	async ([path]) => {
 		summaryOpen.value = false
+		desktopSummaryOpen.value = false
 		const currentRequest = ++requestId
 		loading.value = true
 		steps.value = path.map((weapon, index) => ({

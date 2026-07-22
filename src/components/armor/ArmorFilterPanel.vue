@@ -243,7 +243,7 @@ function resetFilter(): void {
 				</div>
 
 				<div class="h-px bg-primary-600" />
-				<div class="flex flex-col gap-1.5 md:hidden">
+				<div class="flex flex-col gap-1.5">
 					<span class="text-xs font-medium text-gray-400">Hunter type</span>
 					<div class="grid grid-cols-2 gap-1">
 						<button
@@ -264,7 +264,7 @@ function resetFilter(): void {
 					</div>
 				</div>
 
-				<div class="h-px bg-primary-600 md:hidden" />
+				<div class="h-px bg-primary-600" />
 				<div class="flex flex-col gap-1.5">
 					<span class="text-xs font-medium text-gray-400">Rank</span>
 					<div class="grid grid-cols-3 gap-1">

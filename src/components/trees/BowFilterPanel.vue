@@ -315,7 +315,7 @@ const SLOTS_OPTIONS = ['0+', '1+', '2+', '3']
 				<!-- Element filter -->
 				<div class="flex flex-col gap-1.5">
 					<span class="text-xs text-gray-400 font-medium">Element</span>
-					<div class="flex flex-wrap gap-y-1 gap-x-2">
+					<div class="flex flex-wrap gap-y-1 gap-x-4">
 						<button
 							class="px-1 py-1 rounded text-xs transition-colors cursor-pointer"
 							:class="

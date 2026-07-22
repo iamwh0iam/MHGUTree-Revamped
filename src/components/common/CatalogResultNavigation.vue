@@ -28,7 +28,7 @@ const emit = defineEmits<{
 		:class="
 			variant === 'floating'
 				? 'h-10 rounded-full bg-accent-600 p-1 shadow-xl'
-				: 'h-11 rounded-md border border-primary-600 bg-primary-800 px-1 shadow md:h-auto md:rounded-none md:border-0 md:bg-transparent md:px-0 md:shadow-none'
+				: 'h-11 rounded-full border border-primary-600 bg-primary-800 px-1 shadow'
 		"
 		role="group"
 		:aria-label="`${resultLabel} navigation`"
@@ -47,7 +47,7 @@ const emit = defineEmits<{
 		<button
 			type="button"
 			:aria-label="`Previous ${resultLabel}`"
-			class="grid h-8 w-8 shrink-0 place-items-center rounded-full transition-colors disabled:cursor-default disabled:opacity-30 md:rounded-md"
+			class="grid h-8 w-8 shrink-0 place-items-center rounded-full transition-colors disabled:cursor-default disabled:opacity-30"
 			:class="
 				variant === 'floating'
 					? 'text-white hover:bg-accent-500 active:bg-accent-700'
@@ -61,7 +61,7 @@ const emit = defineEmits<{
 		<button
 			type="button"
 			:aria-label="`Next ${resultLabel}`"
-			class="grid h-8 w-8 shrink-0 place-items-center rounded-full transition-colors disabled:cursor-default disabled:opacity-30 md:rounded-md"
+			class="grid h-8 w-8 shrink-0 place-items-center rounded-full transition-colors disabled:cursor-default disabled:opacity-30"
 			:class="
 				variant === 'floating'
 					? 'text-white hover:bg-accent-500 active:bg-accent-700'
